@@ -1,0 +1,73 @@
+#summary PyWDWPy:蟒样Web开发 指南 撰写进度列表
+#labels PyWDWPy,logging,Index
+
+参考:[HowtoJoin 如何加入OBP]//[PyWdwWebdotPy 蟒样Web开发指南]//[PyWdwWebdotPyLog 撰写进展表]
+
+<wiki:toc/>
+= 蟒样Web开发指南 撰写进度表 =
+
+== 撰写流程 ==
+参考:[PyWdwWebdotPy 蟒样Web开发指南]
+ * 获得 O.B.P SVN仓库检入权限(也可以仅仅获得 OBP 讨论列表权限,通过相关权限成员检入)
+  * 在本地建立 Sphinx 图书工程,自行进行撰写和随时编译观察最终效果
+ * 通过SVN 进行reST 格式的翻译成果提交
+ * 通过 obp.zoomquiet.org 观察每日撰写进展
+
+=== Sphinx 目录约定 ===
+http://openbookproject.googlecode.com/svn/trunk/PyWDWPy/source
+{{{
++-- _static             静态文件入口,图片等
+|  +-- i                样式统一支持图片入口
+|  |  +-- comment_blue_yellow.gif
+|  |  +-- ...
+|  +-- j                样式统一支持JS入口
+|  |  +-- comment.js
+|  |  +-- ...
+|  |-- rst.png
+|  \-- ...
++-- _templates          Shpinx 自定模板入口
++-- 00.preface          章节源文本入口
+|  |-- __init__.py      宏声明脚本 ~ 一般不用理会
+|  |-- index.rst        章节内容索引 ~ 创建新的子章节文件文件后,要及时增补此文件
+|  |-- intro.rst        章节内容综述
+|  \-- ...              ~ 章节内部子章节文本文件命名,建议使用前缀编号的全小写字母名
+|                       e.g 02.3.help_dir.rst
++-- ...
++-- 12.other_recipes
++-- References          后记部分
+|-- AUTHORS.rst         作者自述
+|-- CHANGELOG.rst       修订记要
+|-- conf.py             Sphinx 工程配置文件,一般不要修订
+|-- index.rst           Sphinx 图书根索引页面
+|-- __init__.py
+|-- INTRODUCE.rst       图书简介
+|-- LICENSE.rst         翻译工程许可证聲明
+\-- README.rst          OBP工程分析/介绍
+}}}
+
+
+
+== 任务进度/认领表 ==
+*认领表使用方法::*
+ # 根据自个儿的爱好,选定章节,先在认领处写下你的ID~ 最好是 WikiName 格式,而且创建对应页面,以便其它人可以找到你进行直接沟通
+ # 开始翻译,及时在备注中标明翻译进度比如说: 15%
+ # 全部完成后,及时增订对应条目:
+  * 在日期和备注中说明用时的区间,以及最后检入时的changeset 比如说: r2197
+  * 并使用删除线标注任务编号/任务,比如说: ~~启动翻译工程~~
+
+
+||编号||认领||任务||日期区间||进度%备注||
+||~~pre.0~~||ZoomQuiet||启动原创工程||091206~|| ||
+||pre.1||ZoomQuiet  || 部署OBP自动化环境 || ||在 stdyun 主机发布 [http://obp.zoomquiet.org obp.zoomquiet.org]OBP图书中心 ||
+||pre.2||ZoomQuiet  || 运维OBP自动化环境 || || ~ ||
+||编号||认领||任务||日期区间||进度%备注||
+
+=== 00.preface ===
+||编号||认领||任务||日期区间||进度%备注|| 一校|| 二校|| 终校||
+||00.0||?? ||第0章起草||??~??|| || Issue ? || Issue ??|| Issue !||
+||编号||认领||任务||日期区间||进度%备注|| 一校|| 二校|| 终校||
+
+
+
+== TODO ==
+???

@@ -1,0 +1,274 @@
+#summary web2py manual 2ed zh proj. wiki root
+#labels Phase-Support
+参考:[HowtoJoin 如何加入OBP]//[Web2pyManualZh web2py手册2ed中文版]//*[Web2pyManualZhLog 章节翻译进度表]*
+
+<wiki:toc/>
+
+= web2py手册2ed中文版翻译进度总表 =
+
+*WEB2PY*
+ * Enterprise Web Framework / 2nd Ed.
+ * 企业级Web框架/第2版
+
+== 翻译流程 ==
+参考:[Web2pyManualZh web2py手册2ed中文版翻译工程]
+ * 简单的说,就是通过社区获得原文PDF
+ * 通过SVN 进行reST 格式的翻译成果提交
+
+=== Sphinx 目录约定 ===
+http://openbookproject.googlecode.com/svn/trunk/web2py_manual_zh/source
+{{{
++-- _static             静态文件入口,图片等
+|  +-- i                样式统一支持图片入口
+|  |  +-- comment_blue_yellow.gif
+|  |  +-- ...
+|  +-- j                样式统一支持JS入口
+|  |  +-- comment.js
+|  |  +-- ...
+|  |-- rst.png
+|  \-- ...
++-- _templates          Shpinx 自定模板入口
++-- 00.preface          章节源文本入口
+|  |-- __init__.py      宏声明脚本 ~ 一般不用理会
+|  |-- index.rst        章节内容索引 ~ 创建新的子章节文件文件后,要及时增补此文件
+|  |-- intro.rst        章节内容综述
+|  \-- ...              ~ 章节内部子章节文本文件命名,建议使用前缀编号的全小写字母名
+|                       e.g 02.3.help_dir.rst
++-- ...
++-- 12.other_recipes
++-- References          后记部分
+|-- AUTHORS.rst         作者自述
+|-- CHANGELOG.rst       修订记要
+|-- conf.py             Sphinx 工程配置文件,一般不要修订
+|-- index.rst           Sphinx 图书根索引页面
+|-- __init__.py
+|-- INTRODUCE.rst       图书简介
+|-- LICENSE.rst         翻译工程许可证聲明
+\-- README.rst          OBP工程分析/介绍
+}}}
+
+== 任务进度/认领表 ==
+*认领表使用方法::*
+ # 根据自个儿的爱好,选定章节,先在认领处写下你的ID~ 最好是 WikiName 格式,而且创建对应页面,以便其它人可以找到你进行直接沟通
+ # 开始翻译,及时在备注中标明翻译进度比如说: 15%
+ # 全部完成后,及时增订对应条目:
+  * 在日期和备注中说明用时的区间,以及最后检入时的changeset 比如说: r2197
+  * 并使用删除线标注任务编号/任务,比如说: ~~启动翻译工程~~
+
+
+||编号||认领||任务||日期区间||进度%备注||
+||~~pre.0~~||ZoomQuiet||~~启动翻译工程~~||091101~091103||r2195 [http://groups.google.com/group/openbookproject/browse_thread/thread/3f29140773d9d86d# 通告]/Sphinx 工程初始化/SVN||
+||~~pre.1~~||ZoomQuiet + Liz || 设计工程自动化环境 || ||ZoomQuiet 准备自动编译主机, Liz 准备在线注释和GoogleGroup 关联的JS脚本||
+||~~pre.2~~||ZoomQuiet  || ~~部署OBP自动化环境~~ ||091119~26 ||在 stdyun 主机发布 [http://obp.zoomquiet.org obp.zoomquiet.org]图书发布中心 [http://code.google.com/p/zqlib/source/detail?r=e36bf355b0b060d154484e64533f546ed4f59e2f zqlib: e36bf355b0]||
+||pre.3||ZoomQuiet  || 运维OBP自动化环境 || ~|| ~ ||
+||pre.4||ZoomQuiet  || 升级页面评注 || ~100501 || 需要寻求或是自行开发一个稳定可用的章节评注管理服务 ||
+||编号||认领||任务||日期区间||进度%备注||
+
+
+
+=== 00.preface ===
+||编号||认领||任务||日期区间||进度%备注|| 一校|| 二校|| 终校||
+||00.0||YanWu||第0章翻译||090901~091025||~~100% r2257~|| Issue ? || Issue ??|| Issue !||
+||00.1||YanWu||Massimo Di Pierro 生平||090901~091025||~~100% r2257~~|| Issue ? || Issue ??|| Issue !||
+||00.2||YanWu||web2py 相关的框架课程笔记||??||尚未启动|| Issue ? || Issue ??|| Issue !||
+||编号||认领||任务||日期区间||进度%备注|| 一校|| 二校|| 终校||
+
+
+=== 01.introduction ===
+||编号||认领||任务||日期区间||进度%备注|| 一校|| 二校|| 终校||
+||01.0||YanWu||简介||090901~091025||~~100% r2257~~|| Issue ? || Issue ??|| Issue !||
+||01.1||YanWu||Principles||090901~091025||~~100% r2257~~|| Issue ? || Issue ??|| Issue !||
+||01.2||YanWu||Web Frameworks||090901~091025||~~100% r2257~~|| Issue ? || Issue ??|| Issue !||
+||01.3||YanWu||Model-View-Controller||090901~091025||~~100% r2257~~|| Issue ? || Issue ??|| Issue !||
+||01.4||YanWu|| Why web2py||090901~091025||~~100% r2257~~|| Issue ? || Issue ??|| Issue !||
+||01.5||YanWu|| Security||090901~091025||~~100% r2257~~|| Issue ? || Issue ??|| Issue !||
+||01.6||YanWu|| In the box||090901~091025||~~100% r2257~~|| Issue ? || Issue ??|| Issue !||
+||01.7||YanWu|| License||090901~091025||~~?% r2257~~ 保留原文|| Issue ? || Issue ??|| Issue !||
+||01.8||YanWu|| License Commercial Exception||090901~091025||~~?0% r2257~~ 保留原文|| Issue ? || Issue ??|| Issue !||
+||01.9||YanWu|| Acknowledgments||090901~091025||r2257 保留原文|| Issue ? || Issue ??|| Issue !||
+||01.10||YanWu|| About this Book||090901~091025||r2257 保留原文|| Issue ? || Issue ??|| Issue !||
+||01.11||YanWu|| Elements of Style||090901~091025||r2257 保留原文|| Issue ? || Issue ??|| Issue !||
+||编号||认领||任务||日期区间||进度%备注|| 一校|| 二校|| 终校||
+
+=== 02.the_py_language ===
+||编号||认领||任务||日期区间||进度%备注|| 一校|| 二校|| 终校||
+||02.0|| ZoomQuiet||Python 语言||091119~ ~100307||~~综述导读 100% r2379~~|| Issue ? || Issue ??|| Issue !||
+||02.1|| ZoomQuiet||关于 Python|| 091119 ~ 091119 || ~ || Issue ? || Issue ??|| Issue !||
+||02.2|| YanWu || Starting up|| 091119 ~ 091119 ||r2276|| Issue ? || Issue ??|| Issue !||
+||02.3|| YanWu || help, dir|| 091119 ~ 091119 ||r2277|| Issue ? || Issue ??|| Issue !||
+||02.4|| YanWu || Types|| 091119 ~ 091119 ||r2278|| Issue ? || Issue ??|| Issue !||
+||02.5|| YanWu || About Indentation|| 091119 ~ 091119 ||r2280|| Issue ? || Issue ??|| Issue !||
+||02.6|| YanWu || for...in|| 091120 ~ 091120||r2283|| Issue ? || Issue ??|| Issue !||
+||02.7|| YanWu || while|| 091120 ~ 091130 || ~ || Issue ? || Issue ??|| Issue !||
+||02.8|| YanWu || def...return|| 091120 ~ 091130 || ~ || Issue ? || Issue ??|| Issue !||
+||02.9|| YanWu || if...elif...else|| 091120 ~ 091130 || ~ || Issue ? || Issue ??|| Issue !||
+||02.10|| YanWu || try... except...else...finally|| 091120 ~ 091130 || ~ || Issue ? || Issue ??|| Issue !||
+||02.11|| YanWu || class|| 091120 ~ 091130 || ~ || Issue ? || Issue ??|| Issue !||
+||02.12|| YanWu || Special Attributes, Methods and Operators|| 091120 ~ 091130 || ~ || Issue ? || Issue ??|| Issue !||
+||02.13|| YanWu || File Input/Output|| 091120 ~ 091130 || ~ || Issue ? || Issue ??|| Issue !||
+||02.14|| YanWu || lambda|| 091120 ~ 091130 || ~ || Issue ? || Issue ??|| Issue !||
+||02.15|| YanWu || exec, eval|| 091120 ~ 091130 ||~ || Issue ? || Issue ??|| Issue !||
+||02.16|| YanWu || import|| 091120 ~ 091130 || ~ || Issue ? || Issue ??|| Issue !||
+||编号||认领||任务||日期区间||进度%备注|| 一校|| 二校|| 终校||
+
+=== 03.overview ===
+||编号||认领||任务||日期区间||进度%备注|| 一校|| 二校|| 终校||
+||03.0|| ZoomQuiet|| 综述 ||~100307||~~综述导读 100% r2379~~||Issue ? || Issue ??|| Issue !||
+||03.1|| || Startup||yymmdd~yymmdd|| ~ ||Issue ? || Issue ??|| Issue !||
+||03.2|| || Say Hello||yymmdd~yymmdd|| ~ ||Issue ? || Issue ??|| Issue !||
+||03.3|| || Let’s Count||yymmdd~yymmdd|| ~ ||Issue ? || Issue ??|| Issue !||
+||03.4|| || Say My Name||yymmdd~yymmdd|| ~ ||Issue ? || Issue ??|| Issue !||
+||03.5|| || Form self-submission||yymmdd~yymmdd|| ~ ||Issue ? || Issue ??|| Issue !||
+||03.6|| || An Image Blog||yymmdd~yymmdd|| ~ ||Issue ? || Issue ??|| Issue !||
+||03.7|| || Adding CRUD||yymmdd~yymmdd|| ~ ||Issue ? || Issue ??|| Issue !||
+||03.8|| || Adding Authentication||yymmdd~yymmdd|| ~ ||Issue ? || Issue ??|| Issue !||
+||03.9|| || A Wiki||yymmdd~yymmdd|| ~ ||Issue ? || Issue ??|| Issue !||
+||03.10|| || More on admin||yymmdd~yymmdd|| ~ ||Issue ? || Issue ??|| Issue !||
+||03.10.1|| || [site]||yymmdd~yymmdd|| ~ ||Issue ? || Issue ??|| Issue !||
+||03.10.2|| ||[about]||yymmdd~yymmdd|| ~ ||Issue ? || Issue ??|| Issue !||
+||03.10.3|| ||[EDIT]||yymmdd~yymmdd|| ~ ||Issue ? || Issue ??|| Issue !||
+||03.10.4|| || [errors]||yymmdd~yymmdd|| ~ ||Issue ? || Issue ??|| Issue !||
+||03.10.5|| || [mercurial]||yymmdd~yymmdd|| ~ ||Issue ? || Issue ??|| Issue !||
+||03.11|| || More on appadmin||yymmdd~yymmdd|| ~ ||Issue ? || Issue ??|| Issue !||
+||编号||认领||任务||日期区间||进度%备注|| 一校|| 二校|| 终校||
+
+
+=== 04.the_core ===
+||编号||认领||任务||日期区间||进度%备注|| 一校|| 二校|| 终校||
+||04.0|| ZoomQuiet||核心||~100307||~~综述导读 100% r2379~~||Issue ? || Issue ??|| Issue !||
+||04.1|| || Command Line Options||yymmdd~yymmdd|| ~ ||Issue ? || Issue ??|| Issue !||
+||04.2|| JeanToe|| URL Mapping||100225~100226|| ~ ||Issue ? || Issue ??|| Issue !||
+||04.3|| JeanToe|| Libraries||100317~100317|| ~ ||Issue ? || Issue ??|| Issue !||
+||04.4|| JeanToe|| Applications||100327~100327|| ~ ||Issue ? || Issue ??|| Issue !||
+||04.5|| || API||yymmdd~yymmdd|| ~ ||Issue ? || Issue ??|| Issue !||
+||04.6|| || request||yymmdd~yymmdd|| ~ ||Issue ? || Issue ??|| Issue !||
+||04.7|| || response||yymmdd~yymmdd|| ~ ||Issue ? || Issue ??|| Issue !||
+||04.8|| || session||yymmdd~yymmdd|| ~ ||Issue ? || Issue ??|| Issue !||
+||04.9|| || cache||yymmdd~yymmdd|| ~ ||Issue ? || Issue ??|| Issue !||
+||04.10|| || URL||yymmdd~yymmdd|| ~ ||Issue ? || Issue ??|| Issue !||
+||04.11|| || HTTP and redirect||yymmdd~yymmdd|| ~ ||Issue ? || Issue ??|| Issue !||
+||04.12|| || T and Internationalization||yymmdd~yymmdd|| ~ ||Issue ? || Issue ??|| Issue !||
+||04.13|| || Cookies||yymmdd~yymmdd|| ~ ||Issue ? || Issue ??|| Issue !||
+||04.14|| || init Application||yymmdd~yymmdd|| ~ ||Issue ? || Issue ??|| Issue !||
+||04.15|| || URL Rewrite||yymmdd~yymmdd|| ~ ||Issue ? || Issue ??|| Issue !||
+||04.16|| || Routes on Error||yymmdd~yymmdd|| ~ ||Issue ? || Issue ??|| Issue !||
+||04.17|| || Cron||yymmdd~yymmdd|| ~ ||Issue ? || Issue ??|| Issue !||
+||04.18|| || Import Other Modules||yymmdd~yymmdd|| ~ ||Issue ? || Issue ??|| Issue !||
+||04.19|| || Execution Environment||yymmdd~yymmdd|| ~ ||Issue ? || Issue ??|| Issue !||
+||04.20|| || Cooperation||yymmdd~yymmdd|| ~ ||Issue ? || Issue ??|| Issue !||
+||编号||认领||任务||日期区间||进度%备注|| 一校|| 二校|| 终校||
+
+
+=== 05.the_views ===
+||编号||认领||任务||日期区间||进度%备注|| 一校|| 二校|| 终校||
+||05.0|| ZoomQuiet||显示层||~100318||~~ 综述导读 100% r2392~~||Issue ? || Issue ??|| Issue !||
+||05.1|| LinLuxiang || Basic Syntax ||yymmdd~yymmdd|| ~ ||Issue ? || Issue ??|| Issue !||
+||05.2|| LinLuxiang|| HTML Helpers||yymmdd~yymmdd|| ~ ||Issue ? || Issue ??|| Issue !||
+||05.3|| LinLuxiang|| BEAUTIFY||yymmdd~yymmdd|| ~ ||Issue ? || Issue ??|| Issue !||
+||05.4|| LinLuxiang|| Page Layout||yymmdd~yymmdd|| ~ ||Issue ? || Issue ??|| Issue !||
+||05.5|| LinLuxiang|| Using the Template System to Generate Emails||yymmdd~yymmdd|| ~ ||Issue ? || Issue ??|| Issue !||
+||05.6|| LinLuxiang ||  Layout Builder||yymmdd~yymmdd|| ~ ||Issue ? || Issue ??|| Issue !||
+||编号||认领||任务||日期区间||进度%备注|| 一校|| 二校|| 终校||
+
+
+=== 06.the_database_abstraction_layer ===
+||编号||认领||任务||日期区间||进度%备注|| 一校|| 二校|| 终校||
+||06.0|| ZoomQuiet||数据库抽象层 ||~100404||~~r2398~~||Issue ? || Issue ??|| Issue !||
+||06.1|| || Dependencies||yymmdd~yymmdd|| ~ ||Issue ? || Issue ??|| Issue !||
+||06.2|| ||  Connection Strings||yymmdd~yymmdd|| ~ ||Issue ? || Issue ??|| Issue !||
+||06.3|| || DAL, Table, Field||yymmdd~yymmdd|| ~ ||Issue ? || Issue ??|| Issue !||
+||06.4|| || Migrations||yymmdd~yymmdd|| ~ ||Issue ? || Issue ??|| Issue !||
+||06.5|| || Query, Set, Rows||yymmdd~yymmdd|| ~ ||Issue ? || Issue ??|| Issue !||
+||06.6|| || One to Many Relation||yymmdd~yymmdd|| ~ ||Issue ? || Issue ??|| Issue !||
+||06.7|| || How to see SQL||yymmdd~yymmdd|| ~ ||Issue ? || Issue ??|| Issue !||
+||06.8|| || Exporting and Importing Data||yymmdd~yymmdd|| ~ ||Issue ? || Issue ??|| Issue !||
+||06.9|| ||  Many to Many||yymmdd~yymmdd|| ~ ||Issue ? || Issue ??|| Issue !||
+||06.10|| || Other Operators ||yymmdd~yymmdd|| ~ ||Issue ? || Issue ??|| Issue !||
+||06.11|| || Caching Selects||yymmdd~yymmdd|| ~ ||Issue ? || Issue ??|| Issue !||
+||06.12|| || Shortcuts||yymmdd~yymmdd|| ~ ||Issue ? || Issue ??|| Issue !||
+||06.13|| || Self-Reference and Aliases||yymmdd~yymmdd|| ~ ||Issue ? || Issue ??|| Issue !||
+||06.14|| || Inheritance||yymmdd~yymmdd|| ~ ||Issue ? || Issue ??|| Issue !||
+||编号||认领||任务||日期区间||进度%备注|| 一校|| 二校|| 终校||
+
+
+=== 07.forms_and_validators ===
+||编号||认领||任务||日期区间||进度%备注|| 一校|| 二校|| 终校||
+||07.0|| ZoomQuiet||表单和有效检验||~100404||~~r2398~~||Issue ? || Issue ??|| Issue !||
+||07.1|| || FORM||yymmdd~yymmdd|| ~ ||Issue ? || Issue ??|| Issue !||
+||07.2|| || SQLFORM||yymmdd~yymmdd|| ~ ||Issue ? || Issue ??|| Issue !||
+||07.3|| || SQLFORM.factory||yymmdd~yymmdd|| ~ ||Issue ? || Issue ??|| Issue !||
+||07.4|| || Validators||yymmdd~yymmdd|| ~ ||Issue ? || Issue ??|| Issue !||
+||07.5|| || Widgets||yymmdd~yymmdd|| ~ ||Issue ? || Issue ??|| Issue !||
+||07.6|| || CRUD||yymmdd~yymmdd|| ~ ||Issue ? || Issue ??|| Issue !||
+||07.7|| || Custom form||yymmdd~yymmdd|| ~ ||Issue ? || Issue ??|| Issue !||
+||编号||认领||任务||日期区间||进度%备注|| 一校|| 二校|| 终校||
+
+
+=== 08.access_control ===
+||编号||认领||任务||日期区间||进度%备注|| 一校|| 二校|| 终校||
+||08.0|| ZoomQuiet|| 访问控制||~100404||~~r2398~~||Issue ? || Issue ??|| Issue !||
+||08.1|| || Authentication||yymmdd~yymmdd|| ~ ||Issue ? || Issue ??|| Issue !||
+||08.2|| || Authorization||yymmdd~yymmdd|| ~ ||Issue ? || Issue ??|| Issue !||
+||08.3|| || Central Authentication Service||yymmdd~yymmdd|| ~ ||Issue ? || Issue ??|| Issue !||
+||编号||认领||任务||日期区间||进度%备注|| 一校|| 二校|| 终校||
+
+=== 09.services ===
+||编号||认领||任务||日期区间||进度%备注|| 一校|| 二校|| 终校||
+||09.0|| ZoomQuiet|| 服务||~100404||~~r2398~~||Issue ? || Issue ??|| Issue !||
+||09.1|| ||  Rendering a dictionary||yymmdd~yymmdd|| ~ ||Issue ? || Issue ??|| Issue !||
+||09.2|| || Remote Procedure Calls||yymmdd~yymmdd|| ~ ||Issue ? || Issue ??|| Issue !||
+||09.3|| ||  Low Level API and Other Recipes||yymmdd~yymmdd|| ~ ||Issue ? || Issue ??|| Issue !||
+||09.4|| ||  Services and Authentication||yymmdd~yymmdd|| ~ ||Issue ? || Issue ??|| Issue !||
+||编号||认领||任务||日期区间||进度%备注|| 一校|| 二校|| 终校||
+
+
+=== 10.ajax_recipes ===
+||编号||认领||任务||日期区间||进度%备注|| 一校|| 二校|| 终校||
+||10.0|| ZoomQuiet ||Ajax小点心||~100404||~~r2398~~||Issue ? || Issue ??|| Issue !||
+||10.1|| LinLuxiang || web2py ajax.html||yymmdd~yymmdd||~~100%~~||Issue ? || Issue ??|| Issue !||
+||10.2|| LinLuxiang || jQuery Effects||yymmdd~yymmdd||~~100%~~||Issue ? || Issue ??|| Issue !||
+||10.3|| LinLuxiang || The ajax Function||yymmdd~yymmdd||~~100%~~||Issue ? || Issue ??|| Issue !||
+||编号||认领||任务||日期区间||进度%备注|| 一校|| 二校|| 终校||
+
+=== 11.deployment_recipes ===
+||编号||认领||任务||日期区间||进度%备注|| 一校|| 二校|| 终校||
+||11.0|| ZoomQuiet|| 部署 ||~100404||~~r2398~~||Issue ? || Issue ??|| Issue !||
+||11.1|| || Setup Apache on Linux||yymmdd~yymmdd|| ~ ||Issue ? || Issue ??|| Issue !||
+||11.2|| || Setup mod wsgi on Linux||yymmdd~yymmdd|| ~ ||Issue ? || Issue ??|| Issue !||
+||11.3|| || Setup mod proxy on Linux||yymmdd~yymmdd|| ~ ||Issue ? || Issue ??|| Issue !||
+||11.4|| || Start as Linux Daemon||yymmdd~yymmdd|| ~ ||Issue ? || Issue ??|| Issue !||
+||11.5|| ||Setup Apache and mod wsgi on Windows||yymmdd~yymmdd|| ~ ||Issue ? || Issue ??|| Issue !||
+||11.6|| || Start as Windows Service||yymmdd~yymmdd|| ~ ||Issue ? || Issue ??|| Issue !||
+||11.7|| || Setup Lighttpd ||yymmdd~yymmdd|| ~ ||Issue ? || Issue ??|| Issue !||
+||11.8|| || Apache2 and mod python in a shared hosting environment||yymmdd~yymmdd|| ~ ||Issue ? || Issue ??|| Issue !||
+||11.9|| ||  Setup Cherokee with FastGGI||yymmdd~yymmdd|| ~ ||Issue ? || Issue ??|| Issue !||
+||11.10|| || Setup PostgreSQL||yymmdd~yymmdd|| ~ ||Issue ? || Issue ??|| Issue !||
+||11.11|| || Security Issues||yymmdd~yymmdd|| ~ ||Issue ? || Issue ??|| Issue !||
+||11.12|| ||  Scalability Issues||yymmdd~yymmdd|| ~ ||Issue ? || Issue ??|| Issue !||
+||11.13|| || Google App Engine||yymmdd~yymmdd|| ~ ||Issue ? || Issue ??|| Issue !||
+||编号||认领||任务||日期区间||进度%备注|| 一校|| 二校|| 终校||
+
+=== 12.other_recipes ===
+||编号||认领||任务||日期区间||进度%备注|| 一校|| 二校|| 终校||
+||12.0|| ZoomQuiet|| 其它 ||~100404||~~r2398~~||Issue ? || Issue ??|| Issue !||
+||12.1|| ||  Upgrading web2py||yymmdd~yymmdd|| ~ ||Issue ? || Issue ??|| Issue !||
+||12.2|| || Fetching a URL||yymmdd~yymmdd|| ~ ||Issue ? || Issue ??|| Issue !||
+||12.3|| || Geocoding||yymmdd~yymmdd|| ~ ||Issue ? || Issue ??|| Issue !||
+||12.4|| || Pagination||yymmdd~yymmdd|| ~ ||Issue ? || Issue ??|| Issue !||
+||12.5|| ||  Streaming Virtual Files||yymmdd~yymmdd|| ~ ||Issue ? || Issue ??|| Issue !||
+||12.6|| ||  httpserver.log and the log file format||yymmdd~yymmdd|| ~ ||Issue ? || Issue ??|| Issue !||
+||12.7|| || Send an SMS||yymmdd~yymmdd|| ~ ||Issue ? || Issue ??|| Issue !||
+||12.8|| ||  Twitter API||yymmdd~yymmdd|| ~ ||Issue ? || Issue ??|| Issue !||
+||12.9|| || Jython||yymmdd~yymmdd|| ~ ||Issue ? || Issue ??|| Issue !||
+||编号||认领||任务||日期区间||进度%备注|| 一校|| 二校|| 终校||
+
+
+=== References ===
+||编号||认领||任务||日期区间||进度%备注|| 一校|| 二校|| 终校||
+||atta.0|| ||参考 ||~100404||~~r2398~~||Issue ? || Issue ??|| Issue !||
+||atta.1||ZoomQuiet || OBP翻译平台分析||yymmdd~yymmdd|| ~ ||Issue ? || Issue ??|| Issue !||
+||编号||认领||任务||日期区间||进度%备注|| 一校|| 二校|| 终校||
+
+
+
+<wiki:toc/>

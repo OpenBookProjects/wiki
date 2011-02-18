@@ -1,0 +1,104 @@
+#summary web2py manual 2ed zh proj. wiki root
+#labels Phase-Support
+
+参考:[HowtoJoin 如何加入OBP]//[Web2pyManualZh web2py手册2ed中文版]//*[Web2pyManualZhLog 章节翻译进度表]*
+
+<wiki:toc/>
+
+= web2py手册2ed中文版 =
+
+经 [http://mycti.cti.depaul.edu/people/facultyInfo_mycti.asp?id=343 Massimo DiPierro] 授权,开展中文版本的 web2py 手册翻译工程!
+
+http://web2py.com/examples/static/web2py_logo.png
+
+== 流程 ==
+ # 和主持人 ZoomQuiet 主动沟通, 说明能力和时间情况,要求加入
+ # 通过团队内部协商后,获得OBP[http://code.google.com/p/openbookproject 工程]权限 并订阅[http://groups.google.com/group/openbookproject OBP列表] 正式加入团队
+ # 在 *[Web2pyManualZhLog 章节翻译进度表]* 中主动认领翻译任务
+  * 及时将翻译成果检入专门目录
+  * 并及时更新进度表记录翻译情况
+  * 每周六 16:00 
+   * 在 `#Web2pyBookZh` 频道进行周例会沟通进展
+   * 或是回复专门的邮件线索
+   * 或是在 Wave 中的 *`Web2pyBookZh周例会`*
+   http://openbookproject.googlecode.com/files/2009-11-29-210018_713x299_scrot.png
+
+== 资源 ==
+ * 源码: Massimo 组织的官方图书版本仓库
+ * 仓库: https://openbookproject.googlecode.com/svn/trunk/web2py_manual_zh
+  * 使用 [http://code.google.com/hosting/settings googlecode.com password] 认证
+
+=== Sphinx 工程 ===
+基于[http://sphinx.pocoo.org/ Sphinx]框架组织文件！
+{{{
+trunk/web2py_manual_zh:
++-- Makefile    Sphinx 自动生成的配置文件
++-- source     所有翻译成果使用 reST 格式的.rst 文本组织
+|-- 00.preface  章节目录
+|   |-- chapter_templete.rst    章节内容模板
+|   |-- index.rst   章节索引文档
+|   |-- intro.rst   章节内容导读
+|   `-- ...         各个章节文档
+|   ...
+`-- build      本地使用 Sphinx 编译后会产生的目录,不要检入到SVN 中!
+}}}
+
+`建议章节认领后的文件组织过程:`
+ # 在 *[Web2pyManualZhLog 章节翻译进度表]* 中主动用自个儿的姓名标注想翻译的章节
+ # 下载整个工程目录到本地: 
+  * `$ svn co https://openbookproject.googlecode.com/svn/trunk/web2py_manual_zh ./`
+
+ # 在对应章节目录中批量创建子章节文件:
+  * 目录: web2py_manual_zh/source/数字编号.章节名
+  * 命名: 例举 
+{{{
+4.1.command_line_options.rst
+ |   |     |              +- 统一使用 rst 为后缀
+ |   |     +-- 使用下划线为间隔
+ |   +-- 原文章节名,全小写E文
+ +-- 章节编号
+}}}
+ # 在章节索引中,增补子章节文件:
+  * 目标: web2py_manual_zh/source/数字编号.章节名/index.rst
+  * 增补: 形如
+{{{
+  
+.. toctree::
+   
+   intro.rst
+   2.1.about_python.rst
+   2.2.starting_up.rst
+   2.3.help_dir.rst
+   2.4.types.rst
+   2.5.about_indentation.rst
+   2.6.for_in.rst
+   2.7.while.rst
+
+}}}
+ # 逐文件,使用 [http://sphinx.pocoo.org/rest.html reStructuredText] 格式快速翻译!
+ 
+=== 沟通: ===
+ # 1对1 邮件/MSN/电话
+  * *每周6 16:30 前，自发回复特定线索邮件，说明:*
+   # 当周进展(含支出实际时间)
+   # 困难
+   # 下周计划
+ # 1对多 列表:
+     * 翻译事务: openbookproject@googlegroups.com
+     * 出版事务: zeuux-press@zeuux.org
+ # IRC: `#Web2pyBookZh` 频道
+ 
+=== 知识: ===
+ * 工程维基: http://code.google.com/p/openbookproject/wiki/Web2pyManualZh
+ * 宣传维基: http://wiki.woodpecker.org.cn/moin/OpenBookProject
+
+== 组织 ==
+ * 工程主持: ZoomQuiet
+ * 翻译团队(按加入时间排序): 
+  # ZoomQuiet
+  # [http://www.yan5.org/ Yan Wu] (MSN: Wuyan0611 AT hotmail.com)
+  # LinLuxiang
+  # [http://code.google.com/u/shengyan1985/ shengyan1985] ~ [http://code.google.com/p/pymotwcn/ PyMOTWcn]成员
+  # JeanToe
+ * 出版支持: [http://zeuux.org 哲思社区]
+ 

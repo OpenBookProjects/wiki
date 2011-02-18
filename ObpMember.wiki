@@ -1,0 +1,74 @@
+#summary summary of this O.B.P member historic
+#labels Phase-QA,cfg
+
+= 工程成员情况 =
+*O.B.P* 工程完全是业余工程,不要求成员长期稳定输出;
+ * 但是根据不同时期,会及时引入,或是移出相关成员 ~ _这并不代表能力情况,仅仅是出于SVN仓库写入安全考虑_
+
+
+= 成员历史情况 =
+`使用字母排序来追加成员`
+
+== 2009 ==
+*移走最近一个季度没有检入过的成员后*
+{{{
+kongjianjun@gmail.com, 
+shengyan1985@gmail.com, 
+wenliang.lu@gmail.com, 
+xg.lisa@gmail.com, 
+yi.codeplayer@gmail.com, 
+}}}
+
+== 2008 ==
+*到090317 的工程成员*
+{{{
+andelf@gmail.com, 
+Aurthmyth@gmail.com, 
+boyee118@gmail.com, 
+billxu@gmail.com, 
+CorePy@gmail.com, 
+cocobear.cn@gmail.com, 
+chumpklutz@gmail.com, 
+cngump@gmail.com, 
+digitalwit@gmail.com, 
+dujunfly@gmail.com, 
+dieyi31@gmail.com, 
+dulei66@gmail.com, 
+Filia.Tao@gmail.com, 
+fantasysoft@gmail.com, 
+fireflyc@gmail.com, 
+hejibo@gmail.com, 
+hdcola@gmail.com, 
+jepher@gmail.com, 
+Julien.GONG@gmail.com, 
+jhuangjiahua@gmail.com, 
+kongjianjun@gmail.com, 
+kueihsing@gmail.com, 
+limodou@gmail.com, 
+liufengsjtu@gmail.com, 
+lvscar@gmail.com, 
+lanphaday@gmail.com, 
+moonsolo@gmail.com, 
+noah.ark@gmail.com, 
+Python.LeoJay@gmail.com, 
+paradise.qingfeng@gmail.com, 
+qingran.xia@gmail.com, 
+shizhensong@gmail.com, 
+sqj.python@gmail.com, 
+shengyan1985@gmail.com, 
+skxiaonan@gmail.com, 
+tang.jiyu@gmail.com, 
+torrycn@gmail.com, 
+weizhong2004@gmail.com, 
+wenliang.lu@gmail.com, 
+xg.lisa@gmail.com, 
+xieyanbo@gmail.com, 
+xiyou.wangcong@gmail.com, 
+xiaqqaix@gmail.com, 
+Xia.Wu.cn@gmail.com, 
+xjljt3584@gmail.com, 
+xypmdxx@gmail.com, 
+Yang.Liu.sn@gmail.com, 
+yi.codeplayer@gmail.com, 
+zsp007@gmail.com
+}}}

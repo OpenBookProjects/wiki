@@ -1,0 +1,21 @@
+#summary Real World Instrumentation with Python zh proj. wiki root
+#labels index,RWIwPy
+
+参考:[HowtoJoin 如何加入OBP]//[RwIwPyZh Py实操硬件]
+
+<wiki:toc/>
+
+= Py实操硬件~进度 =
+ # 110219 迁移仓库为bitbucket.org 
+== 规划 ==
+ # 先明确团队
+ # 再通过翻译流程的協商部署好工作平台
+ # 在完成60% 的翻译时,哲思社区加入启动商务洽谈
+ # 完成80% 时校对介入,统校统改
+ # 完成100% 时,封闭式统稿,同时美编加入,设计排版
+ # 最后小范畴开放试阅,进行至少一个月的交叉校对
+ # 付印前,至少要进行两次小样公开审订和技术内容复校!
+
+== 认领 ==
+
+== 统计 ==

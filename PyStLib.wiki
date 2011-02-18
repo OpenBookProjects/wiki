@@ -1,0 +1,6 @@
+#summary Python2.* 标准库 翻译改进汇总进度
+#labels Phase-QA,Phase-Support
+
+= Python2.* 标准库 手册 =
+
+doing...

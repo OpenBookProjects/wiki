@@ -1,0 +1,66 @@
+#summary 技术校对进度汇总列表 4 Beginning Python中译本~Fantasy Soft <FantasySoft@gmail.com>
+#labels Phase-QA
+
+= Beginning Python中译本 =
+
+Fantasy Soft <FantasySoft@gmail.com> 发起并已经完成翻译的入门图书！
+ * 广邀行者掺合技术校对！需要 *在3月底前* 完成！ 
+ * *注意*
+  # 掺合校对前,先建立自个儿的个人简述维基页面,使用 *WikiName* 格式名称
+   # 校对时参考和使用并请随手补完 *[TechnoDict 技术翻译词典]*
+   # 校对随手修订初译人员的*拼音失误!* 比如说:
+    * `涞水哦` 应该是 `来说`
+  # E文原稿在网络中自行下载就好,这是开放的 ;)
+ * *掺合流程*
+  # 列表中吼，经过 Fantasy Soft/ZoomQuiet 认可
+  # 获得OBP权限，*编辑本页* ，认领章节
+  # 获得对应章节的 *docs.google在线文档* 分享权限 ～ 开始极速校对！
+
+== Moving on... ==
+
+|| *#* || *章节* || 进度 || *校对负责* || 进度(%) || *复校负责* || 进度(%) || *最终审校* ||
+|| ||[http://docs.google.com/Doc?id=dhq8jsxt_11cq9w68cs&invite=c2564gj 前言] || 90%|| *FantasySoft* || ~ || *~* || ~ || *FantasySoft* ||校注||
+|| ||[http://docs.google.com/Doc?id=dhq8jsxt_10fcxg84fm&invite=cbdtxpr 简介] || 90%|| *FantasySoft* || ~ || *~* || ~ || *FantasySoft* ||校注||
+|| ||[http://docs.google.com/Doc?id=dhq8jsxt_12dms3dqhd&invite=cp6gnsm 作者介绍] || 90%|| *FantasySoft* || ~ || *~* || ~ || *FantasySoft* ||校注||
+|| *#* || *章节* || 进度 || *校对负责* || 进度(%) || *复校负责* || 进度(%) || *最终审校* ||
+||第1章 ||[http://docs.google.com/Doc?id=dhq8jsxt_9f6qmkmgw&invite=g8c22cb 黑客进行时：基础]|| 100%|| *FantasySoft* || ~ || *~* || ~ || *FantasySoft* ||校注||
+||第2章 ||[http://docs.google.com/Doc?id=dhq8jsxt_13hrpz7sc6&invite=db386c6 列表和元组] || 100%|| *FantasySoft* || ~ || *~* || ~ || *FantasySoft* ||校注||
+||第3章 ||[http://docs.google.com/Doc?id=dhq8jsxt_58d93456f4&invite=gq78ksm 使用字符串]|| 100%|| *FantasySoft* || ~ || *~* || ~ || *FantasySoft* ||校注||
+||第4章 ||[http://docs.google.com/Doc?id=dhq8jsxt_59dsq4mgcp&invite=hckh9g 字典：当索引不好用时]|| 00%|| *He_Jibo* || ~ || *~* || ~ || *~* ||校注||
+||第5章 ||[http://docs.google.com/Doc?id=dhq8jsxt_64hmxbj3db&invite=gdx94d6 条件、循环和其他语句]|| 00%|| *He_Jibo* || ~ || *~* || ~ || *~* ||校注||
+||第6章 ||[http://docs.google.com/Doc?id=dhq8jsxt_63grkf9nc5&invite=gzbwbfd 抽象]|| 00%|| ？？ || 100% || *TangJiyu* || ~ || *~* ||校注||
+||第7章 ||[http://docs.google.com/Doc?id=dhq8jsxt_62dmb7t4cw&invite=c4s6tq 更加抽象]|| 00%|| ？？ || 100% || *TangJiyu* || ~ || *~* ||建议attribute译为 *属性* ，property译为 *特性* 。||
+||第8章 ||[http://docs.google.com/Doc?id=dhq8jsxt_615w4z6dd3&invite=873gxz 异常]|| 00%|| ？？|| ~ || *~* || ~ || *FantasySoft* ||校注||
+||第9章 ||[http://docs.google.com/Doc?id=dhq8jsxt_60cv3xbqff&invite=dntm9tk 魔法方法，属性和迭代器]|| 100%|| *ZoomQuiet* || ~ || *~* || ~ || *~* ||校注||
+||第10章 ||[http://docs.google.com/Doc?id=dhq8jsxt_51d93xqwgp&invite=cnd4m9t 充电时刻]|| 100%|| *ZoomQuiet* || ~ || *~* || ~ || *~* ||校注||
+|| *#* || *章节* || 进度 || *校对负责* || 进度(%) || *复校负责* || 进度(%) || *最终审校* ||
+||第11章 ||[http://docs.google.com/Doc?id=dhq8jsxt_50fwt3n3hn&invite=c527hcv 文件和素材]|| 100%|| *ZoomQuiet* || ~ || *~* || ~ ||  *~* ||*file-like* 建议翻译成: *文件样* ||
+||第12章 ||[http://docs.google.com/Doc?id=dhq8jsxt_56f2qn74fx&invite=87g39f 图形用户界面]|| 00%|| *He_Jibo* || ~ || *~* || ~ || *~* ||校注||
+||第13章 ||[http://docs.google.com/Doc?id=dhq8jsxt_49czx8vdgc&invite=d4nkg4f 数据库支持]|| 100%|| *DuLei* || ~ || *~* || ~ || *~* ||校注||
+||第14章 ||[http://docs.google.com/Doc?id=dhq8jsxt_48dd72w242&invite=h9hv9d 网络编程]|| 100%|| *TorryCn* || ~ || *~* || ~ || *~* ||原来的forking被翻译成派生指令，但那段文字读起来有些不通顺。所以把forking和threading改为直接使用英文。||
+||第15章 ||[http://docs.google.com/Doc?id=dhq8jsxt_47hb5qpbg6&invite=fqchjsg Python和互联网]|| 00%|| *He_Jibo* || ~ || *~* || ~ || *~* ||校注||
+||第16章 ||[http://docs.google.com/Doc?id=dhq8jsxt_46fh8dmkhf&invite=c2z2jf4 测试，1-2-3]|| 100%|| *ZoomQuiet* || ~ || *~* || ~ ||  *~* ||*profile* 译成 ''侧写'' 太学术,建议為 *剖面* (剖析?) ||
+||第17章 ||[http://docs.google.com/Doc?id=dhq8jsxt_45gjv285g4&invite= 扩展Python]|| 00%|| *??* || ~ || *~* || ~ || *~* ||校注||
+||第18章 ||[http://docs.google.com/Doc?id=dhq8jsxt_44cf4q37fn&invite=g93cff9 将你的程序打包]|| 100%|| *TangJiyu* || ~ || *~* || ~ || *~* ||校注||
+||第19章 ||[http://docs.google.com/Doc?id=dhq8jsxt_43fw4gc3f3&invite=6cs9ts 好玩的编程] || 100%|| *ZoomQuiet* || ~ || *~* || ~ || *~* ||非常顺畅，没有修订几乎||
+|| *#* || *章节* || 进度 || *校对负责* || 进度(%) || *复校负责* || 进度(%) || *最终审校* ||
+||第20章 ||[http://docs.google.com/Doc?id=dhq8jsxt_42dxt557gt&invite=cr5z85d 项目一：即时标签]|| 70%|| *ZoomQuiet* || ~ || *~* || ~ || *~* ||校注||
+||第21章 ||[http://docs.google.com/Doc?id=dhq8jsxt_41f8w2jchm&invite=qjk8pz 项目二：画幅好画]|| 00%|| *He_Jibo* || ~ || *~* || ~ || *~* ||校注||
+||第22章 ||[http://docs.google.com/Doc?id=dhq8jsxt_40cb3rzttq&invite=hsn46gm 项目三：万能的XML]|| 100%|| *ZoomQuiet* ||100%|| *TangJiyu* || ~ || *~* ||忒简单了，不过涉及mixin；建议*handler* 译成“处理器”，原文译成“处理程序”||
+||第23章 ||[http://docs.google.com/Doc?id=dhq8jsxt_39d29k78gc&invite=f3p83px 项目四：新闻聚合]|| 100%|| *ZoomQuiet* || ~ || *~* || ~ || *~* ||...||
+||第24章 ||[http://docs.google.com/Doc?id=dhq8jsxt_38ftmxxcgt&invite=3tsxg 项目五：虚拟茶话会]|| 00%|| *??* || ~ || *~* || ~ || *~* ||校注||
+||第25章 ||[http://docs.google.com/Doc?id=dhq8jsxt_37dxsptnf5&invite=c293k35 项目六：使用CGI进行远程编辑]|| 00%|| ？？ || ~ || *~* || ~ || *~* ||校注||
+||第26章 ||[http://docs.google.com/Doc?id=dhq8jsxt_36fqtv2fcr&invite=c5dg38b 项目七：你自己的电子公告板]|| 00%|| *??* || ~ || *~* || ~ || *~* ||校注||
+||第27章 ||[http://docs.google.com/Doc?id=dhq8jsxt_35k6hkfng6&invite=drvqsvr 项目八：使用XML-RPC进行文件共享]|| 00%|| ？？ || ~ || *~* || ~ || *~* ||校注||
+||第28章 ||[http://docs.google.com/Doc?id=dhq8jsxt_34gmsb7ww3&invite=fph5vnc 项目九：文件共享2——GUI版本！]|| 00%|| *??* || ~ || *~* || ~ || *~* ||校注||
+||第29章 ||[http://docs.google.com/Doc?id=dhq8jsxt_33gwghmng6&invite=cnn368b 项目十：DIY街机游戏]|| 00%|| *He_Jibo* || ~ || *~* || ~ || *~* ||校注||
+|| *#* || *章节* || 进度 || *校对负责* || 进度(%) || *复校负责* || 进度(%) || *编辑排定* ||
+||附录A ||[http://docs.google.com/Doc?id=dhq8jsxt_52gn336kdn&invite=hg2z8cs 简明版本]|| 00%|| ？？ || ~ || *~* || ~ || *~* ||校注||
+||附录B ||[http://docs.google.com/Doc?id=dhq8jsxt_53cn6d48d4&invite=g6nn6sg Python参考手册]|| 00%|| ？？|| ~ || *~* || ~ || *~* ||校注||
+||附录C ||[http://docs.google.com/Doc?id=dhq8jsxt_54dpkg37ft&invite=cvmw8x6 在线资源]|| 100%|| ZoomQuiet || ~ || *~* || ~ || *~* ||应该追加CPyUG中文资源||
+|| *#* || *章节* || 进度 || *校对负责* || 进度(%) || *复校负责* || 进度(%) || *最终审校* ||
+
+
+
+== Others ==
+ * [http://docs.google.com/Doc?id=dhq8jsxt_55hmdq5cdq&invite=dx6kbx4 有关重新上传文档的说明]

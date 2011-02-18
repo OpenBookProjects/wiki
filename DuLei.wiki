@@ -1,0 +1,24 @@
+#summary abtout DuLei
+#labels Featured
+
+= abt.Me =
+* i think i'm a pythoner
+ * i recently convert from C++
+* i'm an Anarchist.
+ * i won't burn cars and houses and try to overthrow any government
+
+== i doing ==
+ * Information Retrieval, Search Engine
+ * Netural Language Processing
+ * Machine Learning
+
+
+== i believe ==
+'' 道德只宜律已，不宜律人''
+
+“说出来会被嘲笑的梦想，才有实践的价值。即使跌倒了，姿势也会非常豪迈。”
+
+== i livin ==
+ * http://www.hoopchina.com
+ * twitter @ http://twitter.com/darthanarchy
+ * douban@ http://www.douban.com/people/1141280/

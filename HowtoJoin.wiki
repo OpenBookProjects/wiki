@@ -1,0 +1,64 @@
+#summary 如何加入O.B.P
+#labels OBP,Guider,Howto
+
+<wiki:toc/>
+= 概述 =
+本文记述了 [http://wiki.woodpecker.org.cn/moin/OpenBookProject Open Book Project]~*开放图书计划* 如何参与的
+整体过程，和详细的指引，
+为各个图书工程主持人／技术校对／出版编辑等等角色，合理顺利的加入 *OBP* 提供了基础和明确的说明;
+
+
+== 资源关系 ==
+ * 社区支持: [http://wiki.woodpecker.org.cn/moin/ 啄木鸟维基]
+  * 宣传维基: [http://wiki.woodpecker.org.cn/moin/OBP 啄木鸟OBP首页]
+  * 图书总目: [http://wiki.woodpecker.org.cn/moin/OBP#head-37366f5679cb740a986e34a65cf863edf867d773 OBP进度与成果汇总]
+ * 撰写协作: [http://code.google.com/p/openbookproject/ OBP工程]
+  * 专用列表: [http://groups.google.com/group/openbookproject OBP列表]
+ * 协作平台: [http://code.google.com/p/openbookplatform/ OBP平台]
+
+== 加入流程 ==
+简要的约定加入以及图书撰写流程:
+ * `靠谱是第一要求，认真是第二要求，坚持是第三要求`
+=== 条件 ===
+
+ # 基础条件是有 [http://groups-beta.google.com/group/python-cn CPyUG列表]发言权
+  *  http://groups-beta.google.com/group/python-cn 订阅时注意回答完全提示问题
+ # 高级条件是有 [http://wiki.woodpecker.org.cn/moin/ 啄木鸟维基] 的编辑权
+  # 在 [http://wiki.woodpecker.org.cn/moin/UserPreferences 啄木鸟维基完成注册]
+  # 在CPyUG 中吼明白自个儿的啄木鸟维基帐号，说明想进入可信任列表的原因 
+   * 参考: http://wiki.woodpecker.org.cn/moin/AclAlert
+  # 经啄木鸟维基管理员 加入[http://wiki.woodpecker.org.cn/moin/TrustedGroup 可信赖行者群]获得维基写权限
+
+=== 发起 ===
+*任何人*
+ * 有任何好技术图书的撰写/翻译/校对 等等计划
+ * 都可以在 [http://groups-beta.google.com/group/python-cn CPyUG列表] 发起OBP 工程倡议
+ * 获得足够附议和支持后,即可申请进入 OBP 获得:
+  # 资源
+  # 指引
+  # 出版渠道
+  # ...
+
+=== 启动 ===
+*任何人已有OBP图书创意后*
+ # 在[http://groups-beta.google.com/group/python-cn CPyUG列表]中招募团队成员
+ # 获得 [http://groups.google.com/group/openbookproject OBP列表] 发言权
+ # 向OBP 管理委员会申报资源:
+  # 获得 [http://code.google.com/p/openbookproject/ OBP工程] SVN/Wiki 检入权限
+  # 获得 http://obp.zoomquiet.org http://docsport.org ... OBP图书发布渠道
+*即刻开展持续撰写/翻译/校对 进程*
+
+=== 加入 ===
+*任何人想加入己有图书工程*
+ # 先通过相关渠道,理解图书意图,向主持人申请,获得认同,加入团队
+ # 获得 [http://groups.google.com/group/openbookproject OBP列表] 发言权
+ # 获得 [http://code.google.com/p/openbookproject/ OBP工程] SVN/Wiki 检入权限
+ # 根据团队约定,在固定SVN 目录输入成果,进入自动的持续集成/发布流程
+  
+
+== TODO ==
+ * 综述当前组织团队
+ * 简化资源权限获取过程
+ 
+ 
+ 
