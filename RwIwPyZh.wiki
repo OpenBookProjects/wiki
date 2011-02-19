@@ -52,6 +52,7 @@
   * 每天1-2个小时？也许周末能多点儿,要是能在手机上弄，也许更多一些吧
   * 对于未来的版权收益有什么特殊要求? 这个不懂，求指教... 
  # Grissiom <chaos.proton@gmail.com> / 15901033820
+  * *bitbucket ID:* `grissiom`
   * http://grissiom.blogspot.com (life), http://blog.csdn.net/grissiom (tech)
   * 北京海淀区知春路大运村 1 号楼 1305 邮编 100191
   * 现在研一，大二的时候自学的 python，以后只要能用 python 的地方就用 python。C 语言也会，写过 51 的程序。 本科毕设做的是 pyqt+pyserial 的拉伸机测控系统。实验室做一些小的材料测控仪器。上个学期学过一点控制论。 我看目录里也有控制系统的内容。英语水平是 CET-6，平时常在英文网站上瞎逛。技术书籍有原版不读译本。
@@ -82,6 +83,7 @@
   * 目前主要从事Windows桌面下Visual C++开发，爱好Python和Lua。8年工作经验。
   * 报名参加C相关章节翻译。每周可保证至少有6个小时。
  # Alan Zheng <machinecat1666@gmail.com> / 13764183786
+  * *bitbucket ID:* `AlanZheng`
   * http://blog.microsuncn.com
   * 上海市长宁路1018号龙之梦大厦14楼，Siemens工业软件（上海）有限公司
   * 3D图形，Linux(Fedora) C/C++, MIPS embedded system, Python, RHCEr, etc.
