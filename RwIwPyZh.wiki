@@ -66,6 +66,7 @@
     * http://www.amazon.com/REST-Practice-Hypermedia-Systems-Architecture/dp/0596805829
   * 对于未来的版权收益有什么特殊要求?只要求有署名权，其他有最好，没有也无所谓，就当是为社区做贡献。
  # kermit.mei@gmail.com / 13428780315
+  * *bitbucket ID:* `kermitmei`
   * http://www.zeuux.org/home/kermit.mei/
   * 邮寄地址
   * 目前从事嵌入式Linux下C/C++软件开发，主要是以Qt为主的嵌入式Linux应用开发，2年工作经验;以前做过智能遥控器，多款数码电子产品；现在工作内容是开发一个基于嵌入式的精简Web引擎，包括html解析和界面生成等功能。对C/C++ 以及Qt架构灰常熟悉，目前靠这个吃饭；熟悉Linux操作系统;熟悉Python/Perl/Bash等脚本语言(主要用于测试和辅助编程)；对计算机硬件有一定了解，并有浓厚兴趣。
