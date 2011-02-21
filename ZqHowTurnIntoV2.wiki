@@ -6,6 +6,8 @@
 = 大妈的编译过程 =
 背景: [http://code.google.com/p/openbookproject/wiki/ZqHowTurnInto#%E5%91%BD%E9%A2%98 ZQ 是如何练就的?-) 命题]
 
+<wiki:toc max_depth="2" />
+
 Chnagelog::
  * 110211 迁移到新 URL 增补,原先大妈书的时空图谱,以及整体结构
  * 110210 根据 eric@just-pub.com 的通知,针对《生于七十年代》进行重构
