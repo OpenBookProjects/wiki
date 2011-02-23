@@ -24,13 +24,13 @@
  
 === 沟通: ===
  # 1对1 邮件/MSN/电话
-  * *每周6 16:30 前，自发回复特定线索邮件，说明:*
+  * *每周日 16:30 前,自发回复特定线索邮件，说明:*
    # 当周进展(含支出实际时间)
    # 困难
    # 下周计划
  # 1对多 列表:
-     * 翻译事务: preobp@googlegroups.com
-     * 出版事务: zeuux-press@zeuux.org
+     * 翻译阶段协同: preobp@googlegroups.com
+     * 出版阶段协同: zeuux-press@zeuux.org
  # IRC: `#RWIwPy` 频道 
  
 === 知识: ===
