@@ -1,7 +1,7 @@
 #summary Real World Instrumentation with Python zh proj. wiki root
 #labels index,RWIwPy
 
-参考:[HowtoJoin 如何加入OBP]//
+参考:[FlowSphinx 基于Sphinx的协同]
 
 <wiki:toc/>
 
@@ -16,8 +16,6 @@
  # 在 *[RwIwPyZhLog 翻译进度表]* 中主动认领翻译任务
   * 及时将翻译成果检入专门目录
   * 并及时更新进度表记录翻译情况
-
-https://wiki.openbookproject.googlecode.com/hg/flow4sphinx-all_wsd-napkin.png
 
 == 资源 ==
  * 仓库: https://bitbucket.org/ZoomQuiet/obp.rwiwpyzh
@@ -39,10 +37,16 @@ https://wiki.openbookproject.googlecode.com/hg/flow4sphinx-all_wsd-napkin.png
  * 宣传维基: http://wiki.woodpecker.org.cn/moin/OpenBookProject
 
 == 组织 ==
- * 工程主持: ZoomQuiet
+ * 责任编辑: zsprain
  * 翻译团队(按加入时间排序): 
-  # ZoomQuiet
-  # Atommann
+  * 主持: ZoomQuiet
+  * 硬件组:
+   # Atommann 
+  * C组:
+   # sagasw
+  * Py组:
+   # Grissiom
+   # kermitmei
  * 出版支持: [http://zeuux.org 哲思社区]
 
 === 报名: ===
