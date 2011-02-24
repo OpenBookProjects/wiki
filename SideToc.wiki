@@ -1,7 +1,7 @@
 #summary OBP索引
 #labels Index,OBP,TOC
 
-[http://wiki.woodpecker.org.cn/moin/OpenBookProject OBP计划]::
+[http://wiki.woodpecker.org.cn/moin/OpenBookProject O.B.P计划]
 
 *[HowToBuildBookOnline 如何在线組織图书创译]*:
  * [HowtoJoin 怎么掺合?]
