@@ -1,0 +1,45 @@
+#summary How to base Sphinx make O.B.P itme
+#labels help,sphinx
+
+<wiki:toc/>
+
+= 基于Sphinx的图书协同 =
+`简要说明如果进行分布式的图书協同 ;-)`
+
+== 流程 ==
+https://wiki.openbookproject.googlecode.com/hg/flow4sphinx-all_wsd-napkin.png
+
+== 操作 ==
+ 1. 安装 [http://www.activestate.com/activepython/downloads Python]
+ 1. 安装 Hg
+{{{
+pip install mercural
+}}}
+ 1. 安装 Sphinx
+{{{
+pip install sphinx
+}}}
+ 1. 获得 源文本
+{{{
+hg clone https://bitbucket.org/ZoomQuiet/obp.rwiwpyzh RWIwPyZh
+}}}
+ 1. 本地编译/改进/检入仓库
+{{{
+RWIwPyZh> make html
+}}}
+ 1. 及时推送到主仓库
+{{{
+hg ci -m "修订日志"
+...
+hg push
+...
+}}}
+
+= 参考 =
+ * [http://code.google.com/p/kcpycamp/wiki/HgUsage 简要 Hg 使用]
+ * [http://code.google.com/p/kcpycamp/wiki/HowtoPython 如何Python?]
+ * [http://docutils.sourceforge.net/docs/user/rst/quickref.html Quick reStructuredText]
+  * [http://czug.org/plone/howto/howto-structuredtext 如何使用StructuredText - 中国Zope/Plone用户组]
+  * [http://python.cofman.dk/pycon/papers/rest_tutorial.html reStructuredText Tutorial: PyCon 2003]
+ * [http://code.google.com/p/pymotwcn/wiki/SphinxprojectHowto Sphinx快速开始 - pymotwcn]
+

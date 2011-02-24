@@ -5,6 +5,7 @@
 
 *[HowToBuildBookOnline 如何在线組織图书创译]*:
  * [HowtoJoin 怎么掺合?]
+ * *[FlowSphinx 基于Sphinx的图书协同]*
  * [UsageIssue Issue使用]:[IssueFlow 流程]/[IssueTags TAG]
  * [UsageIrc IRC]:[ZeuuxIrc ZEUUX]
  
