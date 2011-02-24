@@ -12,12 +12,12 @@
 *资源*
  * *[TechnoDict 技术辞典]* ^翻译积累^
  * [http://wiki.woodpecker.org.cn/moin/OpenBookProject 维基]
-  * [WikiName 神马是WikiName]
+  # [WikiName 神马是WikiName]
  * [https://bitbucket.org/ZoomQuiet/openbookproject 仓库索引]
  * [http://groups.google.com/group/openbookproject 邮件列表]^公开^
-  * [http://zoomquiet.org/obp/ 图书预览]^索引^
+  # [http://zoomquiet.org/obp/ 图书预览]^索引^
  * [http://groups.google.com/group/preobp 专项列表]^私密^
-  * [https://py.kingsoft.net:8080/obp/ 专项预览]
+  # [https://py.kingsoft.net:8080/obp/ 专项预览]
 
 *成果*
  * *原创*
@@ -36,9 +36,9 @@
 
 *译作者*^排名不分先后^/[ObpMember 历史]
  * ZoomQuiet *创始人*
-  * [ZqreadThoughtWorksAnthology 软件开发沉思录],,读后感,,
+  # [ZqreadThoughtWorksAnthology 软件开发沉思录],,读后感,,
  * 来自[http://zeuux.org zeuux]
-  * [ZeuuxTechReview 技术校对团]
+  # [ZeuuxTechReview 技术校对团]
  * [khsing khsing]
  * DuLei
  * [He_Jibo]
