@@ -17,9 +17,10 @@
   * 及时将翻译成果检入专门目录
   * 并及时更新进度表记录翻译情况
 
+https://wiki.openbookproject.googlecode.com/hg/flow4sphinx-all_wsd-napkin.png
+
 == 资源 ==
  * 仓库: https://bitbucket.org/ZoomQuiet/obp.rwiwpyzh
-  * 使用 [http://code.google.com/hosting/settings googlecode.com password] 认证
  * 样例代码: http://examples.oreilly.com/9780596809577/
  
 === 沟通: ===
