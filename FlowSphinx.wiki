@@ -12,7 +12,7 @@ https://wiki.openbookproject.googlecode.com/hg/flow4sphinx-all_wsd-napkin.png
 == 指标 ==
 依照: [http://www.joelonsoftware.com/articles/fog0000000043.html The Joel Test: 12 Steps to Better Code] 核查
 
-||The Joel Test||
+||~||The Joel Test||~||
 ||#||考察点||我们|| 备注||
 ||   1. ||Do you use source control?        || ~ || ~||
 ||   2. ||Can you make a build in one step? || ~ || ~||
