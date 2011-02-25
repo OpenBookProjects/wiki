@@ -13,7 +13,7 @@ https://wiki.openbookproject.googlecode.com/hg/flow4sphinx-all_wsd-napkin.png
 依照: [http://www.joelonsoftware.com/articles/fog0000000043.html The Joel Test: 12 Steps to Better Code] 核查
 
 ||~||The Joel Test||~||
-||#||考察点||我们|| 备注||
+||#||考察点||俺们|| 备注||
 ||   1. ||Do you use source control?        || ~ || ~||
 ||   2. ||Can you make a build in one step? || ~ || ~||
 ||   3. ||Do you make daily builds? || ~ || ~||
@@ -26,7 +26,7 @@ https://wiki.openbookproject.googlecode.com/hg/flow4sphinx-all_wsd-napkin.png
 ||  10. ||Do you have testers?  || ~ || ~||
 ||  11. ||Do new candidates write code during their interview?  || ~ || ~||
 ||  12. ||Do you do hallway usability testing?  || ~ || ~||
-||#||考察点||我们|| 备注||
+||#||考察点||俺们|| 备注||
 
 
 == 操作 ==
