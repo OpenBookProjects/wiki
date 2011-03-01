@@ -9,24 +9,38 @@
 == 流程 ==
 https://wiki.openbookproject.googlecode.com/hg/flow4sphinx-all_wsd-napkin.png
 
-== 指标 ==
-依照: [http://www.joelonsoftware.com/articles/fog0000000043.html The Joel Test: 12 Steps to Better Code] 核查
+简要的说::
+ # 一般是先有出版社编辑动议,明确出版意向后才开始召集团队
+ # 根据图书内部的领域分布,从相应技术社区召集译/作者后,结成团队
+ # 对应创建基于 Sphnix 的图书工程后,检入相应专用仓库
+ # 由核心主创人员,通过版本仓库远程协同推进 ~ ^允许进一步分解任务协同其它成员创作,但是,都应该通过版本仓库^
+ # 定期/自动 编译出在线图书,开放给编辑/校对等团队同步查阅
+ # 在统一的提案追踪系统中收集意见,及时修订
+ # 最终交付编辑完整的内容^注意!^不包含排版,由出版社,找专业团队进行排版
+
+=== 资源图谱 ===
+https://wiki.openbookproject.googlecode.com/hg/mapOBPres.png
+
+
+=== 靠谱指标 ===
+依照: [http://www.joelonsoftware.com/articles/fog0000000043.html The Joel Test: 12 Steps to Better Code] 核查图书协同流程的靠谱度::
 
 ||~||The Joel Test||~||
 ||#||考察点||俺们|| 备注||
-||   1. ||Do you use source control?        || ~ || ~||
-||   2. ||Can you make a build in one step? || ~ || ~||
-||   3. ||Do you make daily builds? || ~ || ~||
-||   4. ||Do you have a bug database?   || ~ || ~||
-||   5. ||Do you fix bugs before writing new code?  || ~ || ~||
-||   6. ||Do you have an up-to-date schedule?   || ~ || ~||
-||   7. ||Do you have a spec?   || ~ || ~||
-||   8. ||Do programmers have quiet working conditions? || ~ || ~||
-||   9. ||Do you use the best tools money can buy?  || ~ || ~||
-||  10. ||Do you have testers?  || ~ || ~||
-||  11. ||Do new candidates write code during their interview?  || ~ || ~||
-||  12. ||Do you do hallway usability testing?  || ~ || ~||
+||   1. ||Do you use source control?        || +1 || https://bitbucket.org/ZoomQuiet/obp.RWIwPyZh||
+||   2. ||Can you make a build in one step? || +1 || powered by Sphinx ||
+||   3. ||Do you make daily builds? || +1 || 部署 CronDailyBuild 发布到 https://py.kingsoft.net:8080/obp/RWIwPyZh/build/html/||
+||   4. ||Do you have a bug database?   || +1 || http://code.google.com/p/openbookproject/issues/list||
+||   5. ||Do you fix bugs before writing new code?  || +0.5 || 看成员人品,没有系统约束||
+||   6. ||Do you have an up-to-date schedule?   || +1 || http://code.google.com/p/openbookproject/wiki/RwIwPyZhLog||
+||   7. ||Do you have a spec?   || +0.5 || rST 自个儿有,图书工程的规约细节积累中||
+||   8. ||Do programmers have quiet working conditions? || +0.3 || 看成员各自情况,估计多数没有||
+||   9. ||Do you use the best tools money can buy?  || +0 || 有也不用,FLOSS 为尚||
+||  10. ||Do you have testers?  || +1 ||互阅/校阅/试阅||
+||  11. ||Do new candidates write code during their interview?  || +0 || 全靠圏内推荐,自愿退出||
+||  12. ||Do you do hallway usability testing?  || +1 || 试阅 ||
 ||#||考察点||俺们|| 备注||
+|| || *总计:*||`8.7` || 相对国内开发团队,很高了 ||
 
 
 == 操作 ==

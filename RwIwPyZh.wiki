@@ -18,7 +18,7 @@
   * 并及时更新进度表记录翻译情况
 
 == 资源 ==
- * 仓库: https://bitbucket.org/ZoomQuiet/obp.rwiwpyzh
+ * 仓库: https://bitbucket.org/ZoomQuiet/obp.RWIwPyZh
  * 样例代码: http://examples.oreilly.com/9780596809577/
  
 === 沟通: ===
