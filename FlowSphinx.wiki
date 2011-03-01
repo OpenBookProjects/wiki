@@ -21,6 +21,9 @@ https://wiki.openbookproject.googlecode.com/hg/flow4sphinx-all_wsd-napkin.png
 === 资源图谱 ===
 https://wiki.openbookproject.googlecode.com/hg/mapOBPres.png
 
+要点::
+ * 通过定制 Sphnix 模板,在输出的HTML 页面中包含了 JQuery 支持的可点击评论点;
+ * 点击后重定向到 code.google 对应工程中的提案仓库,以便收集所有建议,进行统一修订!
 
 === 靠谱指标 ===
 依照: [http://www.joelonsoftware.com/articles/fog0000000043.html The Joel Test: 12 Steps to Better Code] 核查图书协同流程的靠谱度::
