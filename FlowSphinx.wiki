@@ -25,6 +25,10 @@ https://wiki.openbookproject.googlecode.com/hg/mapOBPres.png
  * 通过定制 Sphnix 模板,在输出的HTML 页面中包含了 JQuery 支持的可点击评论点;
  * 点击后重定向到 code.google 对应工程中的提案仓库,以便收集所有建议,进行统一修订!
 
+其中::
+ * http://code.google.com/p/openbookproject/wiki 也可通过 Hg 仓库进行操作!
+ * 克隆 `hg clone https://wiki.openbookproject.googlecode.com/hg/ openbookproject-wiki`
+
 === 靠谱指标 ===
 依照: [http://www.joelonsoftware.com/articles/fog0000000043.html The Joel Test: 12 Steps to Better Code] 核查图书协同流程的靠谱度::
 
@@ -66,7 +70,10 @@ RWIwPyZh> make html
 }}}
  1. 及时推送到主仓库
 {{{
-hg ci -m "修订日志"
+hg ci -m "+*.*H ch** 修订日志"
+          |       |     +-- 增补版本简述
+          |       +-- 涉及章节编号
+          +-- 本次增补用时记录
 ...
 hg push
 ...
