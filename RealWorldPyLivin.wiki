@@ -1,0 +1,81 @@
+#summary RealWorldPyLivin 大蟒本色
+#labels RWPyL,Featured,Index
+
+参考:[HowtoJoin 如何加入OBP]//[PyWdwWebdotPy 蟒样Web开发指南]//[PyWdwWebdotPyLog 撰写进展表]
+
+<wiki:toc/>
+= 大蟒本色 =
+ * 发起:[http://groups.google.com/group/python-cn/browse_thread/thread/3d175578be77cda7 《大蟒本色》，建立个团队吧] - python-cn`CPyUG`华蟒用户组(中文Py用户组) | Google Groups
+ 
+ * 全称: 大蟒本色
+ * E名: `Rreal World Python Livin`
+ * 缩写:`RWPyL`
+ * 倡议: http://wiki.woodpecker.org.cn/moin/RealPython
+
+== 团队 ==
+ * 创意: Qidong Su <suqidong001@gmail.com>
+ * 大妈: ZoomQuiet
+
+
+=== 加入 ===
+简要的约定加入以及图书撰写流程(参考: [HowtoJoin 如何加入OBP])
+
+任何人():
+ # 先通过本文相关文章,理解图书意图
+ # 学习 Python,体验 PythonIc
+ # 在 *[RealWorldPyLivinLog 进度列表认领章节]* ~ ^筹备中^
+ # 获得 CPyUG 列表权限 http://groups-beta.google.com/group/python-cn 订阅时注意回答完全提示问题
+ # 在CPyUG 中吼啄木鸟维基帐号，说明想进入可信任列表的原因 http://wiki.woodpecker.org.cn/moin/AclAlert
+  # 通常都可以加入 http://wiki.woodpecker.org.cn/moin/TrustedGroup 获得维基写权限
+ # 在[http://wiki.woodpecker.org.cn/moin/RealPython RealPython]中加入自个儿的 样章，或是意见
+   # 通过图书工程其它成员认可后
+   # 获得 OBP列表权限 http://groups.google.com/group/openbookproject
+   # 获得 OBP工程SVN 权限
+   # 进入持续图书集成迭代过程
+
+
+== 立意 ==
+=== TOC v11.03.14 ===
+{{{
+ream D <dream.python.org@gmail.com>
+发件人当地时间	发送时间 21:54 (GMT+08:00)。发送地当前时间：下午10:50。 ✆
+回复	python-cn@googlegroups.com
+发送至	python-cn@googlegroups.com
+日期	2011年3月14日 下午9:54
+主题	Re: [CPyUG] 《大蟒本色》，建立个团队吧
+}}}
+自认为原来的目录不合理，不容易用故事串联，现自个修改目录如下，不知合理否，请大家评析：
+
+大蟒本色 入门 介绍介绍Python
+ 第一章 语法基础
+ 实例： 简单的命令行通信录程序
+第二章 模块
+实例：
+使用基于文件的数据库编写的通信录程序
+第三章 gui
+实例：
+拥有图形界面的通信录程序
+第四章 打包发布
+
+第五章 web
+实例：
+为通信录写的简易Wiki
+
+第六章 把通信录移植到PPC上
+
+第七章 在线同步
+实例：使用gae制作在线同步程序
+
+#pygame打算作为后补章节进行介绍，否则很难串成故事
+
+设想中的故事结构：
+在校读书的小白因电话号码太多而无法进行方便的管理而烦恼，偶然认识简单易用支持多平台的python，着手开始研究，认识python基础语法后做出一套基于命令行的通信录程序并不断完善。在认为命令行操作太繁琐后开始研究对平台兼容性最好的tk，把通信录gui化。完成后想要发布让大家瞧瞧自个实力。打包好后发布，这时发现自个的通信录有bug不便于和使用者交流，于是开始捣鼓简易的wiki系统。完成后发现通信录只能在电脑上使用，非常麻烦，历经艰辛终于把其移植到自个儿的PPC上。又发现手机的通信录不能和电脑的通信录同步感到麻烦，又在gae上研究起了在线同步程序，最后终于完美，用python为自个儿和大家做了个实用的程序
+
+== TODO ==
+ * 组织团队
+ * 创立图书项目
+ * 开展撰写
+ * 联系出版
+ 
+ <wiki:toc/>
+ 
