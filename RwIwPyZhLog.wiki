@@ -22,7 +22,7 @@
 || ~~110218~~ || 列表^sh/szlug^召集`RWIwPy`团队,创建工程维基 || ZoomQuiet || +4.5H ||
 || ~~110124~~ || 确立协同流程,发布预览网站,整理说明维基 || ZoomQuiet || +7.5H ||
 || ~~110301~~ || 增补[http://code.google.com/p/openbookproject/wiki/FlowSphinx 流程说明维基]图谱/自动构建脚本 || ZoomQuiet || +1.5H ||
-|| 110321 || https 内部预览网站重构发布 || ZoomQuiet || +??H ||
+|| ~~110321~~ || https 内部预览网站重构发布 || ZoomQuiet || +1H ||
 || 日期 || 任务 || 掺合 || 备注 ||
 
 == 进度 ==
