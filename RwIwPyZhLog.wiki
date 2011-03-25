@@ -1,6 +1,6 @@
 #summary Real World Instrumentation with Python zh proj. wiki root
 #labels index,RWIwPy
-
+#sidebar SideToc
 参考:[HowtoJoin 如何加入OBP]//[RwIwPyZh Py实操硬件]
 
 <wiki:toc/>
@@ -59,5 +59,3 @@
 || ,,预期/完成,,日期 || 章节 || 作译 || ,,累计,,耗时/备注 ||
 
 == 统计 ==
-
-
