@@ -13,7 +13,11 @@
  * 倡议: http://wiki.woodpecker.org.cn/moin/RealPython
 
 == 团队 ==
- * 创意: Qidong Su <suqidong001@gmail.com>
+ * 创意: Qidong Su <suqidong001 AT gmail.com>
+ * 成员:
+  # ream D <dream.python.org AT gmail.com>
+  # He Jibo <hejibo AT gmail.com>
+  # Felix Yan <felixonmars AT gmail.com>
  * 大妈: ZoomQuiet
 
 
