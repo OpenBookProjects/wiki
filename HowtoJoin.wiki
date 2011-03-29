@@ -47,14 +47,15 @@
  # 获得 [http://groups.google.com/group/openbookproject OBP列表] 发言权
  # 向OBP 管理委员会申报资源:
   # 自行创建 [https://bitbucket.org/ bitbucket.org]项目:
-    * 注意!仓库名使用`obp.`前缀,例如: {{{
+    * 注意!仓库名使用`obp.`前缀,例如:
+{{{
 https://bitbucket.org/ZoomQuiet/obp.lovelykarrigell
     |       |               |         |     +-- 图书 Unix 名
     |       |               |         +-- 开放图书工程统一前缀
     |       |               +-- 一般是你的注册名
     |       +-- 免费Hg 仓库服务
     +-- 我们使用 https
-    }}}
+}}}
     * 通告给 OBP 管理委员会 ^其实每一个图书工程的主持人,都自动成为委员的 ;-)^
     * 由OBP主仓库管理员加入索引: * https://bitbucket.org/ZoomQuiet/openbookproject *
   # 成书后,获得 http://obp.zoomquiet.org http://docsport.org ... OBP图书发布渠道
