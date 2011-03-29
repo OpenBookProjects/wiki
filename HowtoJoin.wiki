@@ -58,8 +58,9 @@ https://bitbucket.org/ZoomQuiet/obp.lovelykarrigell
 }}}
     * 通告给 OBP 管理委员会 ^其实每一个图书工程的主持人,都自动成为委员的 ;-)^
     * 由OBP主仓库管理员加入索引: * https://bitbucket.org/ZoomQuiet/openbookproject *
-  # 成书后,获得 http://obp.zoomquiet.org http://docsport.org ... OBP图书发布渠道
 *即刻开展持续撰写/翻译/校对 进程*
+    * 成书后,获得 http://obp.zoomquiet.org http://docsport.org ... OBP图书发布渠道
+
 
 === 加入 ===
 *任何人想加入己有图书工程*
