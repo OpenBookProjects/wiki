@@ -22,9 +22,10 @@
 *成果*
  * *原创*
   # [LovelyPython 可愛的Python]/[LovPyRush 日志]
+  # [RealWorldPyLivin 大蟒本色] ^启动ing^
  * *翻译*
-  # ~~[CorePyZh Py核心编程ed2]~~
-  # [Web2pyManualZh web2py手册]
+  # ~~[CorePyZh Py核心编程ed2]~~ ^宋吉广 窃取ed^
+  # [Web2pyManualZh web2py手册] ^停滞ing^
  * *校对*
   # [PySourceReading Py源码剖析]
   
@@ -32,10 +33,10 @@
  * [PEPsZh PEP中文]
  * [PyStLib Py标库]
  * BeginningPython
- * [PyWdwWebdotPy 蟒样web开发]
+ * ~~[PyWdwWebdotPy 蟒样web开发]~~ ^停止^
 
 *译作者*^排名不分先后^/[ObpMember 历史]
- * ZoomQuiet *创始人*
+ * ZoomQuiet *话事人*
   # [ZqreadThoughtWorksAnthology 软件开发沉思录],,读后感,,
  * 来自[http://zeuux.org zeuux]
   # [ZeuuxTechReview 技术校对团]
