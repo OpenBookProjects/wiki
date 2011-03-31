@@ -11,7 +11,8 @@
  * E名: `Rreal World Python Livin`
  * 缩写:`RWPyL`
  * 倡议: http://wiki.woodpecker.org.cn/moin/RealPython
- * 仓库: https://bitbucket.org/realpython/obp.rwpy
+ * 仓库: https://bitbucket.org/ZoomQuiet/obp.rwpy4learner
+ * 故事软件作品长期维护仓库: https://bitbucket.org/ZoomQuiet/obp.rwpy4learner.myaddr
 
 == 团队 ==
  * 创意: Qidong Su <suqidong001 AT gmail.com>
