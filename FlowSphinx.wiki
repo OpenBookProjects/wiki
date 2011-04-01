@@ -1,0 +1,89 @@
+#summary How to base Sphinx make O.B.P itme
+#labels help,sphinx
+
+<wiki:toc/>
+
+= 基于Sphinx的图书协同 =
+`简要说明如果进行分布式的图书協同 ;-)`
+
+== 流程 ==
+https://wiki.openbookproject.googlecode.com/hg/flow4sphinx-all_wsd-napkin.png
+
+简要的说::
+ # 一般是先有出版社编辑动议,明确出版意向后才开始召集团队
+ # 根据图书内部的领域分布,从相应技术社区召集译/作者后,结成团队
+ # 对应创建基于 Sphnix 的图书工程后,检入相应专用仓库
+ # 由核心主创人员,通过版本仓库远程协同推进 ~ ^允许进一步分解任务协同其它成员创作,但是,都应该通过版本仓库^
+ # 定期/自动 编译出在线图书,开放给编辑/校对等团队同步查阅
+ # 在统一的提案追踪系统中收集意见,及时修订
+ # 最终交付编辑完整的内容^注意!^不包含排版,由出版社,找专业团队进行排版
+
+=== 资源图谱 ===
+https://wiki.openbookproject.googlecode.com/hg/mapOBPres.png
+
+要点::
+ * 通过定制 Sphnix 模板,在输出的HTML 页面中包含了 JQuery 支持的可点击评论点;
+ * 点击后重定向到 code.google 对应工程中的提案仓库,以便收集所有建议,进行统一修订!
+
+其中::
+ * http://code.google.com/p/openbookproject/wiki 也可通过 Hg 仓库进行操作!
+ * 克隆 `hg clone https://wiki.openbookproject.googlecode.com/hg/ openbookproject-wiki`
+
+=== 靠谱指标 ===
+依照: [http://www.joelonsoftware.com/articles/fog0000000043.html The Joel Test: 12 Steps to Better Code] 核查图书协同流程的靠谱度::
+
+||~||The Joel Test||~||
+||#||考察点||俺们|| 备注||
+||   1. ||Do you use source control?        || +1 || https://bitbucket.org/ZoomQuiet/obp.RWIwPyZh||
+||   2. ||Can you make a build in one step? || +1 || powered by Sphinx ||
+||   3. ||Do you make daily builds? || +1 || 部署 CronDailyBuild 发布到 https://py.kingsoft.net:8080/obp/RWIwPyZh/build/html/||
+||   4. ||Do you have a bug database?   || +1 || http://code.google.com/p/openbookproject/issues/list||
+||   5. ||Do you fix bugs before writing new code?  || +0.5 || 看成员人品,没有系统约束||
+||   6. ||Do you have an up-to-date schedule?   || +1 || http://code.google.com/p/openbookproject/wiki/RwIwPyZhLog||
+||   7. ||Do you have a spec?   || +0.5 || rST 自个儿有,图书工程的规约细节积累中||
+||   8. ||Do programmers have quiet working conditions? || +0.3 || 看成员各自情况,估计多数没有||
+||   9. ||Do you use the best tools money can buy?  || +0 || 有也不用,FLOSS 为尚||
+||  10. ||Do you have testers?  || +1 ||互阅/校阅/试阅||
+||  11. ||Do new candidates write code during their interview?  || +0 || 全靠圏内推荐,自愿退出||
+||  12. ||Do you do hallway usability testing?  || +1 || 试阅 ||
+||#||考察点||俺们|| 备注||
+|| || *总计:*||`8.7` || 相对国内开发团队,很高了 ||
+
+
+== 操作 ==
+ 1. 安装 [http://www.activestate.com/activepython/downloads Python]
+ 1. 安装 Hg
+{{{
+pip install mercural
+}}}
+ 1. 安装 Sphinx
+{{{
+pip install sphinx
+}}}
+ 1. 获得 源文本
+{{{
+hg clone https://bitbucket.org/ZoomQuiet/obp.rwiwpyzh RWIwPyZh
+}}}
+ 1. 本地编译/改进/检入仓库
+{{{
+RWIwPyZh> make html
+}}}
+ 1. 及时推送到主仓库
+{{{
+hg ci -m "+*.*H ch** 修订日志"
+          |       |     +-- 增补版本简述
+          |       +-- 涉及章节编号
+          +-- 本次增补用时记录
+...
+hg push
+...
+}}}
+
+= 参考 =
+ * [http://code.google.com/p/kcpycamp/wiki/HgUsage 简要 Hg 使用]
+ * [http://code.google.com/p/kcpycamp/wiki/HowtoPython 如何Python?]
+ * [http://docutils.sourceforge.net/docs/user/rst/quickref.html Quick reStructuredText]
+  * [http://czug.org/plone/howto/howto-structuredtext 如何使用StructuredText - 中国Zope/Plone用户组]
+  * [http://python.cofman.dk/pycon/papers/rest_tutorial.html reStructuredText Tutorial: PyCon 2003]
+ * [http://code.google.com/p/pymotwcn/wiki/SphinxprojectHowto Sphinx快速开始 - pymotwcn]
+

@@ -1,0 +1,52 @@
+#summary OBP索引
+#labels Index,OBP,TOC
+
+[http://wiki.woodpecker.org.cn/moin/OpenBookProject O.B.P计划]
+
+*[HowToBuildBookOnline 如何在线組織图书创译]*:
+ * [HowtoJoin 怎么掺合?]
+ * *[FlowSphinx 基于Sphinx的图书协同]*
+ * [UsageIssue Issue使用]:[IssueFlow 流程]/[IssueTags TAG]
+ * [UsageIrc IRC]:[ZeuuxIrc ZEUUX]
+ 
+*资源*
+ * *[TechnoDict 技术辞典]* ^翻译积累^
+ * [http://wiki.woodpecker.org.cn/moin/OpenBookProject 维基]
+  # [WikiName 神马是WikiName]
+ * [https://bitbucket.org/ZoomQuiet/openbookproject 仓库索引]
+ * [http://groups.google.com/group/openbookproject 邮件列表]^公开^
+  # [http://zoomquiet.org/obp/ 图书预览]^索引^
+ * [http://groups.google.com/group/preobp 专项列表]^私密^
+  # [https://py.kingsoft.net:8080/obp/ 专项预览]
+
+*成果*
+ * *原创*
+  # [LovelyPython 可愛的Python]/[LovPyRush 日志]
+  # [RealWorldPyLivin 大蟒本色] ^启动ing^
+ * *翻译*
+  # ~~[CorePyZh Py核心编程ed2]~~ ^宋吉广 窃取ed^
+  # [Web2pyManualZh web2py手册] ^停滞ing^
+ * *校对*
+  # [PySourceReading Py源码剖析]
+  
+*酝酿*
+ * [PEPsZh PEP中文]
+ * [PyStLib Py标库]
+ * BeginningPython
+ * ~~[PyWdwWebdotPy 蟒样web开发]~~ ^停止^
+
+*译作者*^排名不分先后^/[ObpMember 历史]
+ * ZoomQuiet *话事人*
+  # [ZqreadThoughtWorksAnthology 软件开发沉思录],,读后感,,
+ * 来自[http://zeuux.org zeuux]
+  # [ZeuuxTechReview 技术校对团]
+ * [khsing khsing]
+ * DuLei
+ * [He_Jibo]
+ * JeanToe
+ * LinLuxiang
+ * PatternLiu
+ * TangJiyu
+ * [TorryCn 头太晕]
+ * YanWu
+

@@ -1,0 +1,31 @@
+#summary Pythonic 的沉默 by ZoomQuiet
+#labels Doc,poem,ZoomQuiet
+
+ZoomQuiet 的编译手册[ZqHowTurnInto I],[ZqHowTurnIntoV2 II]
+
+= Pythonic 的沉默 =
+{{{
+  你见，或者不见Python
+  她就在那里
+  不悲不喜
+  你用，或者不用Python
+  她就在那里
+  不来不去
+  你爱，或者不爱Python
+  她就在那里
+  勇猛精进
+  你学，或者不学Python
+  行者就在你身边
+  不舍不弃
+  来华蟒的怀里
+  或者
+  让Pythonic住进你的心里
+  默然 相爱
+  寂静 欢喜
+}}}
+
+ * 感谢原作者：[http://baike.baidu.com/view/4976314.htm 扎西拉姆·多多]
+
+
+<wiki:toc max_depth="2" />
+

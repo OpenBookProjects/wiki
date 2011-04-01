@@ -1,0 +1,14 @@
+#summary about Yan Wu
+
+= about me =
+
+ * I love mac
+ * I love python
+ * I love camera
+ * but I have to use vista and .Net at work
+
+== I am a==
+ * Software developer
+
+== My website ==
+ * http://www.yan5.org

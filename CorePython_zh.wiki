@@ -1,0 +1,1191 @@
+#summary One-sentence summary of this page.
+#labels Phase-Implementation
+
+= 站立会议 =
+*按照时间线，记录IRC 会议内容*
+
+== 071118 ==
+{{{
+(18:49:55) ZoomQuiet: 
+先吊着…………
+(20:51:04) 
+lwl [n=lwl@60-241-241-18.static.tpgi.com.au] 进入了聊天室。
+(20:51:50) 
+CorePy [n=Administ@61.49.218.228] 进入了聊天室。
+(20:57:55) 
+samsonyarn [n=Administ@123.5.214.11] 进入了聊天室。
+(20:58:13) 
+phay [n=Administ@58.62.117.186] 进入了聊天室。
+(21:02:34) CorePy: 
+人好少啊
+(21:02:49) CorePy: 
+再等等？
+(21:04:03) 
+LeoJay [n=Leojay@58.24.90.253] 进入了聊天室。
+(21:04:19) LeoJay: 
+不好意思，来晚了。
+(21:05:11) CorePy: 
+=你呢
+(21:05:12) 
+Lanser [n=chatzill@123.116.226.49] 进入了聊天室。
+(21:05:13) CorePy: 
+呵呵
+(21:05:25) CorePy: 
+再==看
+(21:05:32) Lanser: 
+encoding?
+(21:05:39) CorePy: 
+phay 刚才看到回信了
+(21:05:40) CorePy: 
+？？
+(21:05:48) CorePy: 
+预计什么时候可以完工呢？
+(21:05:54) LeoJay: 
+今天不舒服。从下午一觉睡到现在。呵呵。
+(21:05:59) Lanser: 
+终于看到了
+(21:06:14) Lanser: 
+课后题要翻译吗
+(21:06:20) CorePy: 
+要的啊
+(21:06:28) phay: 
+恩
+(21:06:34) CorePy: 
+lanser还没提交吧？
+(21:06:38) CorePy: 
+进展如何了？
+(21:06:44) Lanser: 
+19章初翻80%
+(21:06:44) phay: 
+名天应该能把初稿搞定
+(21:06:51) Lanser: 
+课后题没翻
+(21:06:55) Lanser: 
+模块列表没翻
+(21:06:59) phay: 
+还有200行的样子
+(21:07:02) 
+digitiwi [i=digit@gateway/tor/x-0b66a73ea452906a] 进入了聊天室。
+(21:07:21) ZoomQuiet: 
+刚刚开始哪…………
+(21:07:21) Lanser: 
+lisa进度和我差不多
+(21:07:30) CorePy: 
+lanser 加油喽
+(21:07:40) CorePy: 
+leo Jay 是猛人啊
+(21:07:45) CorePy: 
+单挑了四章
+(21:07:51) CorePy: 
+不过还不能休息哦
+(21:07:52) CorePy: 
+呵呵
+(21:07:59) CorePy: 
+虽然你不舒服
+(21:08:00) LeoJay: 
+行啊。我没问题。
+(21:08:14) ZoomQuiet: 
+今天将 code.google 和列表联通了，大家的修订，立即可以通过邮件知晓了…………
+(21:08:24) CorePy: 
+刚才看到了
+(21:08:33) CorePy: 
+现在看来 14 19 都没有问题
+(21:08:34) Lanser: 
+今天对一句话深有体会
+(21:08:35) phay: 
+恩
+(21:08:35) Lanser: 
+由于时间紧促加上译者水平有限错误在所难免
+(21:08:43) phay: 
+哈哈
+(21:08:55) CorePy: 
+一起努力做到最好
+(21:09:01) ZoomQuiet: 
+将这句话，放有每章后面…………
+(21:09:12) CorePy: 
+呵呵
+(21:09:24) CorePy: 
+digitiwi 17章进展如何了啊？
+(21:09:26) ZoomQuiet: 
+算过还余多少页？多少时间？
+(21:09:41) phay: 
+deadline是多久
+(21:09:44) Lanser: 
+19、20明晚可以提交，不过都是初翻，需要大家一起修订
+(21:09:51) CorePy: 
+OK
+(21:10:00) CorePy: 
+DeadLine？
+(21:10:03) CorePy: 
+20号哦
+(21:10:10) phay: 
+初翻？
+(21:10:12) CorePy: 
+很紧张呢
+(21:10:14) CorePy: 
+对
+(21:10:18) CorePy: 
+初稿
+(21:10:18) phay: 
+哦
+(21:10:18) ZoomQuiet: 
+俺，坚决认领的 20章有 2k 多行，乐观的说有 50% 是代码，也有近千行没有翻译………………
+(21:10:33) ZoomQuiet: 
+初稿必须100% 都翻译完？？？
+(21:10:33) digitiwi: 
+这星期忙校对ch15了，没顾上17章
+(21:10:50) CorePy: 
+23章 已经完成审校 明天我整理
+(21:10:54) CorePy: 
+恩
+(21:10:58) Lanser: 
+lisa不是也认领20章了吗
+(21:11:01) CorePy: 
+也可以同步审校啊
+(21:11:07) Lanser: 
+zq负责了？
+(21:11:10) CorePy: 
+lisa 没看到啊
+(21:11:10) phay: 
+第11章还差一次自我校对
+(21:11:20) CorePy: 
+不是 协同作战
+(21:11:22) CorePy: 
+哦
+(21:11:33) Lanser: 
+她今晚有事无法上网，呵呵
+(21:11:37) CorePy: 
+digitiwi 17章预计还需要多久呢？
+(21:11:39) CorePy: 
+哦
+(21:11:43) Lanser: 
+把进度告诉我了
+(21:11:49) CorePy: 
+如何？
+(21:11:54) CorePy: 
+她没有提交
+(21:11:55) digitiwi: 
+我现在正校对第7章
+(21:12:20) samsonyarn: 
+11章我核了一部分，发到wiki上了
+(21:12:25) CorePy: 
+看到了
+(21:12:31) samsonyarn: 
+下周可能能核完
+(21:12:41) phay: 
+握手
+(21:12:51) CorePy: 
+lisa进度如何？17章需要协作翻译吗？
+(21:13:00) digitiwi: 
+17章我还没svn,如果大家谁星期能帮帮忙啊？
+(21:13:08) samsonyarn: 
+呵呵，11章原始翻译得不错
+(21:13:10) Lanser: 
+lisa进度为：课后题没翻、模块列表没翻，其他初翻完毕
+(21:13:17) digitiwi: 
+大家谁下星期能帮帮忙啊？
+(21:13:17) CorePy: 
+17章翻译了多少啊？
+(21:13:38) digitiwi: 
+lwl是哪位啊？
+(21:13:44) CorePy: 
+看来20章不用太担心了
+(21:13:49) Lanser: 
+我的进度一样，明晚全翻完后提交svn
+(21:13:52) digitiwi: 
+没新加入的朋友吗？
+(21:13:55) CorePy: 
+lwl是哪位啊？
+(21:13:55) lwl: 
+是俺
+(21:14:08) CorePy: 
+你之前用的名字是……
+(21:14:18) lwl: 
+呵呵，我用wenliang.lu
+(21:14:21) CorePy: 
+哦
+(21:14:23) CorePy: 
+呵呵
+(21:14:29) CorePy: 
+刚才看到你的提交奥了
+(21:14:31) lwl: 
+不过我的聊天软件都是缩写lwl
+(21:14:49) digitiwi: 
+哦
+(21:14:57) CorePy: 
+现在 不太放心的是 6 10 17
+(21:15:14) digitiwi: 
+lwl手上有其他章节吗？
+(21:15:19) lwl: 
+没有了
+(21:15:28) CorePy: 
+Leo Jay Zoom 二位看看是否能加入协作？
+(21:15:30) lwl: 
+我只看了两章
+(21:15:38) CorePy: 
+lwl是在审校
+(21:15:55) CorePy: 
+Leo Jay Zoom 二位看看是否能加入协作？ 6、10、17
+(21:16:03) digitiwi: 
+17章我自己翻译时间上确实很紧，如果项目对时间要求很严格的话，那大家来帮帮忙吧
+(21:16:05) LeoJay: 
+需要做什么？
+(21:16:27) ZoomQuiet: 
+"lisa进度为：课后题没翻、模块列表没翻，其他初翻完毕" ?? 那俺都在翻译了，建议及时检入哪
+(21:16:29) CorePy: 
+一起翻译17章如何？
+(21:16:46) LeoJay: 
+17章是什么啊？
+(21:16:50) ZoomQuiet: 
+现在的校对都是记录在 Issue 后，集中进行修订？
+(21:16:53) CorePy: 
+对20章情有独钟的ZQ……
+(21:17:00) CorePy: 
+对
+(21:17:09) CorePy: 
+先油腻感Issue
+(21:17:13) ZoomQuiet: 
+Ch17 是 网络客户端编程
+(21:17:22) digitiwi: 
+15章已经全部过一遍，没有理解、句意上的翻译问题了
+(21:17:26) ZoomQuiet: 
+不算长的一篇
+(21:17:36) CorePy: 
+17是网络客户端编程
+(21:17:49) digitiwi: 
+语言上看看哪些还需要润色的
+(21:18:01) ZoomQuiet: 
+看17章也是仅仅翻译了标题？
+(21:18:03) LeoJay: 
+现在17章是什么状态？完全没有翻译吗？
+(21:18:04) Lanser: 
+lisa和我都会在明晚commit
+(21:18:11) CorePy: 
+OK
+(21:18:15) ZoomQuiet: 
+有谁翻译了？17章？
+(21:18:21) CorePy: 
+19 20 章明晚就搞定了
+(21:18:28) digitiwi: 
+17是网络客户端编程，是的
+(21:18:28) CorePy: 
+digitiwi认领了
+(21:18:36) ZoomQuiet: 
+晕！那俺这几日翻译的 20章就得靠你们合并了？
+(21:18:41) Lanser: 
+必须声明，19、20是初翻
+(21:18:41) digitiwi: 
+几乎没有
+(21:18:47) CorePy: 
+OK
+(21:18:48) ZoomQuiet: 
+協作，就得随时检入哪
+(21:18:51) CorePy: 
+知道
+(21:19:01) ZoomQuiet: 
+17章是真正的一点儿都没有翻译？
+(21:19:16) Lanser: 
+zq如果已经提交了20章的话，我可以通知lisa让她合并一次
+(21:19:27) CorePy: 
+ZQ提交了一部分
+(21:19:36) digitiwi: 
+只翻译了部分，不到10%
+(21:19:59) Lanser: 
+zq的20现在就可以update到吗
+(21:20:01) CorePy: 
+17章量不算大
+(21:20:39) CorePy: 
+如何？谁协助digitiwi一同翻译呢？
+(21:20:48) LeoJay: 
+行，那17章我来。
+(21:21:07) CorePy: 
+爱上你了 猛人
+(21:21:09) CorePy: 
+呵呵
+(21:21:30) CorePy: 
+前五章 魏忠对我说 20日之前保证完工
+(21:21:39) digitiwi: 
+17章量是不算大，但这星期我在重校对自己翻译的15章，发现很多需要改进的地方，所以花的时间很多
+(21:21:56) CorePy: 
+还有就是 第十章的 andelf 最近联系不上
+(21:22:00) digitiwi: 
+有2天忙到23点才svn上去
+(21:22:02) CorePy: 
+看得出来
+(21:22:08) ZoomQuiet: 
+17章最好将已经翻译的及时检入，以便其它人協同
+(21:22:25) ZoomQuiet: 
+需要的话 电子邮件；简单邮件传输协议(SMTP) 俺可以来帮忙翻译
+(21:22:28) CorePy: 
+每次的digitiwi 的改进都是精益求精的的那种
+(21:22:32) digitiwi: 
+LeoJay，谢谢，欢迎
+(21:22:43) LeoJay: 
+17章我一个人来就好了。周３完工吧。
+(21:22:53) ZoomQuiet: 
+17章可以直接拆分后确认进行，
+(21:23:09) CorePy: 
+digitiwi的意思呢？
+(21:23:09) ZoomQuiet: 
+嗬嗬嗬，好哪！！有牛人，俺们就校对
+(21:23:16) ZoomQuiet: 
+校对的顺序呢？
+(21:23:20) digitiwi: 
+回复：andelf 最近联系不上，他的邮件也联系不上吗？
+(21:23:31) CorePy: 
+是由猛人独自来 还是 协作？
+(21:23:42) CorePy: 
+andelf没给我回信
+(21:23:46) Lanser: 
+zq的20提交了吗？txt的吗？
+(21:23:47) digitiwi: 
+回：周３完工吧好速度！
+(21:23:51) ZoomQuiet: 
+有什么建议，看大家的翻译程度？ 有完成初译的就检入后吼？
+(21:24:13) digitiwi: 
+回：digitiwi的意思呢？ LeoJay能帮忙是在好不过了
+(21:24:20) ZoomQuiet: 
+俺一直随时提交的，翻译的不多，才开始，就知道有整个翻译过的手人了…………
+(21:24:20) digitiwi: 
+我是想保障质量
+(21:24:36) CorePy: 
+呵呵
+(21:24:38) digitiwi: 
+自己翻译一章，就要确保翻译的质量
+(21:24:44) Lanser: 
+既然这样我尽量今晚提交
+(21:24:52) LeoJay: 
+我一个人来吧。
+(21:24:52) CorePy: 
+OK
+(21:24:57) Lanser: 
+有多少先交多少，大家好早点开工
+(21:25:02) CorePy: 
+对
+(21:25:10) digitiwi: 
+所以最近花在校对上时间比较多
+(21:25:47) CorePy: 
+我桌子上每天都放着原书 可以告诉大家这原书可比现代汉语辞典厚多了
+(21:25:49) Lanser: 
+校对确实花时间，反复斟酌，我大都用来意译
+(21:25:51) digitiwi: 
+好的
+(21:26:19) CorePy: 
+因为大家都是用Python的 所以意义不会有什么问题
+(21:26:22) ZoomQuiet: 
+有不懂的段落，前后又看不出有什么联系的，就直接 cancel 掉吧
+(21:26:25) CorePy: 
+能表述的清楚
+(21:26:34) Lanser: 
+同意
+(21:26:49) ZoomQuiet: 
+有时候作者抽点儿风，我们不能上当的
+(21:26:56) CorePy: 
+很少有这样的段落吧？
+(21:26:57) Lanser: 
+对了，原书有勘误表吗
+(21:27:17) Lanser: 
+有的地方原书错了，我们不能跟着翻
+(21:27:22) CorePy: 
+作者只是有时候想把话说的有趣
+(21:27:31) digitiwi: 
+我本以为7和15两章的自我校对我一周就能搞定，但踏踏实实干下来，才发现比翻译还费心血，保障质量是需要更多斟酌的
+(21:27:40) CorePy: 
+恩
+(21:27:43) CorePy: 
+是啊
+(21:27:49) CorePy: 
+审校不轻松的
+(21:27:58) CorePy: 
+尤其你对自己要求高的时候
+(21:28:00) digitiwi: 
+回复：有的地方原书错了，我们不能跟着翻
+(21:28:01) digitiwi: 
+是啊
+(21:28:10) CorePy: 
+原书有勘误的
+(21:28:11) digitiwi: 
+我也遇到这样的情况
+(21:28:18) CorePy: 
+我强调了很多次哦
+(21:28:55) CorePy: 
+今天boyee118 怎么没来啊
+(21:29:05) digitiwi: 
+<Zoom> 有时候作者抽点儿风，我们不能上当的  笑...
+(21:29:09) ZoomQuiet: 
+http://code.google.com/p/openbookproject/issues/detail?id=86 类似这种校对意见实在是太疯了…………
+(21:29:15) CorePy: 
+也不知道他的13章进展怎么样了
+(21:29:18) ZoomQuiet: 
+看都不过来的哪………………
+(21:29:24) Lanser: 
+勘误表是是Errata.html吧
+(21:29:29) digitiwi: 
+回：原书有勘误的
+(21:29:30) digitiwi: 
+恩
+(21:29:35) digitiwi: 
+注意到了
+(21:29:48) ZoomQuiet: 
+现在，已经积累到快100条提案了，什么时候修订入 txt ?
+(21:30:02) lwl: 
+咦，不好意思，不想一条一条提
+(21:30:09) CorePy: 
+分章节整理就可以了
+(21:30:12) CorePy: 
+这个我来
+(21:30:16) ZoomQuiet: 
+CorePy2erratra.txt 是对应的 勘误 txt 版本
+(21:30:28) ZoomQuiet: 
+没有关系的，都记录下来就好
+(21:30:56) Lanser: 
+提交、检出都以txt为准吗
+(21:30:58) CorePy: 
+疯狂的lwl
+(21:31:01) CorePy: 
+对
+(21:31:15) Lanser: 
+发现有的txt不是UTF8编码
+(21:31:23) CorePy: 
+sorry 
+(21:31:25) CorePy: 
+是我的错
+(21:31:27) digitiwi: 
+http://code.google.com/p/openbookproject/issues/detail?id=86  wenliang.lu写的
+(21:31:32) digitiwi: 
+我刚看到
+(21:31:41) ZoomQuiet: 
+一定要txt ,是否将 word 目录给删除了？ 以免有误解？
+(21:31:51) CorePy: 
+不行
+(21:31:52) digitiwi: 
+原来15章有很多小错误，我都改了
+(21:31:58) CorePy: 
+魏忠提交的是doc
+(21:32:09) lwl: 
+哦， digitiwi什么时候更新的？
+(21:32:15) digitiwi: 
+不知wenliang.lu,评论的是哪个版本的？
+(21:32:16) CorePy: 
+就是大家都没见到的前五章和 21章的译者
+(21:32:29) digitiwi: 
+昨天新svn是版本，还是老的？
+(21:32:43) CorePy: 
+lwl 在吗？
+(21:32:44) lwl: 
+我也记不得什么时候更新的了
+(21:32:51) CorePy: 
+……
+(21:33:11) lwl: 
+应该两天前更新的第15章吧
+(21:33:19) CorePy: 
+lwl是周五晚上开始的
+(21:33:23) CorePy: 
+应该是之前的
+(21:33:43) Lanser: 
+以后提issue时要附上版本号
+(21:34:07) CorePy: 
+15比较特殊
+(21:34:16) CorePy: 
+digitiwi自己审了一次
+(21:34:20) CorePy: 
+之后又一次
+(21:34:39) CorePy: 
+但是之前的进度中已经说明了 已经完成
+(21:34:46) CorePy: 
+所以lwl开始了审校
+(21:34:53) digitiwi: 
+我是在昨天完成校对的，应该是我这里比较确定的版本，和前个翻译版本比，我改了有100多处，这决不是夸张,只多不少
+(21:34:54) CorePy: 
+digitiwi好认真
+(21:35:05) digitiwi: 
+谢谢wenliang.lu的意见
+(21:35:24) Lanser: 
+明确一下：issue人人可以提单修改只能由readme中的译者进行，还是人人可以改并提交
+(21:35:35) digitiwi: 
+我明天在看看，把你的意见（如果还没改的）也写进去
+(21:35:51) CorePy: 
+http://wiki.woodpecker.org.cn/moin/CorePyProgramming/revision
+(21:36:00) CorePy: 
+这里一校
+(21:36:03) CorePy: 
+完成的 
+(21:36:09) CorePy: 
+就不要在修改SVN
+(21:36:19) lwl: 
+呵呵，有的我只是建议而已，digitiwi自己拿主意阿
+(21:36:21) digitiwi: 
+回复：<Lanser> 明确一下：issue人人可以提单修改只能由readme中的译者进行，还是人人可以改并提交
+(21:36:25) CorePy: 
+也是一校完成之后才开始之后的审校的
+(21:36:27) digitiwi: 
+我的建议是
+(21:36:50) digitiwi: 
+可以在branch下建立一个.txt的副本
+(21:37:10) digitiwi: 
+在那里其他人（非翻译者本人）有修改权限
+(21:37:30) CorePy: 
+全部提交Issue就可以，最后由我来整理
+(21:37:52) CorePy: 
+不然协作会很麻烦的
+(21:38:22) CorePy: 
+http://wiki.woodpecker.org.cn/moin/CorePyProgramming/revision
+(21:38:29) CorePy: 
+这里是最新的进展
+(21:38:36) CorePy: 
+审校参与者
+(21:38:39) digitiwi: 
+经讨论确定意见正确,最后再由相关负责人同意后，把更改merge到原.txt
+(21:38:48) ZoomQuiet: 
+这个在code.google 是没有限制的，不过，为了加速，俺是建议，成员都可以交叉合并修订，只要在检入时注明是修订了哪个 Issue 的，这样可以进行追踪
+(21:39:08) CorePy: 
+这个在code.google 是没有限制的，不过，为了加速，俺是建议，成员都可以交叉合并修订，只要在检入时注明是修订了哪个 Issue 的，这样可以进行追踪
+(21:39:12) CorePy: 
+这样也好
+(21:39:26) digitiwi: 
+CorePy说的是个办法
+(21:39:31) digitiwi: 
+同意
+(21:39:49) CorePy: 
+我们讨论一下审校吧
+(21:40:01) CorePy: 
+目前只有HD一个人我联系不上
+(21:40:17) CorePy: 
+其他的 都更新在里面了
+(21:40:19) CorePy: 
+这个在code.google 是没有限制的，不过，为了加速，俺是建议，成员都可以交叉合并修订，只要在检入时注明是修订了哪个 Issue 的，这样可以进行追踪
+(21:40:25) ZoomQuiet: 
+毕竟大家都有一定开发体验，建议的修订都是语言方面的，随手合并就好，但是一定要对应注释说明是修订了哪个Issue ,而 Issue 关闭时也一定要注明是通过哪个版本修订了的
+(21:40:30) CorePy: 
+http://wiki.woodpecker.org.cn/moin/CorePyProgramming/revision
+(21:40:32) digitiwi: 
+HD是？
+(21:40:44) CorePy: 
+Zomm给解释一下
+(21:40:48) CorePy: 
+HD
+(21:41:02) digitiwi: 
+同意：但是一定要对应注释说明是修订了哪个Issue ,
+(21:41:14) Lanser: 
+审校是在这里进行吗，怎么只有第一章 http://wiki.woodpecker.org.cn/moin/CorePyProgramming/revision/ch
+(21:41:37) CorePy: 
+以开始我想用Wiki的
+(21:41:48) CorePy: 
+不过发现还是Issue比较方便
+(21:42:02) CorePy: 
+所以现在希望大家都使用Iuuse
+(21:42:06) CorePy: 
+Issue
+(21:42:06) Lanser: 
+现在的模式是issue+svn，不用wiki？
+(21:42:14) CorePy: 
+不用wiki了
+(21:42:40) CorePy: 
+Issue+SVN
+(21:42:52) ZoomQuiet: 
+大家看俺关闭的 http://code.google.com/p/openbookproject/issues/detail?id=2 
+(21:44:04) CorePy: 
+？？
+(21:44:15) digitiwi: 
+在看
+(21:44:28) ZoomQuiet: 
+先提交合并后文件，在 commit 注释中说明 Issue 号；然后在关闭Issue 时说明提交的修订版本号！
+(21:44:28) ZoomQuiet: 
+这就完成了修订和Issue 的绑定可以追踪问题了v
+(21:45:23) digitiwi: 
+恩，明白了
+(21:45:26) phay: 
+恩
+(21:45:30) digitiwi: 
+好例子~
+(21:45:54) ZoomQuiet: 
+其实这是非常简单的问题追踪方式，比维基要严密些，但是没有那么直观，俺是建议有大家都拿不准的，或是大段的修订，组织在维基中公示讨论，其它的就通过 Issue 快速安全的进行修订就好 ;)
+(21:46:13) digitiwi: 
+Zoom, 可以把这建议写到readme里，先提交合并后文件，在 commit 注释中说明 Issue 号；然后在关闭Issue 时说明提交的修订版本号！
+(21:46:24) digitiwi: 
+这样参与的人都能看到
+(21:46:31) digitiwi: 
+包括今天没来开会的
+(21:46:36) lwl: 
+对头
+(21:46:38) ZoomQuiet: 
+主持人同意的话，就维基中说明，列表中吼！
+(21:46:51) ZoomQuiet: 
+俺来在README 中进行详细说明
+(21:46:58) lwl: 
+希望把流程能够清楚的写在wiki上
+(21:47:07) CorePy: 
+100%的赞成
+(21:47:09) digitiwi: 
+tickets确实很好
+(21:47:16) CorePy: 
+不过要写使用指南哦
+(21:47:25) Lanser: 
+最好有图片例子：）
+(21:47:30) digitiwi: 
+好的
+(21:47:34) CorePy: 
+ZQ 期待你的使用指南了哦
+(21:47:46) Lanser: 
+;)
+(21:47:54) CorePy: 
+:-D
+(21:48:30) ZoomQuiet: 
+大家………………
+(21:48:40) ZoomQuiet: 
+真的是好奇宝宝哪…………
+(21:48:41) digitiwi: 
+:)
+(21:48:52) phay: 
+:)
+(21:49:19) digitiwi: 
+列表中吼...笑~想象中ZQ怎么吼，哈哈
+(21:50:23) CorePy: 
+每次ZQ告诉我的终极解决方式就是：“在列表里吼”
+(21:50:34) Lanser: 
+还有议题吗，要不早点散吧，还要干活呢
+(21:51:08) lwl: 
+翻译上的细节在哪儿讨论阿？
+(21:51:15) lwl: 
+group?
+(21:51:20) CorePy: 
+恩
+(21:51:32) CorePy: 
+请允许我引用ZQ的话
+(21:51:42) CorePy: 
+在列表里吼
+(21:51:43) lwl: 
+“在列表里吼”
+(21:51:51) digitiwi: 
+那LeoJay是你翻译17章吗？
+(21:51:54) LeoJay: 
+嗯。
+(21:51:55) digitiwi: 
+想确定下
+(21:52:03) LeoJay: 
+交给我吧。呵呵。
+(21:52:05) CorePy: 
+猛人啊
+(21:52:11) LeoJay: 
+现在已经相当顺手了。呵呵。
+(21:52:12) CorePy: 
+真的爱上你了
+(21:52:17) digitiwi: 
+好，谢谢！
+(21:52:21) CorePy: 
+早知道一本都给你了
+(21:52:22) samsonyarn: 
+佩服
+(21:52:25) LeoJay: 
+不客气。
+(21:52:30) CorePy: 
+让你爽一下
+(21:52:35) LeoJay: 
+你还真不客气。。。
+}}}
+== 071104 ==
+{{{
+Leo Jay <python.leojay@gmail.com> 		 hide details	 8:23 pm (18 minutes ago) 
+	reply-to		openbookproject@googlegroups.com	 
+	to		openbookproject@googlegroups.com	 
+	date		Nov 4, 2007 8:23 PM	 
+	subject		[OBP:314] Re: CorePy核心编程第四周进度沟通会议	 
+	mailed-by		googlegroups.com	 
+On Nov 3, 2007 8:36 AM, CorePy <CorePy@gmail.com> wrote:
+> Py核心编程第四周沟通会议，将于11月4日晚九点准时开始。
+> 请大家准时参加：
+>
+
+抱歉，今晚因故不能参加。
+我的进度如下：
+16章 70%
+18章 0%
+22, 23章100%
+}}}
+
+== 071028 ==
+{{{
+与 #CorePython_zh 在 2007年10月28日 星期日 19时26分41秒 的谈话
+(19:26:41) #CorePython_zh: 
+由 brown.freenode.net 管理(+ns )
+
+---
+(20:48:06) ZoomQuiet: 
+咔咔咔,今天准时有站立会议的?
+(20:52:57) CorePy: 
+http://groups.google.com/group/openbookproject/browse_thread/thread/6d39deb38057391a
+(20:57:48) 
+unbuilt [n=dolphin@218.22.21.2] 进入了聊天室。
+21:00
+(21:00:59) ZoomQuiet: 
+统一记录进度在 http://openbookproject.googlecode.com/svn/trunk/CorePython_zh/README.txt 吧
+(21:01:12) 
+pnano [i=pnano@gateway/gpg-tor/key-0x7B76332A] 进入了聊天室。
+(21:01:58) CorePy: 
+不会吧 今天就来了五位啊
+(21:02:24) unbuilt: 
+我今天第一次来
+(21:02:24) CorePy: 
+OK
+(21:02:37) CorePy: 
+我们准时开始吧
+(21:02:49) CorePy: 
+大家本周的进度如何啊？
+(21:03:00) CorePy: 
+unbuilt 认领的是哪章啊？
+(21:03:05) unbuilt: 
+我想问的是第15章有人认领过了吗？
+(21:03:17) pnano: 
+恩，报到了
+(21:03:27) CorePy: 
+我看一下啊
+(21:03:29) unbuilt: 
+我还没有最后确认，第15章翻了一点儿
+(21:03:38) CorePy: 
+Zoom 15章有人认领了吗？
+(21:04:04) 
+korobase_ [n=korobase@58.17.215.10] 进入了聊天室。
+(21:04:23) 
+korobase_ 现在叫做 boyee118。
+(21:04:28) phay: 
+还有最后一个section
+(21:04:36) boyee118: 
+hi
+(21:04:57) CorePy: 
+还
+(21:05:05) boyee118: 
+俺刚在邮件列表中跟贴了！
+(21:05:45) pnano: 
+第七章基本翻译完了(不包括习题)，自己还要找时间过一遍，第15章还差2小节，想等翻译完再提交
+(21:05:46) CorePy: 
+哦 看到了
+(21:05:56) pnano: 
+Zoom 15章有人认领了吗？有
+(21:05:58) pnano: 
+是我
+(21:06:07) CorePy: 
+哦 对了是 pnano
+(21:07:06) CorePy: 
+大家进展如何了啊？
+(21:07:36) CorePy: 
+我的代码审校马上要完工了
+(21:07:45) 
+AruiZen [n=Administ@123.112.51.230] 进入了聊天室。
+(21:08:01) CorePy: 
+准备从下周开始投入校订工作
+(21:08:09) pnano: 
+代码审校是书中的代码吗？
+(21:08:15) CorePy: 
+AZ认领的是哪章啊？进展如何？
+(21:08:16) CorePy: 
+对
+(21:08:18) CorePy: 
+是的
+(21:08:34) pnano: 
+翻译时候发现代码有很多错误，可能是排版的原因
+(21:08:39) AruiZen: 
+第6章，30%
+(21:08:50) CorePy: 
+对是 排版的原因 
+(21:09:01) AruiZen: 
+不好意思，翻得太慢，
+(21:09:23) CorePy: 
+这些事情我会和出版社解决的 关键问题就是大家保证翻译质量
+(21:09:31) CorePy: 
+给Py爱好者一本好书
+(21:09:41) CorePy: 
+加油哦
+(21:09:49) ZoomQuiet: 
+http://openbookproject.googlecode.com/svn/trunk/CorePython_zh/README.txt 已经更新,请大家在每次阶段次完成后,更新说明此文档
+(21:09:50) AruiZen: 
+好的，
+(21:09:50) pnano: 
+特别是15章少了? * 什么的，多个, 在正则里差一点都不能含糊
+(21:10:08) ZoomQuiet: 
+当前仅仅有3人的进度记录 ;)
+(21:10:25) pnano: 
+给Py爱好者一本好书：很不容易啊
+(21:10:50) AruiZen: 
+出版社为什么不出版dive into python？那本不是已经有中文版了吗？
+(21:11:00) phay: 
+这个不能传阅吧？
+(21:11:13) CorePy: 
+可以
+(21:11:18) CorePy: 
+只要你不散布就行了
+(21:11:25) pnano: 
+内容很易懂，但要用平实的语言翻译，又不走样，很多句子意思是对了，但读起来就是不符合中文的习惯
+(21:11:44) CorePy: 
+pnano说的是那本书/
+(21:11:56) AruiZen: 
+没有版权？
+(21:12:01) ZoomQuiet: 
+目前看有SVN更动的有:
+(21:12:01) ZoomQuiet: 
+U    CorePython_zh/Chun_ch22.txt
+(21:12:01) ZoomQuiet: 
+U    CorePython_zh/Chun_ch23.txt
+(21:12:01) ZoomQuiet: 
+U    CorePython_zh/Chun_ch15.txt
+(21:12:01) ZoomQuiet: 
+U    CorePython_zh/Chun_ch07.txt
+(21:12:01) ZoomQuiet: 
+U    CorePython_zh/Chun_ch08.txt
+(21:12:01) ZoomQuiet: 
+U    CorePython_zh/Chun_ch09.txt
+(21:12:01) ZoomQuiet: 
+A    CorePython_zh/Chun_ch06.txt
+(21:12:30) phay: 
+corepy这书能传阅吗？
+(21:12:31) phay: 
+随时更新？
+(21:12:37) phay: 
+。。。。
+(21:12:44) CorePy: 
+尽量随时更新
+(21:12:50) CorePy: 
+这样方便统计
+(21:12:58) phay: 
+roger
+(21:13:03) CorePy: 
+能传阅 只要不去传播就行
+(21:13:37) CorePy: 
+我希望更多人参与的一个原因 就是
+(21:13:47) CorePy: 
+可以免费看到两个版本的 CorePy
+(21:13:48) 
+LeoJay [n=Leojay@121.76.54.254] 进入了聊天室。
+(21:14:05) pnano: 
+<CorePy> pnano说的是那本书：看看有多少Unix翻译的书被人骂,所以审校很重要的
+(21:14:05) LeoJay: 
+总算进来了，我试了半个小时了。
+(21:14:10) ZoomQuiet: 
+而且不怕丢失哪!!!不论谁的电脑死亡了,也有最大的工作进度留下了
+(21:14:11) LeoJay: 
+irc搞死我了。
+(21:14:27) CorePy: 
+对 这就是随时更新的好处啊
+(21:14:53) CorePy: 
+我今天的网速也很无敌 已经一天了 开个网页都很费劲
+21:15
+(21:15:01) CorePy: 
+不知道是怎么回事
+(21:15:21) LeoJay: 
+我的进度是这样的，现在22章已经完成了。23章90%了。
+(21:15:32) LeoJay: 
+现在还有哪几章没有人认领
+(21:15:39) LeoJay: 
+我想再认领个1,2章
+(21:15:45) CorePy: 
+http://openbookproject.googlecode.com/svn/trunk/CorePython_zh/README.txt
+(21:15:54) CorePy: 
+这里添加一下
+(21:15:54) pnano: 
+TPiPy很精彩，没想到也加入openbook了
+(21:16:09) CorePy: 
+1.2章？
+(21:16:11) CorePy: 
+好啊
+(21:16:13) pnano: 
+ok
+(21:16:17) LeoJay: 
+那里只写了我跟boyeestudio布局。
+(21:16:31) LeoJay: 
+那里只写了我跟boyeestudio而已
+(21:16:42) CorePy: 
+但是现在统计不出到底哪一章每日动过
+(21:16:55) LeoJay: 
+我不是说第1章和第2章。我是说再多1到2章。呵呵。
+(21:17:03) CorePy: 
+还有就是那个叫魏忠的同学 总是联系不上
+(21:17:16) CorePy: 
+也不见他提交前五章
+(21:17:23) CorePy: 
+哦 是这个意思啊
+(21:17:44) CorePy: 
+谁能联系到魏忠啊？
+(21:17:48) ZoomQuiet: 
+每次的IRC 记要在: http://code.google.com/p/openbookproject/wiki/CorePython_zh
+(21:18:11) ZoomQuiet: 
+他很积极的问过俺SVN 权限的哪,原来一直没有提交?
+(21:18:16) ZoomQuiet: 
+不会使用SVN?
+(21:18:20) 
+cngump [n=cngump@58.62.119.212] 进入了聊天室。
+(21:18:24) ZoomQuiet: 
+通过邮件就好的
+(21:18:25) LeoJay: 
+对了能不能给一个排版正确的版本啊。
+(21:18:34) LeoJay: 
+txt版本的排版惨不忍睹啊。
+(21:18:35) CorePy: 
+他提交的不是前5章啊
+(21:18:45) CorePy: 
+看doc吧
+(21:18:48) LeoJay: 
+我现在代码部分都没办法看。
+(21:18:51) CorePy: 
+doc是出版社给的
+(21:18:53) ZoomQuiet: 
+不要排版,先文字好后,由编辑排吧
+(21:19:28) CorePy: 
+doc 可能是从照排格式转换过来的
+(21:19:33) CorePy: 
+所以也不是很好
+(21:19:41) CorePy: 
+但是应该没什么大问题
+(21:19:44) CorePy: 
+图片也有
+(21:19:54) LeoJay: 
+doc也不怎么样啊。没图片啊。
+(21:19:56) cngump: 
+汇报了进度了吗？s
+(21:19:58) cngump: 
+刚上来。
+(21:20:12) CorePy: 
+http://openbookproject.googlecode.com/svn/trunk/CorePython_zh/README.txt
+(21:20:14) CorePy: 
+恩
+(21:20:17) LeoJay: 
+我没看到有图片啊。
+(21:20:23) CorePy: 
+汇报一下进度吧
+(21:20:37) CorePy: 
+每章开头的第一个字母就是图片啊
+(21:20:59) LeoJay: 
+好像有一些有，但有一些图片就没有。
+(21:21:00) cngump: 
+我的 21章进度 2节。
+(21:21:36) LeoJay: 
+第一个字母不是图片，是文本框
+(21:22:16) CorePy: 
+Sorry 是文本框
+(21:22:25) CorePy: 
+我想说的是文本框
+(21:22:33) CorePy: 
+书里的图片没多少
+(21:23:57) CorePy: 
+大家翻译过程中
+(21:24:05) CorePy: 
+有哪些困难吗？
+(21:24:40) pnano: 
+README.txt 更新了
+(21:24:54) boyee118: 
+上面说话的是哪位啊。我这里怎么看不到您的名字啊？
+(21:25:33) CorePy: 
+？？
+(21:25:36) CorePy: 
+名字？
+(21:25:37) pnano: 
+README.txt 里哦:)
+(21:25:48) CorePy: 
+是说 看不到我的名字？
+(21:25:55) boyee118: 
+对了，是不是要每天提交SVN啊？
+(21:26:32) pnano: 
+我看到你的名字了，README里都有：http://openbookproject.googlecode.com/svn/trunk/CorePython_zh/README.txt
+(21:26:53) LeoJay: 
+第18章有人认领吗？
+(21:28:09) LeoJay: 
+还有第16章。
+(21:28:39) LeoJay: 
+如果没有的话，我认领这两章。
+(21:29:21) LeoJay: 
+另外，文章的图片怎么办？
+(21:29:37) CorePy: 
+就算有人认领了 也可以通过SVN协作的
+(21:29:58) LeoJay: 
+我怕重复重复啊
+21:30
+(21:30:06) LeoJay: 
+我怕重复劳动啊
+(21:30:34) CorePy: 
+关键是现在统计不到完整的信息
+(21:30:35) 
+CorePy 离开了聊天室。
+(21:31:01) pnano: 
+是啊，有可以通过SVN协作的:)
+(21:31:17) pnano: 
+CorePy走了
+(21:31:32) LeoJay: 
+那现在还在房间里的人能不能说说各自都认领了哪几章啊。
+(21:31:39) LeoJay: 
+我现在是22与23。
+(21:32:05) 
+CorePy [n=Administ@221.217.31.196] 进入了聊天室。
+(21:32:13) CorePy: 
+……
+(21:32:23) LeoJay: 
+那现在还在房间里的人能不能说说各自都认领了哪几章啊。
+(21:32:26) LeoJay: 
+我现在是22与23
+(21:32:26) CorePy: 
+我这今天的网络有问题
+(21:32:26) pnano: 
+LeoJay：你看刚才CorePy提到的README了吗？
+(21:32:32) pnano: 
+那里有
+(21:32:39) CorePy: 
+我是代码审校 和FM
+(21:32:41) LeoJay: 
+行，我去看看。
+(21:33:34) boyee118: 
+我领第13章了。我说过了！一定完成它的！
+(21:33:37) pnano: 
+这里，再贴一次地址：http://openbookproject.googlecode.com/svn/trunk/CorePython_zh/README.txt
+(21:34:47) pnano: 
+andelf翻译了几章
+(21:34:56) LeoJay: 
+我更新readme.txt了，我再认领16和18两章。
+(21:35:04) pnano: 
+你查下svn就知道了
+(21:36:22) CorePy: 
+cool
+(21:37:20) 
+CorePy 离开了聊天室(quit: "Leaving.")。
+(21:38:09) LeoJay: 
+房间里好像人不少，但就是没几个人在说话啊。
+(21:38:19) LeoJay: 
+在的冒个泡行不？
+(21:39:07) 
+LeoJay 离开了聊天室(quit: Read error: 104 (Connection reset by peer))。
+(21:39:10) AruiZen: 
+在啊，还有没有其他的事了？没有就先撤了。
+(21:39:30) 
+LeoJay [n=Leojay@121.76.54.254] 进入了聊天室。
+(21:39:45) LeoJay: 
+汗，我的pidgin居然非法操作。
+(21:40:02) LeoJay: 
+这里还有人要说什么吗？
+(21:40:05) 
+unbuilt 离开了聊天室。
+(21:40:18) 
+CorePy [n=Administ@221.217.31.196] 进入了聊天室。
+(21:40:38) CorePy: 
+我的网一会段一次 一会断一次
+(21:40:47) CorePy: 
+NND
+(21:41:19) LeoJay: 
+我这没什么事了。
+(21:41:26) pnano: 
+irc是这样的 
+(21:41:45) CorePy: 
+不是irc
+(21:41:50) CorePy: 
+是我的网络
+(21:41:53) pnano: 
+我这也没什么事了，大家有什么问题吗？
+(21:41:59) CorePy: 
+这样已经一天； 
+(21:42:12) pnano: 
+明白了是网络哦
+(21:42:36) pnano: 
+网通的啊？
+(21:42:43) CorePy: 
+对
+(21:42:59) pnano: 
+猫没问题吧
+(21:43:28) CorePy: 
+没有
+(21:43:28) LeoJay: 
+没什么事我先走了。
+(21:43:35) CorePy: 
+恩
+(21:43:38) AruiZen: 
+走了
+(21:43:42) 
+AruiZen 离开了聊天室。
+(21:43:48) CorePy: 
+88
+(21:43:59) pnano: 
+猫上的绞线接触不良也可能影响网络
+(21:44:03) pnano: 
+88
+(21:44:26) CorePy: 
+用了路由 无线和有线我都试了
+(21:44:29) boyee118: 
+还没完成，我在默默翻。各位好好聊！
+(21:44:30) CorePy: 
+都这样
+(21:44:40) CorePy: 
+应该是网通的问题
+(21:44:56) CorePy: 
+刚才有朋友高速我说 我这里电话也打不进来
+21:45
+(21:45:11) 
+LeoJay 离开了聊天室。
+(21:45:25) pnano: 
+网通有免费电话，可以打进去问问
+(21:45:32) CorePy: 
+恩
+(21:45:39) CorePy: 
+明天就打
+(21:45:39) pnano: 
+投诉也可以的
+(21:46:32) CorePy: 
+恩
+(21:48:55) pnano: 
+大家还有问题吗？
+(21:49:44) pnano: 
+那我先下线了
+(21:49:50) CorePy: 
+没有了
+(21:49:54) pnano: 
+88
+(21:49:57) CorePy: 
+今天到此为之吧
+(21:49:58) CorePy: 
+88
+(21:50:07) 
+pnano 离开了聊天室(quit: "88")。
+(21:51:34) 
+LeoJay [n=Leojay@121.76.54.254] 进入了聊天室。
+(21:52:00) LeoJay: 
+对了，想问一下，图片怎么办？
+(21:52:05) LeoJay: 
+txt版本没办法加图片啊。
+(21:52:24) LeoJay: 
+大家还在吗？
+(21:53:44) CorePy: 
+原书的图片吗？
+(21:55:12) LeoJay: 
+嗯。
+(21:55:32) LeoJay: 
+还是我们不用管，到时候出版社的人搞定？
+(21:55:58) LeoJay: 
+我一直很奇怪，为什么不给我们排版完好的版本？
+(21:59:04) CorePy: 
+出版社来搞定
+(21:59:20) CorePy: 
+至于排版 
+(21:59:40) CorePy: 
+我就说不清了 我也不知道为什么出版社只提供了这样的版本
+22:00
+(22:00:57) LeoJay: 
+能再联系一下吗？
+(22:00:58) LeoJay: 
+要个好一些的版本。
+(22:01:08) LeoJay: 
+现在这些代码真的不好看明白。
+(22:02:32) 
+phay 离开了聊天室。
+(22:02:56) CorePy: 
+争取吧
+(22:03:16) LeoJay: 
+行。我没事了。886
+(22:03:18) 
+LeoJay 离开了聊天室。
+(22:06:00) 
+CorePy 离开了聊天室。
+(22:08:07) 
+boyee118 离开了聊天室("Ex-Chat")。
+}}}
+
+
+== 071021 ==
+{{{
+(21:29:38) cngump 离开了聊天室。
+(21:30:16) ZoomQuiet: 好哪！会议结束了？
+(21:30:23) phay: 最后一刻看见zoom了。。。
+(21:30:49) ZoomQuiet: 不好意思，刚刚忙完 ZPyUG 报道的事儿
+(21:31:47) phay: 一不小心把今天当成20号了。。我的第一次会课。。。

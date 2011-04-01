@@ -1,0 +1,25 @@
+#summary 快速说明如何使用 ZEUUX.org IRC服务.
+#labels Featured,Phase-QA,IRC
+
+
+*在MS Windows和Linux环境下都推荐大家使用Pidgin。* http://www.pidgin.im/shared/img/header.pidgin-head.jpg
+
+ * [http://www.pidgin.im/download/ Pidgin下载安装]
+ * 安装完成之后:
+  # 添加帐户
+  # 在下拉列表中选择IRC
+  # Screen name中填入你想使用的名字
+  # 服务器 `zeuux.org`
+  # 口令~ 填写入通过安全渠道通知的口令
+  # 保存
+ * 启用帐户之后：
+  # 点击 -> 好友
+  # 添加聊天
+  # 频道：*#zeuux-universe* 
+   * 备用房间: #obp ; *#zeuux-press*
+`注意频道中要以#开头，这样就可以加入聊天室了。`
+配置方面如果还有不明确的地方，请参考ZoomQuiet的截图：
+
+*强烈推荐使用本方法*
+
+http://zoomquiet.org/res/f/snap/2007-11-21-212029_1113x619_scrot.png
