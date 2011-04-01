@@ -1,7 +1,7 @@
 #summary zip abt. ZoomQuiet
-#labels Featured
+#labels Featured,Intro,ZoomQuiet
 
-<wiki:toc max_depth="4" />
+<wiki:toc max_depth="2" />
 
 = abt.吾 =
 *Zoom.Quiet === Zoomq = 仨儿*
@@ -26,8 +26,15 @@
 Time is unimportant, only life important!
 
 过程改进乃是开始催生可促生靠谱的人的组织!
-PI keeps evolving organizations which promoting people be good!
+PI keeps evolving organizations 
+    which promoting people be good!
+
+知识管理乃是培育可催生自学习型组织的文化氛围!
+KM keep growing environment culture 
+    which promoting organization be learnning!
 }}}
+
+ * [SilenceOfPythonic Pythonic 的沉默]
 
 == i livin ==
 *http://zoomquiet.org *
@@ -46,4 +53,6 @@ PI keeps evolving organizations which promoting people be good!
  * Pls. usage 7-zip to replace `WinRAR/WinZip`.  http://7-zip.org
   * You can get the truely Freedom 4 software.
   
-  
+
+<wiki:toc max_depth="2" />
+
