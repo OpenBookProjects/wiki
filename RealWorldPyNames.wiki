@@ -1,0 +1,44 @@
+#summary RealWorldPyLivin 大蟒本色图书实案工具开发 名设计
+#labels RWPyL,Featured,Index
+
+参考:[HowtoJoin 如何加入OBP]
+ * [RealWorldPyLivin 大蟒本色]/[http://wiki.woodpecker.org.cn/moin/RealPython 认领]/[RealWorldPyNames 名设计]
+
+<wiki:toc/>
+= 大蟒本色:名设计 =
+
+== BOOK ==
+ * 全称: 大蟒本色
+ * E名: `Rreal World Python for Learnner`
+ * 缩写:`RWPyL`
+
+== SOFTWARE ==
+ * 全称: 我的通讯录助手
+ * E名: `My address list assistant`
+ * 缩写:`mala`
+
+== MODULES ==
+
+ # 原型助手
+  * 引用:`cli.mala`
+ # Tk助手
+  * 引用:`tk.mala`
+ # wx助手
+  * 引用:`wx.mala`
+ # Qt助手
+  * 引用:`qt.mala`
+ # web助手
+  * 引用:`web.mala`
+  * 访问: http://127.0.0.1:8080/mala
+ # 移动助手
+  * 引用:`mala.pka`
+
+== CLASSES ==
+
+
+
+== FUNCTION ==
+
+
+ <wiki:toc/>
+ 
