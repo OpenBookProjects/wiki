@@ -2,16 +2,19 @@
 #labels RWPyL,Featured,Index
 
 参考:[HowtoJoin 如何加入OBP]//[PyWdwWebdotPy 蟒样Web开发指南]//[PyWdwWebdotPyLog 撰写进展表]
+ * [RealWorldPyLivin 大蟒本色]/[http://wiki.woodpecker.org.cn/moin/RealPython 认领]/[RealWorldPyNames 名设计]
 
 <wiki:toc/>
 = 大蟒本色 =
  * 发起:[http://groups.google.com/group/python-cn/browse_thread/thread/3d175578be77cda7 《大蟒本色》，建立个团队吧] - python-cn`CPyUG`华蟒用户组(中文Py用户组) | Google Groups
  
  * 全称: 大蟒本色
- * E名: `Rreal World Python Livin`
+ * E名: `Rreal World Python for Learnner`
  * 缩写:`RWPyL`
  * 倡议: http://wiki.woodpecker.org.cn/moin/RealPython
- * 仓库: https://bitbucket.org/realpython/obp.rwpy
+ * 仓库: 
+  # 图书内容: https://bitbucket.org/ZoomQuiet/obp.rwpy4learner
+  # 实例工具: https://bitbucket.org/ZoomQuiet/obp.rwpy4learner.myaddr
 
 == 团队 ==
  * 创意: Qidong Su <suqidong001 AT gmail.com>
@@ -38,8 +41,10 @@
    # 获得 OBP工程SVN 权限
    # 进入持续图书集成迭代过程
 
-
 == 立意 ==
+`涉及贯穿故事的实例工具,应该统一关键命名!`
+ * 所以: [RealWorldPyNames 名设计]
+
 === TOC v11.3.28 ===
 大蟒本色
 {{{
