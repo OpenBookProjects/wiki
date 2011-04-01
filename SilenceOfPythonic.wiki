@@ -23,7 +23,7 @@ ZoomQuiet 的编译手册[ZqHowTurnInto I],[ZqHowTurnIntoV2 II]
   默然 相爱
   寂静 欢喜
 }}}
-
+ * 引发自: [https://groups.google.com/group/python-cn/browse_frm/thread/b2cef3ce2a8e1aa9/ 提个想法，要不要组织一下大学里的宣讲？]
  * 感谢原作者：[http://baike.baidu.com/view/4976314.htm 扎西拉姆·多多]
 
 
