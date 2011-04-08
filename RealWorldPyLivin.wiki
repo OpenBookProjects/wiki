@@ -50,31 +50,29 @@ http://blogs.oreilly.com/headfirst/assets_c/2009/07/story-subtopics-narrative-sc
 `为协助各个领域作者可以并行开发和记述学习心得,形成统一的图书`
  * 参考 O'REILLY 的 HF 图书策划方式,给出宏观剧本,以便从知识点/代码/叙述上确立一个干线
 {{{
-
-
-ch0
-  \
-   \
-    + ch1
+        / 知识: 什么是Python,为什么选择Python,怎么安装,运行.py
+ch0 动机 ~ 场景: 将毕业,签名本丢失
+  \     
+   \         / 知识: 基本语法,list,文件对象
+    + ch1 原型 ~ 场景: 自个儿完成一个收集器
      \
-      \
-       + ch3
+      \         / 知识: CLI,内置模块;dict;中文
+       + ch3 可用 ~ 场景: 同舍演示,被BS
         \
-         \
-          + ch4
+         \          / 知识: GUI,Tk/wx/Qt;
+          + ch4 桌面 ~ 场景: 同班演示,被BS
            \
-            \
-             + ch5
+            \        / 知识: 安装包
+             + ch5 exe ~ 场景: 外班演示,被BS
               \
-               \
-                + ch6
+               \        / 知识: web,wsgi,db,框架,认证
+                + ch6 GAE ~ 场景: 国际演示,被BS
                  \
-                  \
-                   + ch7
+                  \         / 知识: Android,cgi,
+                   + ch7 移动 ~ 场景: GF演示,被BS
                     \
-                     \
-                      ` ch8
-
+                     \         / 知识: 自动化测试,分布式,并行计算...
+                      ` ch8 其它 ~ 场景: 工作演示,被BS
 
 }}}
 
