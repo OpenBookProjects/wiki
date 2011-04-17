@@ -1,5 +1,10 @@
-#summary One-sentence summary of this page.
+#summary 大蟒本色 RwPyL
 #labels python,obp,RwPyL
+参考:[HowtoJoin 如何加入OBP]//[PyWdwWebdotPy 蟒样Web开发指南]//[PyWdwWebdotPyLog 撰写进展表]
+ * [RealWorldPyLivin 大蟒本色]/[http://wiki.woodpecker.org.cn/moin/RealPython 认领]/[RealWorldPyNames 名设计]/[RwPyLWeeklyreports 周报]
+
+<wiki:toc/>
+
 = 周报 2011.4.17 =
   * 本周总结
 {{{
@@ -84,3 +89,5 @@ ream D:
 {{{
 这周计划基本能按时完成。1.4也已经完成了，但还在修改阶段，不出意外的话4月10日可以完成第一章。
 }}}
+
+<wiki:toc/>
