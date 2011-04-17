@@ -4,6 +4,17 @@
  * [RealWorldPyLivin 大蟒本色]/[http://wiki.woodpecker.org.cn/moin/RealPython 认领]/[RealWorldPyNames 名设计]/[RwPyLWeeklyreports 周报]
 
 <wiki:toc/>
+= 大蟒本色 =
+ * 发起:[http://groups.google.com/group/python-cn/browse_thread/thread/3d175578be77cda7 《大蟒本色》，建立个团队吧] - python-cn`CPyUG`华蟒用户组(中文Py用户组) | Google Groups
+ 
+ * 全称: 大蟒本色
+ * E名: `Rreal World Python for Learnner`
+ * 缩写:`RWPyL`
+ * 倡议: http://wiki.woodpecker.org.cn/moin/RealPython
+ * 仓库: 
+  # 图书内容: https://bitbucket.org/ZoomQuiet/obp.rwpy4learner
+  # 实例工具: https://bitbucket.org/ZoomQuiet/obp.rwpy4learner.myaddr
+
 
 = 周报 2011.4.17 =
   * 本周总结
