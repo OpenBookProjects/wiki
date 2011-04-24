@@ -1,11 +1,15 @@
 #summary 大蟒本色 RwPyL
 #labels python,obp,RwPyL
 参考:[HowtoJoin 如何加入OBP]//[PyWdwWebdotPy 蟒样Web开发指南]//[PyWdwWebdotPyLog 撰写进展表]
- * [RealWorldPyLivin 大蟒本色]/[http://wiki.woodpecker.org.cn/moin/RealPython 认领]/[RealWorldPyNames 名设计]/[RwPyLWeeklyreports 周报]
+ * [RealWorldPyLivin 大蟒本色]/[http://wiki.woodpecker.org.cn/moin/RealPython 认领]/
+
+[RealWorldPyNames 名设计]/[RwPyLWeeklyreports 周报]
 
 <wiki:toc/>
 = 大蟒本色 =
- * 发起:[http://groups.google.com/group/python-cn/browse_thread/thread/3d175578be77cda7 《大蟒本色》，建立个团队吧] - python-cn`CPyUG`华蟒用户组(中文Py用户组) | Google Groups
+ * 发起:[http://groups.google.com/group/python-cn/browse_thread/thread/3d175578be77cda7 《大蟒本
+
+色》，建立个团队吧] - python-cn`CPyUG`华蟒用户组(中文Py用户组) | Google Groups
  
  * 全称: 大蟒本色
  * E名: `Rreal World Python for Learnner`
@@ -15,6 +19,95 @@
   # 图书内容: https://bitbucket.org/ZoomQuiet/obp.rwpy4learner
   # 实例工具: https://bitbucket.org/ZoomQuiet/obp.rwpy4learner.myaddr
 
+= 周报 2011.4.24 第三期 =
+
+  * 工程完成度：
+{{{
+前言导入部分
+第一章全部
+第二章全部
+第三章
+    Tk实例
+第四章
+    4.1
+    4.2
+第六章
+    6.1
+    第六章实例
+}}}
+
+  * 团队整体完成情况：
+{{{
+1.制定的计划都能按时完成。
+2.大家都在写作种不断进行学习，这很好。
+3.大家初初的热情都已散尽，整体上步入了缓慢的写作阶段，现在进度与极慢的速度向前推进。
+
+
+  * Qidong Su
+{{{
+困难：
+初次接触web应用，编码难度大。
+
+解决：
+多次尝试，将结果print到命令行界面来进行调试，加强对数据结构的理解
+
+心得：
+tiosnG！多次咨询大妈得到结果，其实可以自己找到……
+
+本周成果：
+大胆接受任务后进行热身，熟悉了bottle框架
+
+未来计划：
+先完成实例，然后逐步完成文章
+
+建议：
+讨论不够积极……感觉没什么活力！应该加强宣传……
+应该关注一下文章质量
+
+}}}
+
+  * ream D
+{{{
+困难：
+再次拿起我尘封的ppc，开始了第六章的写作：
+1.年代久远，以前收集的许多有关这方面的资料链接均已失效
+2.貌似pythonCE已经停止了更新，其Tkinter界面库版本一直停留在8.4，许多控件不支持，对中文的支持也有
+问题
+3.尝试将Tk8.5移植到ppc上，但又发现ppc版本的tcl本身就不支持某些控件，并且ppc上的坐标，屏幕等一切都
+
+和pc不一样！只好一个个函数慢慢修改，进度缓慢
+
+解决：
+ppcTK的中文问题完美解决，陷入函数的无尽修改中
+
+心得：
+体会到模块开发，修改的痛苦...
+
+本周成果：
+完成6.1，Tk8.5移植完成百分之30
+
+未来计划：
+在完成第六章的同时缓慢移植Tk8.5
+
+
+}}}
+
+  * 当前图书进展的主要困难/建议方案
+{{{
+QidongSU：
+>> 建议：讨论不够积极......感觉没什么活力！应该加强宣传......
+>>
+>>           应该关注一下文章质量
+ZoomQuiet:
+- 初期撰写人越少越好
+- 现在的不活跃是在为以后的活跃打好基础...
+
+ream D:
+同意大妈一说，小部分人先把主体部分完成，再让大伙一起进行增补
+文章的质量：在撰写初期可以进行互相监督，提出意见，对自个儿写的章节要进行不断修改和增补，必要时可
+
+以重构
+}}}
 
 = 周报 2011.4.17 =
   * 本周总结
@@ -30,7 +123,9 @@ ream D:
   * 一周心得
 ream D:
 {{{
-大家都是完成了自个章节就没声音了，导致这周团队活力严重缺乏。zoom.quiet建议应定个规章鞭策大家。对！规章，咋没想到呢，于是一个规章就出来了
+大家都是完成了自个章节就没声音了，导致这周团队活力严重缺乏。zoom.quiet建议应定个规章鞭策大家。对
+
+！规章，咋没想到呢，于是一个规章就出来了
 }}}
   * 计划
 ream D:
@@ -43,21 +138,21 @@ ream D:
 QidongSU:
 
 {{{
-困难：各种数据结构   
-数据库的数据结构，本来想用dict的，但是dict数据是没顺序的……   
+困难：各种数据结构?? 
+数据库的数据结构，本来想用dict的，但是dict数据是没顺序的……?? 
 于是使用list,构建出数据结构：
 content[0]是一个列表，content[0][0]开始是键值
 content[1]开始存放数据，与键值一一对应
 比如一个表格：
 id name age
-1  Su   23
-2  Mike 24
-3  Tony 21
+1 ?Su ? 23
+2 ?Mike 24
+3 ?Tony 21
 抽象之：
-content[0]=['name','age']           content[1]=['Su','23']
+content[0]=['name','age']?? ? ? ? ? content[1]=['Su','23']
 content[2]=['Mike','24']
 content[3]=['Tony','21']
-list还“赠送”了一个键“ID”（编号）    看来还是要先设计，再把设计思想转化为代码
+list还“赠送”了一个键“ID”（编号）?? ?看来还是要先设计，再把设计思想转化为代码
 }}}
 
 ream D:
@@ -81,7 +176,9 @@ QidongSU:
 ream D:
 
 {{{
-由于自己一直是被人管理，还没试过管理别人，所以在刚开使的时候犯了不少错误，幸好有大妈指导和帮忙，不然本书可能现在还没组织起来呢…
+由于自己一直是被人管理，还没试过管理别人，所以在刚开使的时候犯了不少错误，幸好有大妈指导和帮忙，
+
+不然本书可能现在还没组织起来呢…
 写之前又把《learning python》看了遍，熟悉了下专业术语…现在是越来越感觉到perl的恐怖啊…
 
 }}}
