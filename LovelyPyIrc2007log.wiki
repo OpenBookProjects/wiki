@@ -1,0 +1,372 @@
+#summary 2007IRC站立会议记要 可爱的Python
+#labels Phase-QA
+
+= 2007 =
+
+== 071215 21:00~21:43 ==
+ * ZoomQuiet 方舟，其它作者没有出现
+{{{
+与 #LovelyPython 在 2007年12月15日 星期六 10时03分25秒 的谈话
+(10:03:25) #LovelyPython: 
+由 anthony.freenode.net 管理(+ns )
+
+---
+
+18:30
+
+由 clarke.freenode.net 管理(+ns )
+ZoomQuiet: 
+先吊着了
+20:45
+ZoomQuiet: 
+是也乎
+21:00
+
+FangZhou [n=Administ@218.197.131.62] 进入了聊天室。
+FangZhou: 
+:-D
+ZoomQuiet: 
+OK 欢迎摧生婆正点掺合！
+ZoomQuiet: 
+老三样，本周进度，困难，下周计划
+FangZhou: 
+实在不好意思～～～～～最近工作有些忙乱。另外……
+ZoomQuiet: 
+俺先来:
+ZoomQuiet: 
+进度 0；困难就是不知道修订的标准； 下周计划，启动原订计划进行
+FangZhou: 
+……我已经辞职哪……1月份离开。我考虑我亲自修订一部分给大家一起讨论？
+ZoomQuiet: 
+http://obp.everydo.com/projects/599264/todos 中有一堆遗留的计划
+ZoomQuiet: 
+不是吧！怎么所有接手过 可以的Python 图书的编辑全部离职了？！不会是这本书的原因吧！
+FangZhou: 
+:-$不是书的原因……是公司内部原因……
+ZoomQuiet: 
+吓死俺了 …………
+FangZhou: 
+我的Python长袖也到手了～～～～现在正穿着呐
+ZoomQuiet: 
+http://wiki.woodpecker.org.cn/moin/ObpLovelyPython 有规整的图书写作校对资源列表
+FangZhou: 
+买了3件，看着样子可以穿一个月……
+ZoomQuiet: 
+是以往各种图书计划的经验积累所得
+ZoomQuiet: 
+我们直接使用就好
+ZoomQuiet: 
+简单的说， code.google 工程环境进行撰写，校对；啄木鸟维基进行展示；EveryDo 进行项目管理
+ZoomQuiet: 
+不过，方舟得肩负起摧債的任务哪，在 http://obp.everydo.com/projects/599264/todos 的各个任务的按时完成
+ZoomQuiet: 
+你相关的任务已经不断推迟了两个月了…………
+ZoomQuiet: 
+而且久末在列表中出现，大家以为计划又推迟了，也都没有影响俺的提醒了，作者基本都在北京，你也在的话，多沟通，确认了 ;)
+FangZhou: 
+嗯:-$
+ZoomQuiet: 
+嗬嗬嗬，好的，你的下周计划？
+ZoomQuiet: 
+相关资源都确认了？
+FangZhou: 
+faint，我的网络登录everydo未遂……
+ZoomQuiet: 
+对当前图书撰写有什么意见？
+21:15
+ZoomQuiet: 
+EveryDo 你登录过的哪？
+FangZhou: 
+登录过的。我在家里，家里的网络不行～～～～ 文字修订方面，我如何直接来做？
+ZoomQuiet: 
+忘记口令了？
+ZoomQuiet: 
+文字的话，简单的说，你就直接在维基中修订就好的
+ZoomQuiet: 
+如果想真正掺合的话，安装个 TortoiseSVN 直接从 http://code.google.com/p/openbookproject/source 下载文本修订就好的
+ZoomQuiet: 
+工程目录的结构说明也一直有的 http://code.google.com/p/openbookproject/wiki/LovelyPyDirs
+FangZhou: 
+OK！
+ZoomQuiet: 
+还有什么问题？
+ZoomQuiet: 
+没有的话，就开始干活了 ;)
+ZoomQuiet: 
+EveryDo 现在可以登录了？
+ZoomQuiet: 
+啄木鸟维基的修订，也是得有编辑权限的，你也确认一下。你的维基帐号是否在可信任组中？
+FangZhou: 
+Everydo登不了……
+FangZhou: 
+我在woodpecker的wiki上用户名是kingofark
+ZoomQuiet: 
+注意编辑时我们都是使用 utf-8 格式，而且使用的是UNIX 断行格式
+ZoomQuiet: 
+是也乎？ 俺来检查一下，你也在gmail 中找一下你的 EveryDo 的通告邮件
+ZoomQuiet: 
+啄木鸟维基权限已经开放，
+ZoomQuiet: 
+EveryDo 的应该你可以找回的
+21:30
+ZoomQuiet: 
+怎么样？
+FangZhou: 
+嗯，我从 http://openbookproject.googlecode.com/svn/trunk/LovelyPython/ 把东西checkout出来了。
+ZoomQuiet: 
+EveryDo 呢？
+ZoomQuiet: 
+这是你首先应该补上的哪
+ZoomQuiet: 
+你使用 http 检出的话，是没有权限检入的哪
+FangZhou: 
+Everydo登不上，估计是俺的网络问题。
+ZoomQuiet: 
+不可能的吧
+FangZhou: 
+嗯，我考虑这样，我审读目前的稿件后，跳出一小部分修订之，然后提供给各位参考讨论，看是否按照我的修订所体现的方向来进行修订。
+ZoomQuiet: 
+那你使用 guest 尝试一下先，确认到底可以否?
+ZoomQuiet: 
+如果仅仅是修订意见的话，直接使用 Issue 来提交就好的
+ZoomQuiet: 
+http://code.google.com/p/openbookproject/wiki/UsageIssue
+ZoomQuiet: 
+注意使用 [LovPy] 的前缀就好的
+FangZhou: 
+不是guest之问题，是我根本无法访问到everydo>
+FangZhou: 
+everydo网页整个儿读不出来。
+FangZhou: 
+估计是俺网络太差～～～华中地区臭名昭著的赛尔宽带。
+ZoomQuiet: 
+http://code.google.com/p/openbookproject/issues/list?can=1&q=%5BCorePy2%5D&colspec=ID+Type+Status+Milestone+Component+Owner+Summary&cells=tiles 可以看到 Python 核心编辑的所有校对提案
+ZoomQuiet: 
+那怎么办？ 现在没有比 EveryDo 更加实用的项目管理服务了，而且已经专门为我们开通了自由软件社区的权限，可以永久免费使用的
+ZoomQuiet: 
+你现在武汉？
+FangZhou: 
+对。
+FangZhou: 
+嗯，Everydo我到公司再来处理。
+ZoomQuiet: 
+嗯嗯嗯，好的，俺没有问题了！
+ZoomQuiet: 
+会议结束，谢谢按时掺合
+ZoomQuiet: 
+下次人要到齐，时间要短
+FangZhou: 
+我这边主要觉得稿件目前的问题是，正文还比较散，没有形成连贯的叙述。
+FangZhou: 
+呵呵
+}}}
+
+== 071201 22:00~22:10 ==
+ * ZoomQuiet~其它人末出现
+{{{
+21:00
+ZoomQuiet: 
+OK,到点没有人来的话，就自动结束的
+21:15
+ZoomQuiet: 
+果真没有人，继续呼唤编辑
+}}}
+
+== 071124 22:00~22:10 ==
+ * ZoomQuiet + 清风其它人末出现
+  * [http://obp.everydo.com/projects/599264/time  LovelyPython~obp 工时记录]
+{{{
+22:00
+ZoomQuiet: 
+咔咔咔，没有关系，老3样说完走人 ;0
+QingFeng: 
+1.本周进度0......,本周工作内容比较多,又开始了xbaydns的事情.....
+QingFeng: 
+2.下周希望可以添加书的内容....
+ZoomQuiet: 
+困难？ 有意外的工程掺合？
+ZoomQuiet: 
+咔咔咔，俺也是进度0，没有编辑确认修订方向，不敢动了咧 ;(
+ZoomQuiet: 
+以上！ clean ? clean~so finished 
+QingFeng: 
+OK
+}}}
+== 071117 21:00~21:20 ==
+ * ZoomQuiet + 清风其它人末出现
+{{{
+20:00
+
+由 kubrick.freenode.net 管理(+ns )
+ZoomQuiet: 
+先吊着
+ZoomQuiet: 
+老三样：
+ZoomQuiet: 
+进度；困难；计划
+20:30
+
+QingFeng [n=QingFeng@203.86.93.2] 进入了聊天室。
+21:00
+ZoomQuiet: 
+到点了
+ZoomQuiet: 
+还是我们两大妈，
+ZoomQuiet: 
+说完完事儿，你先？
+QingFeng: 
+OK
+QingFeng: 
+对了,生日快乐哈
+QingFeng: 
+这周因系统上线,没有进展.下周可以腾出些精力,重点还是放在内容添加
+QingFeng: 
+You?
+21:15
+ZoomQuiet: 
+好的，校对的事儿，得等编辑入场了
+ZoomQuiet: 
+俺本周也是没有空来追加了，其它人 的联系也没有紧追，从容些吧，
+}}}
+
+== 071110 21:00~21:17 ==
+Zoomq+XYB，清风闪过; 邮件综合通告，编辑和其它作者缺席
+
+{{{
+21:00
+xyb: 
+到时间了，这次又两个人？
+ZoomQuiet: 
+是也乎，
+ZoomQuiet: 
+俺发邮件说明了的，
+ZoomQuiet: 
+还在？
+xyb: 
+哦，没看到邮件
+ZoomQuiet: 
+是也乎，你先说吧，
+ZoomQuiet: 
+本周进度，困难，下周计划
+xyb: 
+我没什么好说的，想听听编辑的意见
+ZoomQuiet: 
+俺也是等编辑的意见
+xyb: 
+不知道那些地方需要润色
+xyb: 
+恩，下周等编辑吧
+}}}
+
+== 071103 21:00~21:17 =
+Zoomq+清风，快速完成，编辑和其它作者缺席
+{{{
+由 zelazny.freenode.net 管理(+ns )
+(17:54:22) Zoom.Quiet: 
+先来吊着…………
+20:45
+(20:57:04) 
+QingFeng [n=QingFeng@123.113.37.216] 进入了聊天室。
+(20:58:36) Zoom.Quiet: 
+是也乎，其它人等？
+(20:58:42) Zoom.Quiet: 
+我们准时开始？
+(20:59:13) Zoom.Quiet: 
+对过进度后，就邮件通告，以留参考？
+(20:59:24) QingFeng: 
+OK
+(20:59:46) Zoom.Quiet: 
+还有30秒…………咔咔咔
+21:00
+(21:00:25) Zoom.Quiet: 
+就是每人说明一下: 
+(21:00:25) Zoom.Quiet: 
+ 1. 对任务的理解 
+(21:00:25) Zoom.Quiet: 
+ 2. 本周进度 
+(21:00:25) Zoom.Quiet: 
+ 3. 困难 
+(21:00:25) Zoom.Quiet: 
+ 4. 下周计划 
+(21:00:36) QingFeng: 
+好的
+(21:02:12) Zoom.Quiet: 
+you first !
+(21:02:24) QingFeng: 
+1. 对任务的理解 需要加快进度了.....
+(21:02:41) QingFeng: 
+继续补充负责内容
+(21:03:00) QingFeng: 
+2. 本周进度 本周没有添加什么新内容......
+(21:03:07) QingFeng: 
+3. 困难  时间
+(21:03:30) QingFeng: 
+4. 下周计划,整理目前代码入相关svn,继续添加缺失的内容
+(21:03:32) Zoom.Quiet: 
+本周还有24小时，足够你弥补的了
+(21:03:51) Zoom.Quiet: 
+时间困难是什么引起的？家庭？
+(21:04:53) QingFeng: 
+服务器监控系统11号上线~~工作比较多
+(21:05:22) Zoom.Quiet: 
+了解，上线后就轻松了？这是重要的时间点，编辑请记住，进行協商！
+(21:05:29) Zoom.Quiet: 
+http://obp.everydo.com/projects/599264/@@dashboard 可以看到俺的进度
+(21:05:50) QingFeng: 
+恩,上线后会好很多,不过,我可以先重点把当前代码都入svn
+(21:06:03) Zoom.Quiet: 
+理解就是除了俺的故事，其它的都停止了，因为没有热心的MM编辑追我们；
+(21:07:16) Zoom.Quiet: 
+困难就是时间不固定，不知道什么时候会忙乱起来，
+(21:07:16) Zoom.Quiet: 
+而最大的困难是对中国出版规则的不了解，好象我们在网络中怎么写好看，在技术图书方面就怎么不可以！
+(21:07:16) Zoom.Quiet: 
+所以，期望编辑介入同步修订
+(21:07:48) QingFeng: 
+yes
+(21:08:05) Zoom.Quiet: 
+下周，配合方舟将里程碑确立好，认真开始完成自个儿的内容，其它的还可以，代码方面测试起来也很快
+(21:08:44) QingFeng: 
+OK
+(21:09:12) Zoom.Quiet: 
+另外一方面的困难就是不知道排版如何配合了，已經不想多提要求，唯一严格要求的就是Py 的縮进，其它的相信排版公司的审美观了 ;)
+(21:09:26) Zoom.Quiet: 
+以上，大家还有什么困难都提及一下？
+(21:10:29) QingFeng: 
+目前没有什么别的困难了
+(21:11:21) Zoom.Quiet: 
+嗯嗯嗯，另外，其它作者都应该找回来，多沟通了，长江以北的，清风配合编辑追踪了，
+(21:11:31) Zoom.Quiet: 
+以南的归俺配合吧！
+(21:12:03) Zoom.Quiet: 
+注意， EveryDo 的任务系统很轻便，大家及时将自个儿的作为记录下来，以便编辑理解 ;)
+(21:12:30) QingFeng: 
+好的,我尽量把工作内容记录在EveryDo中
+(21:12:36) Zoom.Quiet: 
+以上！
+(21:12:50) Zoom.Quiet: 
+SVN 中的组织结构有什么问题及时交流
+(21:13:17) Zoom.Quiet: 
+参考 http://code.google.com/p/openbookproject/wiki/LovelyPyDirs
+(21:13:45) Zoom.Quiet: 
+以便将来成书时也可以固定下来，在附录说明后，方便读者来同步
+(21:14:44) Zoom.Quiet: 
+特别是从 pyd-0 开始就引入了 ePydoc 的使用，大家都注意将注释也写的漂亮些
+21:15
+(21:15:39) Zoom.Quiet: 
+以上，还有什么问题？
+(21:16:23) QingFeng: 
+最终会生成一个pydoc?
+(21:16:41) Zoom.Quiet: 
+http://openbookproject.googlecode.com/svn/trunk/LovelyPython/PyDays/pyd-0/apidocs/
+(21:16:56) Zoom.Quiet: 
+咔咔咔，没有注意到？早有实例输出了
+(21:17:22) QingFeng: 
+OK
+(21:18:04) Zoom.Quiet: 
+KO, 17分钟，完成站立会议！
+(21:18:14) Zoom.Quiet: 
+分头干活吧
+(21:18:39) QingFeng: 
+:)
+}}}

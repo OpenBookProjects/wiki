@@ -1,0 +1,201 @@
+#labels Phase-Support,Phase-QA
+= 技术翻译词典 =
+*为统一大家的翻译用词，特此倡议不断积累出我们的专用词典*
+
+<wiki:toc/>
+
+== 参考 ==
+ * [http://jjhou.csdn.net/terms.htm 侯捷术语对照（英中繁简）]
+ * [https://spreadsheets.google.com/ccc?key=0Av2Nh83ucp7fdE8zV3hRbk9QU2ZFdlBJbjdmZXV2dEE&hl=en_GB#gid=0 术語對照表]
+ * 相关工具如下：
+  # [http://www.lingoes.cn/zh/index.html 灵格斯] 之 [http://www.lingoes.cn/zh/dictionary/dict_down.php?id=3008 英汉双解计算机辞典]
+  # [http://www.netlingo.com/ netlingo在线辞典]
+   * 《微软新英汉双解计算机词典》
+   * 《英汉双解微软因特网与联网技术辞典》
+   * 《netlingo英汉双解网络辞典》
+   * "中华人民共和国技术名词审核委员会"的名词审核表
+  # 此外辞书推荐使用 章鸿猷 先生编著的几种辞典 
+
+== 关键翻译讨论 ==
+*大家将存疑的单词，讨论后，记录在此吧*
+{{{
+格式:
+ * the word -- 甲译 ； 乙译
+  # 例句1...
+  # 例句2...
+}}}
+ * 当前收集词汇来自工程:[CorePyZh Python核心编程2ed 中译校对]
+  * 本文件保存于[http://openbookproject.googlecode.com/svn/trunk/TPiPy/zh/terms.txt 这里], 请使用svn签出更改后再更新此wiki页面，以保持统一
+
+----
+|| 英文 || 试译 || 討論 ||
+|| beginning of line || 行首符 || 并非专用词汇，只是TPiP中提到了。 ||
+|| end of line || 行尾符 || 并非专用词汇，只是TPiP中提到了。 ||
+|| alternation operator || 管道符 || "|" ||
+|| existantial  quantifier || 存在量词 || 待统一 ||
+|| Potentiality quantifier || 可能量词 || 待统一 ||
+|| backreference || 向回引用 || 待统一 ||
+|| Named group backreference || 命名组向回引用 || 待统一 ||
+|| Named group identifier ||命名组标识符  ||待统一  ||
+|| Negative Lookbehind assertion || 否定性回顾断言 || 待统一 ||
+|| Positive Lookbehind assertion || 肯定性回顾断言 || 待统一 ||
+|| Negative Lookahead assertion ||否定性前瞻断言  || 待统一 ||
+|| Positive Lookahead assertion || 肯定性前瞻断言 || 待统一 ||
+|| Pattern modifier || 模式修饰符 || 待统一 ||
+
+ * batteries included --怎么翻译？ ~ 电池完备 ZoomQuiet
+  # We are also breaking out of our mode of covering only the *“batteries included”* features of the Python standard library.
+
+
+
+
+= Aa =
+|| 英文 || 中文 || 备注 ||
+|| alphanumeric || 数字字母  ||  ||
+|| array  || 数组  || ||
+|| assignment || 赋值  || ||
+|| assign || 赋值  || ||
+|| attribute || 属性 || ||
+
+= Bb =
+|| 英文 || 中文 || 备注 ||
+|| backslash || 反斜线 ||  ||
+|| brace || 花括号 ||  ||
+|| built-in function || 内建函数 || ||
+|| byte-compile  ||  字节码编译 || ||
+
+= Cc =
+|| 英文 || 中文 || 备注 ||
+|| caret || 脱字符 ||  ||
+|| class  || 类  || ||
+|| Common Gateway Interface  || 通用网关接口  || CGI ||
+|| CORE NOTE  || 核心笔记  || ||
+
+= Dd =
+|| 英文 || 中文 || 备注 ||
+|| data structure  || 数据结构  || ||
+
+= Ee =
+|| 英文 || 中文 || 备注 ||
+|| epoch || 纪元 ||  ||
+|| escaped || 被转义 ||  ||
+|| evaluatable Python expression || 可估值的Python表达式 || ||
+|| evaluatable || 可估值的 || ||
+|| exception || 异常 || ||
+|| exception  || 异常  || ||
+|| expression  || 表达式  || ||
+
+= Ff =
+|| 英文 || 中文 || 备注 ||
+|| Functional Programming  || 函数化编程  || FP ||
+
+= Gg =
+|| 英文 || 中文 || 备注 ||
+|| greedy || 贪心 ||  ||
+|| group || 组 ||  ||
+
+= Hh =
+|| 英文 || 中文 || 备注 ||
+|| hash table || 哈希表  || ||
+
+= Ii =
+|| 英文 || 中文 || 备注 ||
+|| improper  || 不严格  || 涉及到集合时，参见proper ||
+|| indentation  || 缩进  || ||
+|| indent  ||  缩进 ||  ||
+|| Integrated Development Environment  || 集成开发环境 || IDE ||
+|| interpreter  || 交互式解释器  || ||
+|| iterator || 迭代器 || ||
+
+= Jj =
+
+= Kk =
+|| 英文 || 中文 || 备注 ||
+|| Kleene  Closure || Kleene闭包操作符 || * ||
+
+= Ll =
+|| 英文 || 中文 || 备注 ||
+|| list || 列表 || ||
+|| list comprehension  || 列表解析  || ||
+
+= Mm =
+|| 英文 || 中文 || 备注 ||
+|| mapping || 映射 || ||
+|| matching || 匹配 ||  ||
+|| match || 匹配 ||  ||
+|| module  || 模块  || ||
+|| muttable  || 可变  || 如果是名词，则是可变对象 ||
+
+= Nn =
+|| 英文 || 中文 || 备注 ||
+|| name space || 名称空间 || ||
+|| non-greedy || 非贪心 ||  ||
+|| notation || 记号 ||  ||
+
+= Oo =
+|| 英文 || 中文 || 备注 ||
+|| Object Oriented Programming ||  面向对象 || OOP ||
+|| operator || 运算符 || ||
+|| optional || 可选的 ||  ||
+
+= Pp =
+|| 英文 || 中文 || 备注 ||
+|| package  || 包  || ||
+|| pattern  || 模式  || ||
+|| period || 句号 ||  ||
+|| Positive Closure || 正闭包操作符 || + ||
+|| proper || 严格  || 涉及到集合时，参见improper ||
+|| Python Enhancement Proposal || Python增强提案 ||  ||
+
+= Qq =
+
+= Rr =
+|| 英文 || 中文 || 备注 ||
+|| raw string || 原始字符串 ||  ||
+|| raise || 引发 || ||
+|| redirect  || 重定向  || ||
+|| reference || 引用 || ||
+|| Regular Expression || 正则表达式 || RE ||
+|| robust  || 健壮性  || ||
+
+= Ss =
+|| 英文 || 中文 || 备注 ||
+|| searching || 查找 ||  ||
+|| search || 查找 ||  ||
+|| slice || 切片 || ||
+|| space || 空格 ||  ||
+|| standard error || 标准错误输出 || ||
+|| standard input || 标准输入 || ||
+|| standard library  || 标准库  || ||
+|| standard output || 标准输出 || ||
+|| structured and procedural languages  || 结构化和过程化语言 || ||
+|| subgroup || 子组 ||  ||
+|| subset || 子集 || ||
+|| symbol || 符号 ||  ||
+
+= Tt =
+|| 英文 || 中文 || 备注 ||
+|| tuple || 元组 || ||
+|| type  || 数据类型  || ||
+
+= Uu =
+
+= Vv =
+|| 英文 || 中文 || 备注 ||
+|| variables  || 变量  || ||
+
+= Ww =
+|| 英文 || 中文 || 备注 ||
+|| whitespace || 空白 ||  ||
+
+= Xx =
+|| 英文 || 中文 || 备注 ||
+
+= Yy =
+|| 英文 || 中文 || 备注 ||
+
+= Zz =
+|| 英文 || 中文 || 备注 ||
+
+= 数字等等 =
+|| 原文 || 中文 || 备注 ||

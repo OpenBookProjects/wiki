@@ -1,0 +1,143 @@
+#summary "Python 源码剖析" 校对工程 站立会议记要.
+#labels Phase-QA
+<wiki:toc max_depth="4" />
+
+= IRC会议记要 =
+
+ * ZeuuxIrc ~ 使用 ZEUUX.org 的自有IRC 服务进行协调
+
+== 071201.vol2会议 ==
+{{{
+20:00
+ZoomQuiet: 
+有人没有？有人没有？
+ZoomQuiet: 
+没有人的话，就自然结束呢…………
+20:30
+ZoomQuiet: 
+是也乎
+}}}
+
+== 071124.vol1会议 ==
+{{{
+与 #zeuux-universe 在 2007年11月24日 星期六 20时02分05秒 的谈话
+(20:02:09) ZoomQuiet: 
+??
+(20:05:07) BillXu: 
+!
+(20:07:33) ZoomQuiet: 
+编辑呢？
+(20:07:41) ZoomQuiet: 
+你通知在哪个房间了？
+(20:07:54) ZoomQuiet: 
+obp 和 press 都没有
+(20:08:58) BillXu: 
+现在都没有开哪些房间。
+(20:09:14) BillXu: 
+一直是你在联系编辑啊。
+(20:10:38) BillXu: 
+你ZoomQuiet: 
+按阶段分发章节pdf 就好
+ZoomQuiet: 
+学生们掺合的话，也是一样的形式，获得pdf 提交校对Issue 到 OBP 的工程环境就好 ;)
+BillXu: 
+具体的等周一和清然再交流一下吧。
+BillXu: 
+他今天估计不能来了。
+ZoomQuiet: 
+那你的进度？ 你也掺合的？
+BillXu: 
+我不参与。
+BillXu: 
+清然也可能不参与。我们现在的重点是开发那个网站系统。
+ZoomQuiet: 
+有几个学生？是哪儿的？什么专业？介绍一下？
+BillXu: 
+西邮的。
+ZoomQuiet: 
+是也乎？已经开始开发了？ 没有见到设计文档哪…………俺也想掺合的说，
+ZoomQuiet: 
+好的，西安邮电的？ 谁联系，管理他们？
+BillXu: 
+清然和我说了一下那个图书的情况，图书的开发环境是visual studio？！。
+BillXu: 
+这样的图书，我们不适合参与，我们也没有这样的调试环境。
+ZoomQuiet: 
+测试环境是，VC， RobertChen 是在M$ 下面进行测试的
+BillXu: 
+我还没看过书稿，我下周一会看看。
+BillXu: 
+那么请问，我们从哪弄VC呢？
+ZoomQuiet: 
+好的，主要是一些基础性的C或是Python 的描述情况，
+ZoomQuiet: 
+我们不用一定要测试代码的，
+BillXu: 
+如果图书的质量不能保证，参与的效果会好么？
+ZoomQuiet: 
+技术校对，听意思就是进行技术理解方面的校对，
+BillXu: 
+这些问题我们明天上午一起交流一下吧。
+BillXu: 
+不是的。
+ZoomQuiet: 
+嗬嗬嗬，是也乎，你们先看一下文稿，再确认，
+BillXu: 
+至少上面运行的例子程序，需要跑一下吧。
+ZoomQuiet: 
+已经在Blog 中连载超过一年的，
+BillXu: 
+否则，程序有错误，读者都要骂人的。
+ZoomQuiet: 
+是也乎，所以俺在追讨相关代码
+BillXu: 
+恩。
+ZoomQuiet: 
+我们也可以使用 GCC 在Linux 中测试的，
+ZoomQuiet: 
+使用的都是Python 的源代码，
+BillXu: 
+ZQ，这样的事情绝对是好事情，不过我们应该评估一下什么样的图书能参与，你说呢？
+ZoomQuiet: 
+也是对 RobertChen 的负责哪
+BillXu: 
+是的。
+ZoomQuiet: 
+所以，一定要有C／C＋＋经验的
+ZoomQuiet: 
+俺也只能協調和组织一下，有关Python 理解性描述可以修订的自然些，
+ZoomQuiet: 
+其它的无法深入了的
+BillXu: 
+我知道。
+ZoomQuiet: 
+其实看一下就知道，是非常简单的代码级别的理解，没有深入定制什么的
+BillXu: 
+我强调的不是难度的问题。
+BillXu: 
+而是，如果它的环境都是windows下的，我们无法做校对。
+BillXu: 
+我们没有这样的环境，当然也抵制这样的环境，不是么？
+ZoomQuiet: 
+咔咔咔，但是完全可以对应的在Linux 中进行测试，印证哪！！！！
+BillXu: 
+那已经不是原书了。
+ZoomQuiet: 
+这也更加突现 ZEUUX 的技术实力，
+ZoomQuiet: 
+咔咔咔，不是翻译作品，
+ZoomQuiet: 
+只要值得，可以变成合写的 ;)
+ZoomQuiet: 
+这比校对更加NB 的，
+ZoomQuiet: 
+咔咔咔，
+BillXu: 
+我们周一再说吧。
+BillXu: 
+到时候清然也在。
+ZoomQuiet: 
+好的，MSN 传送第三章给你先
+BillXu: 
+好。
+}}}

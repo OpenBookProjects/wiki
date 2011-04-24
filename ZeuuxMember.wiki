@@ -1,0 +1,34 @@
+#summary PySRead 技术校对军团简介
+#labels Phase-QA,Phase-Support
+
+= 技校军团简介 =
+[PySourceReading Python 源码剖析] 一书的技术校对,由 ZoomQuiet 联系,
+博文出版社确认,交由 [http://www.zeuux.org/community/community.cn.html ZEUUX社区]进行;
+ * 历近5个月的断续推进,及时在截稿前完成!
+  * [http://code.google.com/p/openbookproject/issues/list?can=2&q=%5BPySRead%5D&colspec=ID+Type+Status+Milestone+Component+Owner+Summary&cells=tiles 所有提交的修订意见列表]
+
+ * 以下列举参与的 [http://www.zeuux.org/community/community.cn.html ZEUUX社区]及成员简介,以便追加在图书中 ;)
+
+== ZEUUX.org ==
+
+== 成员 ==
+
+=== Bill Xu ===
+
+=== Zoom.Quiet ===
+ * 男,不婚的Pythoner,自由软件原教旨主义者;
+ * 中国Python 用户组(CPyUG)创始人之一,亦是 ZEUUX社区核心成员,也是 Erlang中国用户组(ECUG)宣传部长;
+ * 致力于软件过程改进的工作,以及中国自由软件社区发展;关注社会化知识管理;喜爱SF和摄影;
+  * 工作信仰: 过程改进乃是开始催生可促生靠谱的人的组织!
+  * 技术信仰: Simple is better!
+ * 尝试使用Pythonic体验感化国人主动深入自由软件世界进行学习/再创作.
+{{{
+Zoom.Quiet==Zoomq==ZQ
+man,Pythoner,antiMarry,join fundamentalism of GNU;
+one of originator of CPyUG(Chinese Python User Group),core memeber of ZEUUX.org,propagandism of ECUG(Erlang China User Group);
+working for Software Process Improvement , and growning community of China Free Software;
+like SF & photography;
+belief in work: PI keeps evolving organizations which promoting people be good!
+belief in tech: Simple is better!
+try my best to give Chinese Pythonic feeling,for promoting people going Free Software's world
+}}}
