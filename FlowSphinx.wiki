@@ -7,7 +7,7 @@
 `简要说明如果进行分布式的图书協同 ;-)`
 
 == 流程 ==
-https://wiki.openbookproject.googlecode.com/hg/flow4sphinx-all_wsd-napkin.png
+https://wiki.openbookproject.googlecode.com/hg/fig/flow4sphinx-all_wsd-napkin.png
 
 简要的说::
  # 一般是先有出版社编辑动议,明确出版意向后才开始召集团队
@@ -19,7 +19,7 @@ https://wiki.openbookproject.googlecode.com/hg/flow4sphinx-all_wsd-napkin.png
  # 最终交付编辑完整的内容^注意!^不包含排版,由出版社,找专业团队进行排版
 
 === 资源图谱 ===
-https://wiki.openbookproject.googlecode.com/hg/mapOBPres.png
+https://wiki.openbookproject.googlecode.com/hg/fig/mapOBPres.png
 
 要点::
  * 通过定制 Sphnix 模板,在输出的HTML 页面中包含了 JQuery 支持的可点击评论点;
