@@ -3,11 +3,29 @@
 
 <wiki:toc max_depth="2" />
 
-= abt.吾 =
-*Zoom.Quiet === Zoomq = 仨儿*
- * i'm Pythoner
-  * learnning Erlang + Scheme + Haskell
- * [ZqHowTurnInto ZQ怎么练就的?]
+= Zoom.Quiet =
+*[http://wiki.woodpecker.org.cn/moin/ZoomQuietAbt Zoom.Quiet === Zoomq == 仨儿]*
+ * i'm Pythoner 追求 [http://python.net/~goodger/projects/pycon/2007/idiomatic/handout.html Pythonic]
+  * learnning Erlang + LISP + Haskell
+== 当前 ==
+金山网络安全技术研发中心,过程改进经理;负责云安全团队社区化研发过程的建立/支持/培训,以及内部知识管理推进;
+
+ * 网络ID: Zoom.Quiet
+   1. 华蟒用户组(CPyUG)创办人之一,并长期承当社区维基及列表管理员;
+   1. 哲思社区资深成员;
+   1. 教育大发现社区高级顾问(http://sociallearnlab.org/wiki/index.php/Experts)
+   1. ECUG社区宣传部长;
+   1. 蟒营项目设计者,并参加[http://wiki.woodpecker.org.cn/moin/ZoomQuiet/2010-06-10 PCAP2010年会] 进行了相关讲演,当前作为金山俱乐部所属项目,在全国9所高校进行推广;
+ * 长期主持各种线上/下技术交流活动,在北京/上海/珠三角地区推动Python技术的学习/实践和分享;主持撰写并出版有"可爱的Python";
+ * 工作信仰：知识管理乃是培育可催生自学习型组织的文化氛围!
+ * 技术信仰：Simple is better！
+
+*坚持用Pythonic体验感化国人主动深入FLOSS世界进行学习/分享/创造.*
+
+== 联系 ==
+'''http://about.me/zoom.quiet'''
+
+ * Email: `i@zoomquiet.org`
  
 == i doing ==
  * [http://wiki.woodpecker.org.cn/moin/ZoomQuiet CPyUG 行者]
@@ -16,11 +34,11 @@
  [http://www.zeuux.org/index.cn.html ZEUUX 南方代表]
  * [http://erlang.org.cn/ ECUG] [http://code.google.com/p/ecug/wiki/FrontPage 外长]
  * http://sociallearnlab.org/wp-content/themes/vertigo-3column/images/logo.png
- * [http://sociallearnlab.org/?page_id=257 教育大发现 专家组成员] *
+ * [http://sociallearnlab.org/?page_id=257 教育大发现 顾问]
 
 === my reading ===
  * [ZqreadThoughtWorksAnthology 图灵:样书申请~软件开发沉思录]
- 
+
 == i believe ==
 {{{
 Time is unimportant, only life important!
@@ -45,6 +63,7 @@ KM keep growing environment culture
  * 看 @ http://zoomq.haokanbu.com/
  * 书 @ http://code.google.com/p/openbookproject
  * 作 4 http://trac-hacks.org/wiki/TracChineseTranslation
+ * 编 4 [ZqHowTurnInto ZQ怎么练就的?]
 
 == i advocating ==
 ||http://badvista.fsf.org/logos/BadVista_no_littering.png || http://zqlib.sourceforge.net/style/noIE.png || http://people.ofset.org/~ckhung/i/nd/nodoc1.png http://people.ofset.org/~ckhung/i/nd/fydoc.png http://people.ofset.org/~ckhung/i/nd/nodoc4.png || http://hellobmw.com/wp-content/uploads/access-flickr.png ||
