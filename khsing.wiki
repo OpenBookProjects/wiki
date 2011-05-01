@@ -1,0 +1,8 @@
+#summary Guixing's introduction Page.
+
+= khsing =
+
+ * First Name: Guixing,kueihsing,Gawain 
+ * Last Name: Bai,Pai
+ * Birthday: 1.15
+ * Lovely Thing: Python,BSD,Mac OS X,C

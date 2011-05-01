@@ -1,0 +1,35 @@
+#summary One-sentence summary of this page.
+#labels Phase-Implementation,Phase-Requirements
+
+= Py核心编程2ed 中文版 =
+
+== 成员 ==
+ * 发起人:  `CorePy`
+ * 项目组织: ZoomQuiet
+
+== 计划 ==
+ 1. 项目协调由 CorePy和Zoom.Quiet负责。
+ 1. 项目Wiki管理页面：http://wiki.woodpecker.org.cn/moin/CorePyProgramming
+ 1. 参与方式：
+  * 3-1 校对者自由下载word 格式内容进行校读:
+   * http://openbookproject.googlecode.com/svn/trunk/CorePython_zh/words/
+   * 原文的[http://openbookproject.googlecode.com/svn/trunk/CorePython_zh/Errata.html 堪误列表]!
+  * 3-2 校对者意见,提交工程提案库:
+http://code.google.com/p/openbookproject/issues/list
+[注意]使用[CorePy2]的前缀标题!
+  * 3-3 志愿翻译者列表中报名,确认时间投入量后,加入 OBP 工程,获得VN 权限
+  * 3-4 志愿翻译者检出认领的章节文本,自行翻译
+http://openbookproject.googlecode.com/svn/trunk/CorePython_zh/
+  * 3-5 '''每周日21:00~22:00''' 在freenode.net `IRC#CorePython_zh` 中沟通进度
+
+推荐使用Notepad++编辑：
+http://notepad-plus.sourceforge.net/tw/site.htm
+
+== IRC ==
+*UsageIrc -- 使用IRC细述*
+
+ * 在Ubuntu或者Windows环境下 使用Pidgin 很简单就可以登陆聊天室 设置请参看 ZoomQuiet 的截图
+http://openbookproject.googlegroups.com/web/Screenshot-into-CorePython_zh.png
+ *     Pidgin下载地址：http://www.pidgin.im/    *强烈推荐使用本方法*
+ * 此外在MS Windows环境下还可以使用Firefox浏览器Chatzila扩展登陆聊天室：
+  *  扩展下载地址：https://addons.mozilla.org/en-US/firefox/addon/16
