@@ -7,9 +7,8 @@
 
 <wiki:toc/>
 = 大蟒本色 =
- * 发起:[http://groups.google.com/group/python-cn/browse_thread/thread/3d175578be77cda7 《大蟒本
-
-色》，建立个团队吧] - python-cn`CPyUG`华蟒用户组(中文Py用户组) | Google Groups
+ * 发起:[http://groups.google.com/group/python-cn/browse_thread/thread/3d175578be77cda7 《大蟒本色》，建立个团队吧] - python-cn`CPyUG`华蟒用户组(中文Py用户组) | Google Groups
+ 
  
  * 全称: 大蟒本色
  * E名: `Rreal World Python for Learnner`
