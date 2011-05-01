@@ -22,7 +22,7 @@
  * 成员:
   # ream D <dream.python.org AT gmail.com>
   # He Jibo <hejibo AT gmail.com>
-  # fxiao <heyun51 AT gmail.com >
+  # fxiao <heyun51 AT gmail.com >~自动退出
  * 大妈: ZoomQuiet
 
 
