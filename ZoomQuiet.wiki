@@ -22,9 +22,8 @@
 
 *坚持用Pythonic体验感化国人主动深入FLOSS世界进行学习/分享/创造.*
 
-== 联系 ==
-'''http://about.me/zoom.quiet'''
-
+=== 联系 ===
+*http://about.me/zoom.quiet*
  * Email: `i@zoomquiet.org`
  
 == i doing ==
