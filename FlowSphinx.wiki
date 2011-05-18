@@ -54,7 +54,7 @@ https://wiki.openbookproject.googlecode.com/hg/fig/mapOBPres.png
  1. 安装 [http://www.activestate.com/activepython/downloads Python]
  1. 安装 Hg
 {{{
-pip install mercural
+pip install mercurial 
 }}}
  1. 安装 Sphinx
 {{{
@@ -86,4 +86,3 @@ hg push
   * [http://czug.org/plone/howto/howto-structuredtext 如何使用StructuredText - 中国Zope/Plone用户组]
   * [http://python.cofman.dk/pycon/papers/rest_tutorial.html reStructuredText Tutorial: PyCon 2003]
  * [http://code.google.com/p/pymotwcn/wiki/SphinxprojectHowto Sphinx快速开始 - pymotwcn]
-
