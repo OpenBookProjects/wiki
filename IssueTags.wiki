@@ -1,0 +1,89 @@
+#summary OBP 工程 提案标签详解.
+#labels Featured,Phase-QA
+
+
+SEE::Issue[IssueFlow 流程]/[UsageIssue 使用]/[IssueTags 标签]解说
+<wiki:toc/>
+
+= 介绍 =
+
+Issue(提案)作为软件开发项目中的bug 提供了实用的追踪管理服务.
+
+我们进行图书工程，其中的勘误工作也非常类似，特此定制并约定相关标签进行使用:
+
+
+== 活动提案状态 ~ Open Issue Status ==
+{{{
+New                 	= 提案刚刚创建没有人复审过
+Accepted            	= 提案已经被人确认，并接受进行处理
+Started             	= 提案开始处置ing..
+}}}
+
+== 关闭提案状态 ~ Closed Issue Status ==
+{{{
+Fixed               	= 已修正ed
+Confirmed            	= 已确认ed
+Invalid             	= 无效的
+Duplicate           	= 重复的
+WontFix             	= 无为的～ 我们决定暂时不处理
+}}}
+
+== 预定标签 ~ Predefined Issue Labels ==
+=== 提案类型 ===
+{{{
+Type-Issue           = 文字讨论
+Type-Defect          = 代码/样例 缺陷
+Type-Enhancement     = 改进建议
+Type-Task            = 撰写任务
+Type-Patch           = 补丁
+Type-Other           = 其它
+}}}
+
+=== 提案严重度 ===
+{{{
+Priority-Sentence    = 语句有不妥
+Priority-Paragraph   = 段落有不妥
+Priority-Chapter     = 章节有不妥
+Priority-Word        = 字词有不妥
+Priority-Code        = 代码有不妥
+Priority-Book        = 图书有不妥
+Priority-pic         = 图片有不妥
+}}}
+
+=== 校对里程碑 ===
+{{{
+Milestone-PubReview  = 再版复审!
+Milestone-Review1    = 一次校对文字翻译
+Milestone-Review2    = 二次校对行文组织
+Milestone-Review3    = 三次校对整书结构
+Milestone-TechReview = 技术校对
+Milestone-ReviewEnd  = 终校 发布图书
+}}}
+
+=== 图书组件 ===
+{{{
+Component-DiP        = Dive into Python
+Component-LovePy     = LovelyPython Book
+Component-W2py       = Web2py手册中文版
+Component-PyWDWW     = 蟒样Web开发手册
+Component-TPiP       = Text Processing in Python Book
+Component-PyDOCs     = Python 官方文档
+Component-Docs       = Issue relates to end-user documentation
+Component-thinkPP    = Think as Programmer in Py Book
+}}}
+=== 提案适用OS ===
+{{{
+OpSys-All            = 所有OS
+OpSys-UNIX           = Affects *BSD users
+OpSys-Linux          = GNU/Linux
+OpSys-OSX            = Mac OS X
+OpSys-Windows        = M$ OS
+}}}
+
+=== 领域 ===
+{{{
+Security             = 用户安全相关
+Performance          = 响应速度相关
+Usability            = 可用性相关
+Maintainability      = 可扩展性相关
+}}}

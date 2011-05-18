@@ -1,0 +1,354 @@
+#summary PyWDWPy:蟒样Web开发 指南
+#labels PyWDWPy,Featured,Index
+
+参考:[HowtoJoin 如何加入OBP]//[PyWdwWebdotPy 蟒样Web开发指南]//[PyWdwWebdotPyLog 撰写进展表]
+
+<wiki:toc/>
+= 蟒样Web开发 指南 =
+ * 发起:[http://groups.google.com/group/python-cn/browse_thread/thread/12764f0795130986# OBP建议：蟒样Web开发] - python-cn`CPyUG`华蟒用户组(中文Py用户组) | Google Groups
+ 
+ * 全称:蟒样Web开发 指南
+ * E名: `Pythonic Web Development with Web.Py`
+ * 缩写:`PyWDWPy`
+
+== 团队 ==
+ * 创意: xrfang <xrfang AT gmail.com>
+ * 大妈: ZoomQuiet
+ * 部署章节供稿: "Yingbo Qiu" <qiuyingbo AT gmail.com> ~ ^捜狐闪电邮创始人^
+
+
+=== 加入 ===
+简要的约定加入以及图书撰写流程(参考: [HowtoJoin 如何加入OBP])
+
+任何人():
+ # 先通过本文相关文章,理解图书意图
+ # 学习 web.py
+ # 在 *[PyWdwWebdotPyLog 进度列表认领章节]* ~ ^筹备中^
+ # 先在[http://wiki.woodpecker.org.cn/moin/PyWdwWebdotPy 啄木鸟维基中提交样章]
+  # 在啄木鸟维基 http://wiki.woodpecker.org.cn/moin/ 完成注册
+  # 获得 CPyUG 列表权限 http://groups-beta.google.com/group/python-cn 订阅时注意回答完全提示问题
+  # 在CPyUG 中吼啄木鸟维基帐号，说明想进入可信任列表的原因 http://wiki.woodpecker.org.cn/moin/AclAlert
+  # 通常都可以加入 http://wiki.woodpecker.org.cn/moin/TrustedGroup 获得维基写权限
+  # 在[http://wiki.woodpecker.org.cn/moin/PyWdwWebdotPy PyWDWW]中加入自个儿的 样章，或是意见
+   # 通过图书工程其它成员认可后
+   # 获得 OBP列表权限 http://groups.google.com/group/openbookproject
+   # 获得 OBP工程SVN 权限
+   # 进入持续图书集成迭代过程
+ 
+
+== 立意 ==
+=== TOC v9.12.22 ===
+{{{
+灰太狼大王     	
+View profile   Translate to English Translated (View Original)
+	 More options Dec 22, 5:51 pm
+From: 灰太狼大王 <mykinghea...@gmail.com>
+Date: Tue, 22 Dec 2009 01:51:32 -0800 (PST)
+Local: Tues, Dec 22 2009 5:51 pm
+Subject: 请大家看看TOC的第二份目录结构
+}}}
+xrfang给出了一个非常优秀的目录结构, 但是我们经过讨论后, 觉得用一个大的例子贯穿整本书可能也是个
+好主意, 所以我又拟了一份新的目录结构, 请大家帮忙看一下, 多给些意见, 谢谢大家.
+
+{{{
+蟒样Web开发 (Pythonic Web Development with Web.Py)
+第一部分 进入蟒记餐厅
+
+        第一章 什么是web.py
+        1.为什么选择Python
+        2.为什么选择web.py
+
+        第二章 第一个web.py的程序
+        1.安装web.py
+        2.创建第一个web.py项目
+        3.设立最终目标(写一个图片分享网站)
+
+        第三章 如果让我的url能找到我的程序
+        1.如何让请求找到正确的action(action名字得改)
+        2.如何应用正则
+        3.图片站使用的urls(这个小节的名字得改)
+
+        第四章 输入输出
+        1.request(GET, POST)
+        2.response(redirect等)
+        3.返回各种格式的数据(xml, json)
+
+第二部分 深入web.py
+
+        第五章 从数据库拿出我的数据
+        1.如何建立数据库连接
+        2.如何操作数据(select, insert, update, delete, query)
+        3.原来还可以使用orm
+
+        第六章 使用模板展示我的数据
+        1.基本模板的使用(使用变量, 交替格式, 内嵌代码)
+        2.模板的高级应用(使用layout, 定义自己的标签库)
+        3.第三方模板(Mako, Cheetah, Jinja2)
+
+        第七章 用户的数据
+        1.使用cookie
+        2.使用session
+        3.登录, 验证与注销
+        4.在模板中使用session
+
+        第八章 用户的数据
+        1.创建form
+        2.把form中的数据放入数据库
+        3.图片上传
+
+第三部分 高级应用
+
+        第九章 我要ajax
+        1.在模板中使用js
+        2.如何处理ajax返回值
+
+        第十章 我需要更多的信息(web.ctx, web.background等)
+        1.web.ctx
+        2.web.background
+
+        第十一章 通知用户
+        1.发送邮件
+
+        第十二章 我有2个app
+        1.创建admin子app
+
+        第十三章 我需要英语版本的页面
+        1.多语言的使用
+        2.如何在模板里使用多语言
+
+        第十四章 钩子(这个名称不好听)
+        1.processor
+        2.hook和unhook
+
+        第十五章 我需要缓存吗
+        1.在web.py中整合memcached
+
+第四部分 测试与展示
+
+        第十六章 我得测试下程序了
+        1.doctest
+
+        第十七章 该给别人看我的应用了(部署)
+        1.使用apache部署
+        2.使用lighttpd部署
+        3.使用nginx部署
+
+        第十八章 别人都用什么呢?
+        1.django
+        2.web2py
+        3.CherryPy
+        4.TurboGears
+}}}
+=== TOC v9.12.05 ===
+蟒样Web开发（Pythonic Web Development with Web.Py）
+{{{
+
+I.前言（本书的目的、如何使用本书等）
+
+第一部分 进入蟒记餐馆
+第一章 Web系统是如何工作的
+第二章 Python语言简介
+第三章 为什么要用Python写Web应用程序
+第四章 为什么我们选择Web.Py
+
+第二部分 Web.Py菜谱
+第五章 Web.Py应用架构
+5.1 Web.Py的应用架构（URL Dispatcher、推荐的目录安排等）
+5.1.1 URL Dispatcher
+5.1.2 一个推荐的目录安排
+5.2 支持子应用
+5.3 内建的静态网页支持
+第六章 输入和输出
+6.1 Request（GET和POST）
+6.2 Response（设定header参数等）
+6.3 Redirection
+6.4 Context（HTTP环境参数）
+6.5 处理文件上传
+6.6 表单处理
+第七章 状态管理
+7.1 使用Session（包括如何在SubApp中使用session）
+7.2 使用Cookie
+7.3 使用Python修饰器来控制登录状态
+7.4 使用WebPy Application Loader来控制登录状态
+
+第八章 模板系统（Templator和其他第三方模板系统）
+7.1 Templator
+7.1.1 基础
+7.1.2 Layout模板
+7.1.3 交替格式（Alternating Style）
+7.1.4 内嵌代码块
+7.1.5 在模板中使用session变量
+7.1.6 定义自己的“标签库”
+7.2 使用第三方模板系统
+7.2.1 Mako
+7.2.2 Cheetah
+7.2.3 Jinja2
+7.3 在Google App Engine上使用webpy模板
+
+第九章 使用数据库（包括WebPy自己的系统和使用第三方库例如SQLAlchemy）
+9.1 web.db
+9.1.1 Select: Retrieving entries from a database
+9.1.2 Update: Updating entries in a database
+9.1.3 Delete: Remove entries in a database
+9.1.4 Insert: Adding entries to a database
+9.1.5 Query: Advanced database queries
+9.1.6 Multiple databases
+9.1.7 How to use database transactions
+9.1.8 Integrating SQLite UDF (user-defined-functions) with webpy
+database layer
+9.2 使用SQLAlchemy
+第十章 和其他系统集成
+10.1 发送邮件
+10.2 Web Service
+10.3 Ajax应用
+第十一章 国际化的Web.Py应用
+11.1 多语言的模板系统
+11.2 动态语言切换
+
+第三部分 Web.Py工程
+第十二章 开发和测试Web.Py应用
+12.1 配置开发环境
+12.2 调试（包括如何分析错误信息、添加Log等）
+12.3 单元测试（doctest)
+12.4 集成测试（Paste + Nose）
+第十三章 源代码管理和持续集成(此章是否要？存疑，话题太大，而且和webpy关系不大）
+13.1 SVN简介(GIT？？)
+13.2 持续集成工具（maven、continuum等）
+13.3 Trac (wiki/Issue Tracker/项目管理)
+第十四章 布署Web.Py应用（包括Apache、NginX、Lighttpd、SSL、Auth系统、搜狐闪电邮的案例）
+14.1 在Apache下配置web.py
+14.1.1 fastcgi
+14.1.2 mod_wsgi
+14.1.3 mod_python
+14.1.4 HTTP验证
+14.1.5 HTTPS
+14.2 在lighttpd下配置web.py
+14.2.1 fastcgi
+14.2.2 wsgi
+14.2.3 HTTP验证
+14.2.4 HTTPS
+14.3 在nginx下配置web.py
+14.3.1 fastcgi
+14.3.2 wsgi
+14.3.3 HTTP验证
+14.3.4 HTTPS
+
+第十五章 高性能Web.Py应用（用后台进程提高客户端反应速度、数据库连接池、Memcached、前端优化、AB测试等等）
+15.1 后台进程
+15.2 数据库连接池（DBUtils等）
+15.3 使用Memcached提高速度
+15.4 前端优化（以nginx为例讲解静态页面和动态应用的分层、reverse proxy等概念）
+15.5 AB测试
+15.6 案例：搜狐闪电邮
+
+第四部分 Web.Py秘籍
+第十六章 Web.Py API详解
+（本章以web.py的各个模块分类讲述，具体章节目前我不能确定）
+第十七章 FastCGI、SCGI和WSGI技术规范介绍
+17.1 FastCGI
+17.2 SCGI
+17.3 WSGI
+第十八章 Python on Rails
+计划：（不一定可行）本章用web.py来模拟一个RoR风格的应用框架。此模拟不是真的要做一个PoR，而是用web.py来实现RoR风格的应用程
+序框架。换句话说，重点是URL Dispatcher和文件目录结构的模拟。以此，我们来探索一下URLDispatcher对于一个web应用的重
+要性，同时拓展web.py的想象空间。如果这章能够写出来，也许，坛子里真有能人搞个PoR，谁知道呢......
+
+第五部分 蟒记餐馆菜系大比拼（都以一个HelloWorld或略为复杂一点点的基本的Tutorial方式来写，加上Pros/Cons的评价。）
+第十九章 Zope
+第二十章 Django
+第二十一章 Pylons
+第二十二章 Web2Py
+第二十三章 TurboGears
+第二十四章 CherryPy
+第二十五章 Karrigell
+第二十六章 PyHP
+
+附录
+Web.Py应用索引（按字母/拼音顺序排列的CookBook索引表，比如如何输出一个XML文件等等）
+}}}
+
+=== TOC v9.11.22 ===
+蟒样Web开发（Pythonic Web Development with Web.Py）
+{{{
+前言（本书的目的、如何使用本书等）
+
+第一部分 进入蟒记餐馆
+第一章 Web系统是如何工作的
+第二章 Python语言简介
+第三章 为什么要用Python写Web应用程序
+第四章 为什么我们选择Web.Py
+
+第二部分 Web.Py菜谱
+第五章 Web.Py应用架构（URL架构、sub-application、Static File等等）
+第六章 输入和输出（介绍web.input()、web.ctx、改变输出类型（例如输出XML）、文件上传、forms等）
+第七章 状态管理（Session和Cookie）
+第八章 模板系统（Templator和其他第三方模板系统）
+第九章 使用数据库（包括WebPy自己的系统和使用第三方库例如SQLAlchemy）
+第十章 外部接口（发送邮件、WebService、Ajax应用）
+第十一章 国际化的Web.Py应用
+
+第三部分 Web.Py工程
+第十二章 开发和测试Web.Py应用（开发环境、如何Debug、如何测试等）
+第十三章 源代码管理和持续集成
+第十四章 布署Web.Py应用（包括Apache、NginX、Lighttpd、SSL、Auth系统）
+第十五章 高性能Web.Py应用（用后台进程提高客户端反应速度、数据库连接池、Memcached、前端优化、AB测试、搜狐闪电邮的案例等等）
+
+第四部分 Web.Py秘籍
+第十六章 Web.Py API详解
+第十七章 FastCGI和SCGI技术规范介绍
+第十八章 WSGI技术规范介绍
+
+第五部分 蟒记餐馆菜系大比拼（都以一个HelloWorld或略为复杂一点点的基本的Tutorial方式来写，加上Pros/Cons的评价。）
+第十九章 Django
+第二十章 Pylons
+第二十一章 Web2Py
+第二十二章 TurboGears
+第二十三章 CherryPy
+第二十四章 Karrigell
+第二十五章 PyHP
+}}}
+=== TOC v9.11.12 ===
+ # 介绍
+  # 为何要写这本书
+   # 简介WebPy以及何谓“蟒样”（Pythonic）
+   # 读者所需要的基本知识（比如我们不从0开始教学Python、HTML等）
+ # Web开发的基本概念
+  * 介绍HTTP协议的基本概念POST/GET等、Web工作的原理（服务器和浏览器如何交互？）、
+  * XMLHttpRequest（AJAX）的基本原理和它对传统WEB的C/S交互模式的颠覆。
+ # Python简介
+  * 给其他程序员看的Python快速入门手册。介绍Python对于其他语言程序员看起来比较奇怪 的基本概念和使用上的一些技巧。
+ # Web.Py的样例式学习
+  # Agile开发模式简介用Scrum为例介绍Agile开发的概念。我们将用Scrum的模式来开发一个Web.Py的应用程序
+  # - 2.x 用一个例子，多个Iteration的方式开发一个Web.Py应用
+ # Web.Py API文档和Cookbook
+  # Web.Py Cookbook   Web.Py Cookbook站点内容整理和中文化（需重写）
+  # Web.Py API参考手册   系统性地介绍Web.Py的API
+ # Web.Py的开放性
+  # Web.Py和其他模板系统集成(例如Mako、Cheetah)
+  # Web.Py和其他数据库系统集成(例如SQLAlchemy)
+  # ...
+ #  开发调试、测试和部署Web.Py应用程序
+  # 开发环境
+  # 测试方式
+  # 在生产环境中部署Web.Py应用
+ # 其他话题
+  # WSGI、FastCGI简介
+  # 其他Python Web框架简介（和WebPy的对比）
+{{{
+   - Django
+   - Pylons
+   - Web2Py
+   - TurboGears
+   - CherryPy
+   - Karrigell
+   - PyHP
+}}}
+ * 都以一个HelloWorld基本的Tutorial方式来写，加上Pros/Cons的评价。
+  * [http://wiki.woodpecker.org.cn/moin/FrameworksShow Python Web Framework代码“秀”]
+  * [http://wiki.woodpecker.org.cn/moin/PyWebFramePkWikiDemo PyWEB应用框架维基实例代码PK]
+
+== TODO ==
+ * 组织团队
+ * 创立图书项目
+ * 开展撰写
+ * 联系出版
