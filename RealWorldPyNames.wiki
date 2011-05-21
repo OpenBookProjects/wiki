@@ -34,11 +34,23 @@
   * 引用:`mala.pka`
 
 == CLASSES ==
+class mala_知识点_命名
+
+如第三章class则为：
+
+class mala_gui_name
 
 
+== 邮件规范 ==
+有关于大蟒本色的邮件，一律使用：
 
-== FUNCTION ==
+{{{
 
+[RwPyL]
+
+}}}
+
+作邮件标题的开头。
 
  <wiki:toc/>
  
