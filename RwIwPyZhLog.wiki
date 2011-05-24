@@ -53,7 +53,7 @@
 || ~ || ch04 C语言|| sagasw || +?H ||
 || ~ || ch05 Py扩展|| sagasw || +?H ||
 || ~ || ch06 硬件工具|| Atommann || +?H ||
-|| ~ || ch07 物理界面|| xiaoma || +?H ||
+|| ~ || ch07 物理接口|| xiaoma || +?H ||
 || 110721 || ch08 让俺开始|| ZoomQuiet ||~p38; +?H ||
 || ?? || ch08-1: 定义工程 || ZoomQuiet ||~p3; +?H ||
 || ?? || ch08-2: 需求 || ZoomQuiet ||~p9; +?H ||
