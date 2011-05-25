@@ -24,7 +24,7 @@
   # He Jibo <hejibo AT gmail.com>
   # fxiao <heyun51 AT gmail.com >~自动退出
  * 大妈: ZoomQuiet
- * 行者们：[RwPyLpeoples 参与写作的行者列表]
+ * 行者们：[RwPyLpeoples 参与项目的行者列表]
 
 === 加入 ===
 简要的约定加入以及图书撰写流程(参考: [HowtoJoin 如何加入OBP])
