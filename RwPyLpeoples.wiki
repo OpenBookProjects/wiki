@@ -2,8 +2,14 @@
 
 = 参与项目的行者 =
 
-<xiaomayi0323@gmail.com>
+Kingson Zhou <xiaomayi0323@gmail.com>
 
 贡献:陪阅人
+
+介绍：
+
+Jiahua Huang 
+
+贡献：提供在线图书vps援助
 
 介绍：
