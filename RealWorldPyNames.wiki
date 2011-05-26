@@ -127,9 +127,9 @@ class mala_gui_name
     import evil
 }}}
       * 杜绝一次import多个module：import akara, evil
-      * 杜绝import * from a。
-      * 杜绝from a import b。
-      * 杜绝import a as b。
+      * 杜绝`import * from a`
+      * 杜绝`from a import b`
+      * 杜绝`import a as b`
   * 性质决定import先后：builtin > standard > engine > frozen > py(自制模块)
  * module规范
   * module分两种性质：(1)数据module (2)实现module
