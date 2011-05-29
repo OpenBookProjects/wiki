@@ -55,7 +55,7 @@
 || ~ || ch06 硬件工具|| Atommann || +?H ||
 || ~ || ch07 物理接口|| xiaoma || +?H ||
 || 110721 || ch08 让俺开始|| ZoomQuiet ||~p38; +?H ||
-|| ?? || ch08-1: 定义工程 || ZoomQuiet ||~p3; +?H ||
+|| ?? || ch08-1: 定义工程 || Grissiom ||~p3; +?H ||
 || ?? || ch08-2: 需求 || ZoomQuiet ||~p9; +?H ||
 || ?? || ch08-3: 设计软件 || ZoomQuiet ||~p5; +?H ||
 || ?? || ch08-4: 功能测试 || ZoomQuiet ||~p3; +?H ||
