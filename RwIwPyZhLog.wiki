@@ -44,17 +44,17 @@
 || ~~110527~~ || ch00 前言|| ZoomQuiet ||110527提前完成 ~p8; +6.5H 170:d325c1c1dc31 ||
 || ~ || ch01 仪器简介|| Atommann || +?H ||
 || ~ || ch02 电子精要|| Atommann || +?H ||
-|| 110619 || ch03 Python语言|| ZoomQuiet ||~p54; ?H ||
+|| 110619 || ~~ch03 Python语言~~|| ZoomQuiet ||~p64; ?H ||
 || 110408 || ~~ch03-1: 安装~~ || ZoomQuiet ||~p1; .5H ||
-|| ?? || ch03-2: 语言 || ZoomQuiet ||~p47; +13.5H ||
-|| ?? || ch03-3: 工具 || ZoomQuiet ||~p4; ?H ||
-|| ?? || ch03-4: 小结 || ZoomQuiet ||~p1; ?H ||
-|| ?? || ch03-5: 参考 || ZoomQuiet ||~p1; ?H ||
+|| 110618 || ~~ch03-2: 语言~~ || ZoomQuiet ||~p47; +??H ||
+|| ?? || ~~ch03-3: 工具~~ || ZoomQuiet ||~p4; +3H ||
+|| ?? || ~~ch03-4: 小结~~ || ZoomQuiet ||~p1; +1H ||
+|| ~~110727~~ || ~~ch03-5: 参考~~ || ZoomQuiet ||~p1; +2H ||
 || ~ || ch04 C语言|| sagasw || +?H ||
 || ~ || ch05 Py扩展|| sagasw || +?H ||
 || ~ || ch06 硬件工具|| Atommann || +?H ||
 || ~ || ch07 物理接口|| xiaoma || +?H ||
-|| 110721 || ch08 让俺开始|| ZoomQuiet ||~p38; +?H ||
+|| 110821 || ch08 让俺开始|| ZoomQuiet ||~p38; +1.5H ^E文rST整理^||
 || ?? || ch08-1: 定义工程 || Grissiom ||~p3; +?H ||
 || ?? || ch08-2: 需求 || ZoomQuiet ||~p9; +?H ||
 || ?? || ch08-3: 设计软件 || ZoomQuiet ||~p5; +?H ||
