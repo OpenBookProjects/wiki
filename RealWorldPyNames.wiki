@@ -1,0 +1,206 @@
+#summary RealWorldPyLivin 大蟒本色图书实案工具开发 名设计
+#labels RWPyL,Featured,Index
+
+参考:[HowtoJoin 如何加入OBP]
+ * [RealWorldPyLivin 大蟒本色]/[http://wiki.woodpecker.org.cn/moin/RealPython 认领]/[RealWorldPyNames 名设计]
+
+<wiki:toc/>
+= 大蟒本色:名设计 =
+
+== BOOK ==
+ * 全称: 大蟒本色
+ * E名: `Rreal World Python for Learnner`
+ * 缩写:`RWPyL`
+
+== SOFTWARE ==
+ * 全称: 我的通讯录助手
+ * E名: `My address list assistant`
+ * 缩写:`mala`
+
+各级命名索引:
+{{{
+mala.
+    + cli.
+    |   + data.py
+    |   |   + txt:  用.txt作DB
+    |   |   |   + init()
+    |   |   |   |   + DATA_PATH
+    |   |   |   |   + DATA_FILE
+    |   |   |   |   + BKUP_PATH
+    |   |   |   |   + ...
+    |   |   |   + create()
+    |   |   |   + append()
+    |   |   |   + delete()
+    |   |   |   + modify()
+    |   |   |   + search()
+    |   |   |   + ...
+    |   |   + sql:  用SQLite 作DB
+    |   |   |   + init()
+    |   |   |   |   + DATA_PATH
+    |   |   |   |   + DATA_FILE
+    |   |   |   |   + BKUP_PATH
+    |   |   |   |   + ...
+    |   |   |   + create()
+    |   |   |   + append()
+    |   |   |   + delete()
+    |   |   |   + modify()
+    |   |   |   + search()
+    |   |   |   + ...
+    |   |   + bdb:
+    |   |   + ...
+    |   + main.py
+    |   + conf.py
+    |   + ...
+    + gui.
+    + web.
+    + ppc.
+    ` test.
+}}}
+
+
+== MODULES ==
+
+ # 原型助手
+  * 引用:`cli.mala`
+ # Tk助手
+  * 引用:`tk.mala`
+ # wx助手
+  * 引用:`wx.mala`
+ # Qt助手
+  * 引用:`qt.mala`
+ # web助手
+  * 引用:`web.mala`
+  * 访问: http://127.0.0.1:8080/mala
+ # 移动助手
+  * 引用:`mala.pka`
+
+== 英文规范 ==
+
+{{{
+英文以后大家统一用：
+
+空格+e文+空格
+
+python统一首字母大写，即Python。
+
+}}}
+
+== 代码文件存放规范 ==
+代码文件统一放在：
+
+{{{
+source\_static\src\
+}}}
+中，然后在rst中进行引用。
+
+
+代码命名规范：
+
+
+{{{
+章_节_名.py
+如第一章第一节的helloworld实例就是：
+1_1_helloworld.py
+}}}
+
+== 邮件规范 ==
+有关于大蟒本色的邮件，一律使用：
+
+{{{
+
+[RwPyL]
+
+}}}
+
+作邮件标题的开头。
+
+ <wiki:toc/>
+
+= 讨论 =
+统一命名的目标是:
+    # 统一所有代码的关键引用
+    # 方便章节间相同功能复用代码
+    # 方便测试案例的统一积累
+    # 传达自我代码积累的 Pythonic 体验
+    总之,没有一点是为了灌输知识!
+    用我们自个儿最舒服的命名方式来就好,关键是所有章节所有代码中统一使用!
+建议,统一使用 http://github.com/jcrocholl/pep8/ 来检查约束
+
+参考:
+ * http://wiki.woodpecker.org.cn/moin/PythonCodingRule
+ * http://www.elias.cn/Python/PythonStyleGuide
+
+精简后的规范如下:
+ * 命名规范
+  * 变量：unix风格，小写加下划线，如：foo_bar。
+  * 常量：大写加下划线，如：ERROR_FOO_BAR。
+  * 函数：和 变量 一致，如：def foo_bar(): pass
+  * 类：大写C开头的驼峰法，如：CFooBar。(是的，与python lib风格不同)
+  * 模块：小写无下划线，如：foobar.py。
+  * 包(目录)：与 模块 一致。
+  * "私有化"命名约定：
+    一个且只一个下划线开始的命名。    表示本命名不能超过最近命名空间索引
+ * import规范
+  * 所有import放在module最顶部。
+  * 每次import只导入一个module，如：
+{{{
+    import akara
+    import evil
+}}}
+      * 杜绝一次import多个module：import akara, evil
+      * 杜绝`import * from a`
+      * 杜绝`from a import b`
+      * 杜绝`import a as b`
+  * 性质决定import先后：builtin > standard > engine > frozen > py(自制模块)
+ * module规范
+  * module分两种性质：(1)数据module (2)实现module
+      * 数据module：只包含数据定义和初始化。
+      * 实现module：只包含函数或类定义。
+        不包含任何import时便执行的赋值或初始化(比如name = CAkara())
+  * __load__()：执行module命名空间内的对象初始化的函数。
+  * __destroy__(): 执行module命名空间内的对象销毁的函数。
+  * 跨模块索引数据对象须考虑热更新。过早优化不必要，常用a.b.var索引。
+ * class规范
+  * class必须直接或间接继承全局的gobject(非python内建的object)。
+    杜绝不继承任何基类的类定义：如 class CFoo: pass
+  * 杜绝重载类的__del__方法来进行对象析构资源回收。
+    添加类的destroy方法统一销毁资源，并自行负责调用。
+  * 避免多继承。
+  * 总是让super来负责mro(Method resolution order)。
+ * 充分理解
+  * 充分理解import a的path查找和介质载入处理过程。
+   *  Import this, that, and the other thing: custom importers (#9) - PyCon 2010 Atlanta
+   *  http://us.pycon.org/2010/conference/schedule/event/17/
+   *  严正建议理解这一讲演!
+  * 充分理解python中的命名空间和对象的关系。
+  * 充分理解并合理利用clousure。
+  * 充分理解shallow copy & deep copy。
+  * 充分理解gc。
+  * import this。
+
+参考: The Learner's Journey in Practice - Head First Labs
+ * http://blogs.oreilly.com/headfirst/2009/07/the-learners-journey-in-practice.html
+ * 但凡是感觉轻松友好的过程,都是精心设计出来的!
+
+*所以!*
+    # 在我们积累了足够的代码和文字后,如何可以清晰明了通顺友愛的将想传达的传达出来,得在所有细节中努力!
+    # 代码的重整涉及的关键命名,应该从实际开发者的行为着手:
+        * 开始功能简单,操作简单,所以,只有模块名是认真的,其它都很随意
+        * 随着开发的深入,功能的增加,前后调用时,总是出现想不起来用什么函式的现象,就开始重构,建立一套有内在逻辑的,简洁的名字树了
+        * 沈游侠自个儿团队的军规是:
+{{{
+1、code review 的必须很快,代码排版到能够扫一眼文件就知道有没有 bug 和设计问题
+2、当无法起出一个漂漂的变量名时，已经有设计问题了
+}}}
+    所以,目标的命名体验应该包含:
+{{{
+        + 包
+        + 模块
+        + 类
+        + 函式
+        + 关键变量
+        + 所有常量
+}}}
+
+注意,各个模块中的函式和常参,是可以多种故事中复用的,包括测试数据...
+    * unix 编程中,建议,复制好过继承 ;-) 只要代码足够短

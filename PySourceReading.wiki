@@ -1,0 +1,83 @@
+#summary Python 源码剖析技术校对工程
+#labels Featured,Phase-QA,Phase-Support
+
+= Python 源码剖析 =
+
+== Intro. ==
+
+由 [http://www.zeuux.org/community/community.cn.html ZEUUX.org] 组织进行
+ * [http://code.google.com/p/openbookproject/issues/list?can=1&q=PySRead&colspec=ID+Type+Status+Milestone+Component+Owner+Summary&cells=tiles 所有提交的修订意见列表]
+
+== Moving on... ==
+
+|| *#* || *章节* || 进度 || *技术校对* || 进度 || *技术复校* || 进度 || *编辑排定* ||备注 ||
+||	||第0章：准备工作|| 100%||xiyou.wangcong || ~ || *~* || ~ || *~* ||备注 ||
+||第一部分:内建对象||第1章：Python对象初探||100% ||xiyou.wangcong || ~ || *~* || ~ || *~* ||备注 ||
+|| ||第2章：Python中的整数对象||100% ||xiyou.wangcong || ~ || *~* || ~ || *~* ||备注 ||
+|| ||第3章：Python中的字符串对象||100% ||xiyou.wangcong || ~ || *~* || ~ || *~* ||备注 ||
+|| ||第4章：Python中的list对象||100% ||cocobear || ~ || *~* || ~ || *~* ||备注 ||
+|| ||第5章：Python中的dict对象||100% ||cocobear || ~ || *~* || ~ || *~* ||备注 ||
+|| ||第6章：最简单的Python模拟―Small Python||100% ||cocobear  || ~ || *~* || ~ || *~* ||备注 ||
+||第二部分:虚拟机||第7章：Python的编译结果||100% ||xiyou.wangcong || ~ || *~* || ~ || *~* ||备注 ||
+|| ||第8章：Python虚拟机框架|| 100% || Qingran || ~ || *~* || ~ || *~* ||+5 issues ||
+|| ||第9章：Python虚拟机中的一般表达式|| 100% || Qingran || ~ || *~* || ~ || *~* ||+2 issues ||
+|| ||第10章：Python虚拟机中的控制流||100% ||xiyou.wangcong || ~ || *~* || ~ || *~* ||备注 ||
+|| ||第11章：Python虚拟机中的函数机制||100% ||xiyou.wangcong || ~ || *~* || ~ || *~* ||备注 ||
+|| ||第12章：Python虚拟机中的类机制||100% ||xiyou.wangcong || ~ || *~* || ~ || *~* ||备注 ||
+||第三部分:运行态||第13章_Python运行环境初始化||1000% ||ZoomQuiet || ~ || *~* || ~ || *~* ||+1issue ||
+|| ||第14章_Python的动态加载机制|| 100% || ZoomQuiet || ~ || *~* || ~ || *~* ||通畅,只有阅读建议 ||
+|| ||第15章_Python的线程机制|| 100% || ZoomQuiet || ~ || *~* || ~ || *~* ||+6Issues,有大包袱没有抖完?!||
+|| ||第16章_Python的内存管理机制|| 100% || ZoomQuiet || ~ || *~* || ~ || *~* ||内存调度,看不懂哪! ||
+
+
+=== end小结 ===
+ * 080324~25 ZoomQuiet 紧急完成 第3部分的4章粗校
+  * Chapter 13 +1 Issues
+  * Chapter 14 +3 Issues
+  * Chapter 15 +6 Issues
+  * Chapter 16 +1 Issues
+  * Chapter all +3 Issues
+
+=== 一次小结 ===
+{{{
+董溥(3)：
+Issue 731:      [PySRead]第0章第11页 段落一
+Issue 732:      [PySRead]第一章第4页 段落四
+Issue 736:      [PySRead]第二章第18页 图8
+
+qingran.xia(1):
+Issue 737:      [PySRead]第0章3页笔误
+
+夏武(3):
+Issue 765:      [PySRead]第10章第5页的内容
+Issue 767:      [PySRead]第10章6页的内容
+Issue 768:      [PySRead]第10章21页的内容
+
+
+王聪(15):
+Issue 718:      [PySRead]第0章第7页的内容
+Issue 719:      [PySRead]第0章第11页的内容
+Issue 720:      [PySRead]第1章第5页内容
+Issue 721:      [PySRead]第1章第6页内容
+Issue 722:      [PySRead]第1章第8页内容
+Issue 723:      [PySRead]第1章第9页内容
+Issue 724:      [PySRead]第2章第1页的内容
+Issue 725:      [PySRead]第2章第5页的内容
+Issue 726:      [PySRead]第2章第11页的内容
+Issue 727:      [PySRead]第2章第22页的内容
+Issue 728:      [PySRead]第2章第23页的内容
+Issue 729:      [PySRead]第3章第2页的内容
+Issue 730:      [PySRead]第3章第5页的内容
+Issue 738:      [PySRead]第3章第7页内容
+Issue 739:      [PySRead]第3章第11页的内容
+
+刘洋(1):
+Issue 748:      第0章第6页笔误
+
+
+统计：
+第0章：5
+第1章：5
+第2章：6
+第3章：4
+}}}

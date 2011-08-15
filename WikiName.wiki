@@ -1,0 +1,13 @@
+#summary 技术校对进度汇总列表 4 Beginning Python中译本~Fantasy Soft <FantasySoft@gmail.com>
+#labels Phase-QA
+
+= WikiName =
+
+ * A WikiName is a word that uses capitalized words. WikiName''''''s automagically become hyperlinks to the WikiName's page. See also HelpForBeginners, "Arbitrary Page Names".
+
+ * 就是说，一个 WikiName *是一个特殊英文单词,由两个以上的 首字母大写的单词组成*，会被系统自动识别，认为是新文章的标题，入口！而自动输出为链接……
+
+  * WoodPeckerOrgMemberIsPythonerAll -- 嗯嗯！多长的都可以！可惜只支持英文的………………
+
+ * ["中文链接"]
+  * 中文链接将造成 [http://wiki.woodpecker.org.cn/moin/中文链接 http://wiki.woodpecker.org.cn/moin/%e4%b8%ad%e6%96%87%e9%93%be%e6%8e%a5] 这样的URL ，对于搜索和记录都极其不便！建议不要轻易使用！ -- ZoomQuiet

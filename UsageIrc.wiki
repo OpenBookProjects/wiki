@@ -1,0 +1,50 @@
+#summary IRC 的基本使用介紹
+#labels Phase-QA,IRC,Phase-Support
+
+= IRC的使用 =
+<wiki:toc/>
+
+*IRC*
+-- 是 Internet Relay Chat的缩写，即为"因特网中继交谈"。其使用TCP和SSL协议。
+
+*目前我们的OBP各种项目要求使用IRC进行进度沟通。*
+
+== 推荐使用 ==
+http://www.pidgin.im/shared/img/header.pidgin-head.jpg
+ * *ZEUUX.org* [ZeuuxIrc 自有服务连入说明]
+
+=== Pidgin ===
+*在MS Windows和Linux环境下都推荐大家使用Pidgin。*
+ * [http://www.pidgin.im/download/ Pidgin下载安装]
+ * 安装完成之后:
+  # 添加帐户
+  # 在下拉列表中选择IRC
+  # Screen name中填入你想使用的名字
+  # 服务器 irc.freenode.net
+  # 保存
+ * 启用帐户之后：
+  # 好友
+  # 添加聊天
+  # 频道：*可愛的Python* ~ 图书讨论使用 `#LovelyPython` 频道
+   # 同理 *Web2py 手册* ~ 中文项目使用 `#Web2pyBookZh` 频道
+`注意频道中要以#开头，这样就可以加入聊天室了。`
+配置方面如果还有不明确的地方，请参考ZoomQuiet的截图：
+
+*强烈推荐使用本方法*
+http://zoomquiet.org/res/m/i/snap/Screenshot-into-CorePython_zh.png
+
+
+
+=== Opera ===
+ * 此外Opera浏览器内建了对IRC的支持：
+ * 具体使用方法请参照OperaWiki：http://operawiki.info/OperaIRCZHCN
+
+=== Firefox ==
+ * FF浏览器可以通过安装Chatzilla扩展来实现IRC聊天。
+ * 扩展下载地址：https://addons.mozilla.org/en-US/firefox/addon/16
+ * 配置方法请参考：http://forums.mozine.cn/index.php?showtopic=11378
+
+=== MAC ===
+ * Mac下推荐使用这个:) http://colloquy.info/
+ 
+ 

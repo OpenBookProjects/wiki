@@ -1,0 +1,33 @@
+participant "编辑" as editor
+participant "主持大妈" as mana
+participant "译/作者" as author
+participant "工程仓库" as repo
+participant "图书预览" as prebook
+participant "提案列表" as issue
+participant "技术校对+复审" as techreview
+
+editor->mana: 0.鼓动
+mana->author: 1.召集团队
+mana->repo: 2.创建
+activate repo
+repo-->author: 3.克隆
+activate author
+author->author: 3.1.本地增进
+author->repo: 3.2.提交仓库
+mana->repo: 3.3.合并冲突
+repo->prebook: 4.自动编译
+activate prebook
+prebook-->editor: 5.0.同步关注
+activate editor
+editor->issue: 5.0.1.反馈意见
+activate issue
+prebook-->techreview: 5.1.0.同步校对
+activate techreview
+techreview->issue: 5.1.1.反馈建议
+issue-->author: 5.2.及时修订
+author->repo: 5.3.提交
+issue-->mana: 6.统稿完善
+activate mana
+mana->repo: 6.1.提交
+repo-->editor: 7.收稿
+

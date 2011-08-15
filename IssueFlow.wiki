@@ -1,0 +1,70 @@
+#summary summary of Usage Issue
+#labels Phase-QA,Phase-Implementation,Phase-Support
+
+SEE::Issue[IssueFlow 流程]/[UsageIssue 使用]/[IssueTags 标签]解说
+<wiki:toc/>
+= Issue流程概述 =
+*约定基于 Issue 的图书工程協作*
+ * 这是标准的 问题追踪 模式的项目协同方式!
+== 要点 ==
+{{{
+一事一提案, 理由要叙述;
+处理先认领, 关闭要复审!
+标签选择对, 指派人要明;
+提案处理完, 版本得缀清!
+}}}
+
+=== 示意 ===
+提案生命周期示意
+
+{{{
+0-> 创建, Status=New
+ 1-> 认领, Status=Accepted
+  2-> 处理, Status=Started
+   3-> 复审, Status=Accepted 将 Owner 置为要指派给的人
+    4-> 关闭, Status=Fixed(己修正)
+                /Invalid(无效的)
+                /Duplicate(重复的)
+                /WontFix (待处理)
+}}}
+
+提案实例:*[http://code.google.com/p/openbookproject/issues/detail?id=809 Issue 809 - openbookproject - Google Code]*
+
+从我们创建 Issue 开始到完成任务,Issue 支持的自动解析:
+ # 创建提案后, http://code.google.com/p/openbookproject/issues/detail?id=809
+  * 最后的 id= 的数字就是工程唯一的任务编号
+ #  在Issue 中 任何地方使用 " Issue 809 " 这种格式的字串,就可以自动解析成提案的链接!
+ # 在我们为此任务进行SVN 检入时的注释中就可以使用! 这样在 SVN 的Changeset 中,就可以自动解析出任务的链接:
+  * 例如: http://code.google.com/p/openbookproject/source/detail?r=1365
+  * Changeset 列表在: http://code.google.com/p/openbookproject/source/list
+ # 最后我们回到 Issue 页面,可以使用 " r1365 " 格式的字串来说明SVN的操作, 一样这将自动解析成链接,指向
+  * http://code.google.com/p/openbookproject/source/detail?r=1365
+
+由此,一个具体任务的 创建/指派/完成/关闭 的整体过程的所有信息形成了完整的封闭循环!
+{{{
+Issue->认领->SVN检入解决
+ ^            |
+ |            |
+ +--注释说明---+
+}}}
+
+
+== 解说 ==
+*创建时:*
+ * 请认真理解: *IssueTags~Issue标签详解* 选择正确的标签来综合标定问题
+ * 尽力一个意见创建一个提案,如果有一类相似的问题,请将 每条错误内容 和其对应的建议修订及理由 *放在一起!*
+*处理时:*
+ * 及时设置 Status=Accepted/Started 以免其它人重复处理同一提案
+ * 及时将 Owner 设置成自个儿,以便过滤搜索出谁在处理哪些提案!
+*关闭时:*
+ * **一定要缀上对应的Changeset** ~ 即,严格标定出你为此问题进行了哪些修改?!
+  * 在 SVN 检入时,应该加入对应修改的 Issue 编号
+  * 在 Issue 注释中使用 `r****` 的格式来记录 Changeset
+  * 如 http://tinyurl.com/5ldwfk 所示效果
+
+=== tips ===
+ * code.google 的 Issue 通过Ajax 效果实现各种字段的选择,所以,当你想切换选项时,直接将原有的文字清除,就会自动出现下拉框来重新选定!
+
+= TODO =
+ * 流程说明图谱
+ 
