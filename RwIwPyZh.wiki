@@ -19,6 +19,7 @@
 
 == 资源 ==
  * 仓库: https://bitbucket.org/ZoomQuiet/obp.rwiwpyzh
+  * 分仓库: http://bitbucket.org/grissiom/obp.rwiwpyzh
  * 样例代码: http://examples.oreilly.com/9780596809577/
  
 === 沟通: ===
@@ -58,6 +59,7 @@
   * 对于未来的版权收益有什么特殊要求? 这个不懂，求指教... 
  # Grissiom <chaos.proton@gmail.com> / ...033820
   * *bitbucket ID:* `grissiom`
+  * 分仓库管理员: *http://bitbucket.org/grissiom/obp.rwiwpyzh*
   * http://grissiom.blogspot.com (life), http://blog.csdn.net/grissiom (tech)
   * 北京海淀区知春路大运村 1 号楼 1305 邮编 100191
   * 现在研一，大二的时候自学的 python，以后只要能用 python 的地方就用 python。C 语言也会，写过 51 的程序。 本科毕设做的是 pyqt+pyserial 的拉伸机测控系统。实验室做一些小的材料测控仪器。上个学期学过一点控制论。 我看目录里也有控制系统的内容。英语水平是 CET-6，平时常在英文网站上瞎逛。技术书籍有原版不读译本。
@@ -116,3 +118,8 @@
   * 每天至少 1 个小时用于翻译。
   * 对于未来的版权收益有什么特殊要求?
    * 学习，有收益更好
+ # 小二狼 sa xiao <silasvenus@gmail.com>
+  * *bitbucket ID:* `silasvenus@gmail.com`
+ # 时永安 <andy.shia@gmail.com>
+  * *bitbucket ID:* `???`
+ 
