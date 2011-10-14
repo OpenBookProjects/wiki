@@ -6,6 +6,8 @@
 = 基于Sphinx的图书协同 =
 `简要说明如果进行分布式的图书協同 ;-)`
 
+参考: [http://code.google.com/p/pymotwcn/wiki/SphinxprojectHowto SphinxprojectHowto - pymotwcn - PyMOTW的中文翻译项目]
+
 == 流程 ==
 https://wiki.openbookproject.googlecode.com/hg/fig/flow4sphinx-all_wsd-napkin.png
 
