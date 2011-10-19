@@ -26,12 +26,13 @@
  * *翻译*
   # ~~[CorePyZh Py核心编程ed2]~~ ^宋吉广 窃取ed^
   # [Web2pyManualZh web2py手册] ^停滞ing^
+  # [DocsPyZh Py官方文档] ^慢热ing...^
+   * [PyStLib Py标库]
  * *校对*
   # [PySourceReading Py源码剖析]
   
 *酝酿*
  * [PEPsZh PEP中文]
- * [PyStLib Py标库]
  * BeginningPython
  * ~~[PyWdwWebdotPy 蟒样web开发]~~ ^停止^
 

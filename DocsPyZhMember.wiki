@@ -1,5 +1,5 @@
 #summary docs.py_zh 工程掺合好人名单
-#labels Phase-Support,docs.py_zh,member
+#labels Phase-Support,DocsPyZh,member
 
 SEE:[http://openbookproject.googlecode.com/svn/trunk/docs.py_zh/readme.txt README]/[http://wiki.woodpecker.org.cn/moin/HowToCompliePythonDocument 如何编译docs.py 文档]
 
