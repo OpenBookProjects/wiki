@@ -32,7 +32,7 @@
 
 
 === 细目 ===
-完成度:`69/441 files`
+完成度: *69/441* files
 
 {{{
 http://bitbucket.org/ZoomQuiet/obp.docs-py3-zh
