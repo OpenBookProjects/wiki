@@ -32,7 +32,7 @@
 
 
 === 细目 ===
-完成度: *69/441* files
+完成度: *70/442* files
 
 {{{
 http://bitbucket.org/ZoomQuiet/obp.docs-py3-zh
@@ -158,6 +158,8 @@ http://bitbucket.org/ZoomQuiet/obp.docs-py3-zh
     |   `-- webservers.rst
     |-- install
     |   `-- index.rst
+    |-- library3rd
+    |   `-- index.rst               Zoom.Quiet 发起
     |-- library
     |   |-- 2to3.rst                中译社:
     |   |-- abc.rst                 中译社:bobstar 
