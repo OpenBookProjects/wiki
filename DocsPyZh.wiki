@@ -26,6 +26,7 @@
    * http://bitbucket.org/ZoomQuiet/obp.docs-py3-zh
  *readthedocs.org 进行自动发布
    * http://docspy3zh.readthedocs.org/
+   * 下载: [http://media.readthedocs.org/epub/docspy3zh/latest/docspy3zh.epub docspy3zh.epub]
  * disqus.com 提供评注管理 (每一页底部都有)
 
 而且，所有资源已经自动化联接起来:
