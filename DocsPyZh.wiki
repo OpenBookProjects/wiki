@@ -9,8 +9,7 @@
 = DocsPyZh 缘起 =
 ~ Pyhton官方文档汉化工程
 
- * 一个简单的心愿:
-  * **Python 文档有中文的,而且是最全的!**
+ * 一个简单的心愿: *Python 文档有中文的,而且是最全的!*
 
 == 组织 ==
  * [DocsPyZhMember OBP成员]
