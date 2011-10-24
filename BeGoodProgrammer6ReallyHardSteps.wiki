@@ -3,8 +3,10 @@
 
 <wiki:toc max_depth="2" />
 
-SEE:[http://www.ituring.com.cn/activity/details/365#firstcomment 图灵社区 : 活动 : Translate Geeks to Chinese 翻译活动]//[http://www.gamedev.net/blog/355/entry-2250592-become-a-good-programmer-in-six-really-hard-steps/ Become a Good Programmer in Six Really Hard Steps - GameDev.net]
-
+SEE:[http://www.ituring.com.cn/activity/details/365#firstcomment 图灵社区 : 活动 : Translate Geeks to Chinese 翻译活动]
+ * [http://www.gamedev.net/blog/355/entry-2250592-become-a-good-programmer-in-six-really-hard-steps/ Become a Good Programmer in Six Really Hard Steps - GameDev.net]
+ * [http://www.ituring.com.cn/article/414 图灵社区 : 阅读 : 通过艰难的六步让你成长为一名出色的程序员]
+ 
 = 艰难的6步才能成为高手 =
 GDNet论坛的热门话题之一是这样的:
 
@@ -24,7 +26,7 @@ GDNet论坛的热门话题之一是这样的:
 
 
 
-== 第一步: 咬紧牙关作好长期抗战的准备,或只是鸟瞰一下 ==
+== 第一步: 咬紧牙关作好长期抗战的准备,或就此去鸟! ==
 
 当然,可能你已能折腾出精巧的 shell 脚本,或是几个小游戏;
 但是,如果你有限的技能唯一目标是用各种手段快速完成简单的东西.
@@ -34,7 +36,6 @@ GDNet论坛的热门话题之一是这样的:
 一生里你可以作以及作好的事儿,永远是有限的.
 这的确可以作为你合理的权衡标准,
 你完全可以不用理会俺的文章.
-
 
 
 
