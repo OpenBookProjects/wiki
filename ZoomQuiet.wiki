@@ -38,6 +38,9 @@
 === my reading ===
  * [ZqreadThoughtWorksAnthology 图灵:样书申请~软件开发沉思录]
 
+=== my translating ===
+ * [BeGoodProgrammer6ReallyHardSteps 成为好码农的6步跋涉]~^图灵Translate Geeks to Chinese 翻译活动^
+
 == i believe ==
 {{{
 Time is unimportant, only life important!
