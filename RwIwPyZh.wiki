@@ -1,0 +1,125 @@
+#summary Real World Instrumentation with Python zh proj. wiki root
+#labels index,RWIwPy
+
+参考:[FlowSphinx 基于Sphinx的协同]
+
+<wiki:toc/>
+
+= Py实操硬件 =
+`自动获取数据及控制外设系统`
+
+ * [http://oreilly.com/catalog/9780596809560/ Real World Instrumentation with Python - O'Reilly Media] 图书翻译!-)
+ 
+== 流程 ==
+ # 和主持人 ZoomQuiet 主动沟通, 说明能力和时间情况,要求加入
+ # 通过团队内部协商后,获得OBP[http://code.google.com/p/openbookproject 工程]权限 并订阅[http://groups.google.com/group/openbookproject OBP列表] 正式加入团队
+ # 在 *[RwIwPyZhLog 翻译进度表]* 中主动认领翻译任务
+  * 及时将翻译成果检入专门目录
+  * 并及时更新进度表记录翻译情况
+
+== 资源 ==
+ * 仓库: https://bitbucket.org/ZoomQuiet/obp.rwiwpyzh
+  * 分仓库: http://bitbucket.org/grissiom/obp.rwiwpyzh
+ * 样例代码: http://examples.oreilly.com/9780596809577/
+ 
+=== 沟通: ===
+ # 1对1 邮件/MSN/电话
+  * *每周日 16:30 前,自发回复特定线索邮件，说明:*
+   # 当周进展(含支出实际时间)
+   # 困难
+   # 下周计划
+ # 1对多 列表:
+     * 翻译阶段协同: preobp@googlegroups.com
+     * 出版阶段协同: zeuux-press@zeuux.org
+ # IRC: `#RWIwPy` 频道 
+ 
+=== 知识: ===
+ * 工程维基: http://code.google.com/p/openbookproject/wiki/RwIwPyZh
+ * 宣传维基: http://wiki.woodpecker.org.cn/moin/OpenBookProject
+
+== 组织 ==
+ * 责任编辑: zsprain
+ * 翻译团队(按加入时间排序): 
+  * 主持: ZoomQuiet
+  * 硬件组:
+   # Atommann 
+  * C组:
+   # sagasw
+  * Py组:
+   # Grissiom
+   # kermitmei
+ * 出版支持: [http://zeuux.org 哲思社区]
+
+=== 报名: ===
+ # 高增琦 <pgf00a@gmail.com> / ...167037
+  * 自用Blog:暂无，校内用的多...
+  * 邮寄前联系（租的房子快到期了）
+  * 2010年新鲜毕业的研究生，作XML查询引擎，JAVA 工作是数据库开发，C 有一定的C语言基础，有并行程序的经验硬件接触的少（也就是上学时）有一定的英文阅读能力，曾经翻译过英文论文（XML流处理相关）对开源、开发有激情
+  * 每天1-2个小时？也许周末能多点儿,要是能在手机上弄，也许更多一些吧
+  * 对于未来的版权收益有什么特殊要求? 这个不懂，求指教... 
+ # Grissiom <chaos.proton@gmail.com> / ...033820
+  * *bitbucket ID:* `grissiom`
+  * 分仓库管理员: *http://bitbucket.org/grissiom/obp.rwiwpyzh*
+  * http://grissiom.blogspot.com (life), http://blog.csdn.net/grissiom (tech)
+  * 北京海淀区知春路大运村 1 号楼 1305 邮编 100191
+  * 现在研一，大二的时候自学的 python，以后只要能用 python 的地方就用 python。C 语言也会，写过 51 的程序。 本科毕设做的是 pyqt+pyserial 的拉伸机测控系统。实验室做一些小的材料测控仪器。上个学期学过一点控制论。 我看目录里也有控制系统的内容。英语水平是 CET-6，平时常在英文网站上瞎逛。技术书籍有原版不读译本。
+  *  2011 年的课程应该不紧。基本应该是在实验室做项目吧。估计每周应该有四个晚上可以掺和，呵呵
+  * 对于未来的版权收益有什么特殊要求?
+   * 以前只给 KDE 翻译过几个 po，第一次参与这种翻译，不知道行规怎么样的。图学习，不图收益，呵呵
+ # 小马xiaoma <cnxiaoma@gmail.com> / ...664600
+  * 自用Blog    在建中...
+  * 15年开发经验，其中:5年MIS开发(VB, PB, Sybase)/5年Web开发(PHP,Mysql,ASP,Java)/5年嵌入式（RFID）开发(C)/对数据库，互联网,嵌入式有一定了解。
+  * 2011 很忙，但是仍然能抽出一定的时间。目前正在翻译《REST in Practice》 其中6,7,8章（150多页），4人合译，计划3月完稿，6月可以出版。4月份后可以抽出时间，平均一天一页应该没问题。
+    * http://www.amazon.com/REST-Practice-Hypermedia-Systems-Architecture/dp/0596805829
+  * 对于未来的版权收益有什么特殊要求?只要求有署名权，其他有最好，没有也无所谓，就当是为社区做贡献。
+ # kermit.mei@gmail.com / ...780315
+  * *bitbucket ID:* `kermitmei`
+  * http://www.zeuux.org/home/kermit.mei/
+  * 邮寄地址
+  * 目前从事嵌入式Linux下C/C++软件开发，主要是以Qt为主的嵌入式Linux应用开发，2年工作经验;以前做过智能遥控器，多款数码电子产品；现在工作内容是开发一个基于嵌入式的精简Web引擎，包括html解析和界面生成等功能。对C/C++ 以及Qt架构灰常熟悉，目前靠这个吃饭；熟悉Linux操作系统;熟悉Python/Perl/Bash等脚本语言(主要用于测试和辅助编程)；对计算机硬件有一定了解，并有浓厚兴趣。
+  * 换工作了，从不加班，所以不算忙，至少保证：
+   * 1.每天能够查收并处理邮件；
+   * 2.每周至少贡献一天(周六或者周日)来完成社区任务；
+  * 所有收益均愿意贡献给Zeuux。当然，如果能在扉页中属个名字最好，以帮助我以后找工作时吹吹牛；若无则也罢。
+  * 参与目的：
+   # 这个工作量不算大，按照一年的计划完成C部分翻译和语法润色应该没有问题。
+   # 希望为社区力所能及地贡献一点儿力量。
+   # 最重要的是，我本身也希望阅读此书，并进一步学习社区中的“协同作战“。
+   # 另外，除了C部分的翻译(因为这部分内容确实很少)，如果时间确实是1年，那我觉得我还有时间担任其他章节的校验工作。
+ # 孙伟 / sagasw@gmail.com / ...885742
+  * *bitbucket ID:* `sagasw`
+  * http://sunxiunan.com
+  * 目前主要从事Windows桌面下Visual C++开发，爱好Python和Lua。8年工作经验。
+  * 报名参加C相关章节翻译。每周可保证至少有6个小时。
+ # Alan Zheng <machinecat1666@gmail.com> / ...183786
+  * *bitbucket ID:* `AlanZheng`
+  * http://blog.microsuncn.com
+  * 上海市长宁路1018号龙之梦大厦14楼，Siemens工业软件（上海）有限公司
+  * 3D图形，Linux(Fedora) C/C++, MIPS embedded system, Python, RHCEr, etc.
+  * 周六周日基本都有时间
+  * 对于未来的版权收益有什么特殊要求? ：方便介绍一下通常是怎么处理的吗？
+ # jl y <newpublic01@gmail.com> /  ...860916
+  * *bitbucket ID:* `newpublic01`
+  * 邮寄地址:  租房, 到时候联系, OK?!
+  * 技术积累:  c, python (自我感觉还需要大幅度提高)
+  * 2011 是否忙,每周可以挤出多少时间掺合:  忙也得挤时间啊(目前比较空闲)
+  * 对于未来的版权收益有什么特殊要求:    我觉得, 既然是 linux 环境下的, 就应该支持一下 GPL, 但不是说主张盗版啥的, 只是说能让更多的人读到就好. 况且, 说句不太中听的话, 要想拿这个收益改变生活水平啥的, 我觉得八成不靠谱, 还不如支持一下开源, 呵呵
+ # hu peter <hulwyx@gmail.com>/ ...554974
+  * 自用Blog：无
+  * 广州市前进路161号
+  * 技术积累：？？？？ 本人专业是工程类的，不过对外语比较感兴趣，有兴趣参加。目前就职中交第四航道勘察设计院，08年就被派驻一个援外港口建设项目（安哥拉），外语还行，我想试试看，能否帮上你的忙！
+  * 工作比较空闲，时间较多。
+  * 对于未来的版权收益有什么特殊要求?           ：没有特殊要求。
+ # Atommann <atommann@gmail.com> / ...240120
+  * *bitbucket ID:* `atommann`
+  * http://www.atommann.com
+  * 深圳市南山区南光村龙泰轩A501 邮编：518054
+  * 在一家生产工业过程控制器的厂家做文档员。业余时间爱好开源硬件。
+  * 每天至少 1 个小时用于翻译。
+  * 对于未来的版权收益有什么特殊要求?
+   * 学习，有收益更好
+ # 小二狼 sa xiao <silasvenus@gmail.com>
+  * *bitbucket ID:* `silasvenus@gmail.com`
+ # 时永安 <andy.shia@gmail.com>
+  * *bitbucket ID:* `???`
+ 

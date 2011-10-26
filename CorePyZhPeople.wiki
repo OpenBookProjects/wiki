@@ -1,0 +1,48 @@
+#summary Python核心编程2ed 中文翻译工程成员自述
+#labels Phase-Support,Featured
+
+= 行者无疆 =
+建议分节自述,200字以内，留下长期有效的联系方式；
+体例建议:
+
+{{{
+== 名 ==
+ * 真名
+ * 邮箱
+ * 主页
+技术信抑，工作领域，人生观点，靠谱劝介..
+
+}}}
+
+
+== ZoomQuiet ==
+ * 真名: 周琦(发布时,请使用Zoom.Quiet)
+ * 邮箱: Zoom.Quiet AT gmail.com
+ * 主页: http://zoomquiet.org
+不自由吾宁死的GNU教徒,原PHP/XML/Action Script..WEB程序员转型成过程改进专员,
+现在金山软件公司推广自由软件技术和体验ing,
+努力将Pythonic 融入到生活的一切层面.
+
+== HD ==
+ * 黄冬
+ * huangdong AT gmail.com
+ * http://blog.opensource.org.cn/hdcola
+中国FreeBSD、Python开源社区的积极参与者，现在新浪网工作于大容量分布式高可用系统、网络及存储的架构、开发和运营。最近他正全力工作于xBayDNS这个GSLB的开源项目。
+
+
+== Filia Tao ==
+
+  * 真名: 陶飞 (发表用: Filia Tao)
+  * 邮箱: Filia DOT Tao AT gmail DOT com
+  * 主页: http://blog.filia.cn
+学生. 目前就读于东南大学,即将投身互联网行业.
+热爱自由软件. 热爱Python.
+在学习中使用了大量的Python, 并将在未来的工作中继续使用. 
+
+== digitalwit ==
+  * 名字: 任轶 (digital)
+  * 邮箱: digitalwit AT NOSPAMFREE gmail DOT com
+  * 主页: http://wiki.woodpecker.org.cn/moin/digit
+  * >>>import this
+
+Angeloliu, 你的Google帐号什么时候解冻啊，还等你更新 "Zen of Python" 呢! ^-^

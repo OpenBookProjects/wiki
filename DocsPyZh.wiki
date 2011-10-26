@@ -1,0 +1,51 @@
+#summary DocsPyZh ~ Pyhton官方文档汉化工程
+#labels Phase-Support,DocsPyZh,index
+
+参考: [FlowSphinx 基于Sphinx的协同]/[http://wiki.woodpecker.org.cn/moin/HowToCompliePythonDocument 如何编译docs.py 文档]
+
+
+<wiki:toc/>
+
+= DocsPyZh 缘起 =
+~ Pyhton官方文档汉化工程
+
+发源自一个简单的心愿: *Python 文档有中文的,而且是最全的!*
+
+ * 组织命名: *PyDoc翻译小组*
+ * 工程全称: *Python 3 文档(简体中文)*
+ * E文名称: *Python Docs Chinese v3*
+ * E文缩写: `DocsPy3zh`
+
+== 组织 ==
+ * [DocsPyZhMember OBP成员]
+ * [DocsPyZhLog 翻译进展]
+
+== 资源 ==
+
+ * 列表进行沟通
+   * 发言: openbookproject@googlegroups.com
+   * 归档: https://groups.google.com/group/openbookproject
+ *  code.google 进行 知识/任务/问题 管理:
+   * http://code.google.com/p/openbookprojec
+ *  bitbucket.org 进行版本管理
+   * http://bitbucket.org/ZoomQuiet/obp.docs-py3-zh
+ * readthedocs.org 进行自动发布
+   * http://docspy3zh.readthedocs.org/
+   * 下载: [http://media.readthedocs.org/epub/docspy3zh/latest/docspy3zh.epub docspy3zh.epub]
+ * disqus.com 提供评注管理 (每一页底部都有)
+
+而且，所有资源已经自动化联接起来:
+   * 只要向仓库中推送了版本修订，readthedocs.org 就能立即感知到并完成自动编译
+
+
+== 联盟 ==
+
+ * [http://code.google.com/p/pytut3cn/ Python 3.0 Tutorial Chinese Simple Transaction] ^刘老湿私人研究成果^
+ * [http://code.google.com/p/python-doc-translation/ 中译社]^以QQ群为基地的行者们^ ~ python-doc-translation - 翻译Python最新官方文档
+ * Google Doc 翻译项目组;^负责人^ 刘潇 <hhdxlx#gmail.com>
+
+
+= 参考 =
+ * [PyStLib Py标库]
+
+<wiki:toc/>

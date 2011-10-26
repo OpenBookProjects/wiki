@@ -1,0 +1,48 @@
+#summary How to base Sphinx make O.B.P itme
+#labels help,sphinx
+
+<wiki:toc/>
+
+= 基于Sphinx的每日构建 =
+通过 Sphinx 本身良好的 CIL 接口,可以方便的在各种主机上部署定期构建事务...
+
+== 脚本 ==
+{{{
+#!/bin/sh
+# sphinx-daily-build.sh usage by crontab for OBP
+### changelog::
+#   110301:Zoomq created
+#=========================================================== var defines
+VER="sphinx-daily-build.sh v11.03.01"
+DATE=`date "+%y%m%d"`
+#NOW=$(date +"%Y-%m-%d")
+HG="$(which hg)"
+#=========================================================== path defines
+ROOT="/data"
+    LOGF="$ROOT/_logs/cron/$DATE-sphinx-daily.log"
+DEST="$ROOT/py.kingsoft.net/obp/RWIwPyZh"
+#=========================================================== action defines
+echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"  >> $LOGF
+echo "###::$VER auto build OBP Book"  >> $LOGF
+echo "###::run@" `date +"%Y/%m/%d %H:%M:%S"` >> $LOGF
+cd $DEST
+echo "<<<   pull -u RWIwPyZh"  >> $LOGF
+$HG pull -u          >> $LOGF 2>&1
+echo ">>>   building html "  >> $LOGF
+make html     >> $LOGF 2>&1
+
+
+echo "###::end@" `date +"%Y/%m/%d %H:%M:%S"` >> $LOGF
+echo "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"  >> $LOGF
+#=========================================================== action DONE
+exit  0
+}}}
+
+== 事务 ==
+{{{
+# /etc/crontab: system-wide crontab
+...
+#   110301 daily Sphinx building
+0 0	* * *	root	/data/_cron/sphinx-daily-build.sh
+}}}
+

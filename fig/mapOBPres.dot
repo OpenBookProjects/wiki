@@ -1,0 +1,52 @@
+digraph mapOBPres {
+    /*生成命令:
+$ dot -Tjpeg zoomquiet_org_idx.dot -o zoomquiet_org_idx.jpg -Tcmapx -o zoomquiet_org_idx.map
+$ neato -Tpng mapOBPres.dot -o mapOBPres.png -Tcmapx -o mapOBPres.map
+    全局设定 plaintext
+    */
+    graph [label="O.B.P 在线图书工程资源关系图谱 {by Zoom.Quiet}"
+        ,fontsize=12.0,fontcolor=snow
+        ,labeljust="l",labelloc="t",center=1
+        ,ranksep=0.1,center=1,ratio=compress
+        ,rankdir=LR
+        ,truecolor bgcolor="#333333"
+        ];
+
+    node[fontsize=11.0,height=0.3
+        ,style="filled,setlinewidth(0.5)",fillcolor="#333333",color=gray,fontcolor=snow
+        ,shape=component
+        ];
+
+    edge [fontsize=9.0,fontcolor=gray
+        ,color=azure
+        ,arrowsize=0.5,arrowhead=vee,arrowtail=none
+        ,style="setlinewidth(0.5)"
+        ];
+
+
+    /*资源节点*/
+    bitbucket [label="bitbucket.org",shape=box3d
+        ,URL="https://bitbucket.org/ZoomQuiet/obp.RWIwPyZh"];
+    codegoogle [label="code.google 维基"
+        ,URL="http://code.google.com/p/openbookproject/wiki/RwIwPyZh"];
+    issue  [label="Issue",shape=folder
+        ,URL="http://code.google.com/p/openbookproject/issues/list"];
+    review [label="预览站"
+        ,URL="https://py.kingsoft.net:8080/obp/RWIwPyZh/build/html/"];
+
+    /*资源关系*/
+    codegoogle->{bitbucket review} [label="索引"];
+    bitbucket->review [label="hook定期\n自动编译"];
+        review->issue [label="评论填点"];
+        issue->bitbucket [label="指引修订"];
+    
+    edge [style=invis];
+
+}
+
+
+
+
+
+
+

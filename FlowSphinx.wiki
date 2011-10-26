@@ -1,0 +1,129 @@
+#summary How to base Sphinx make O.B.P itme
+#labels help,sphinx
+
+
+= 基于Sphinx的图书协同 =
+`简要说明如果进行分布式的图书協同 ;-)`
+
+参考: 
+ * [HowToBuildBookOnline 如何组织在线图书工程]
+ * [http://code.google.com/p/pymotwcn/wiki/SphinxprojectHowto SphinxprojectHowto - pymotwcn - PyMOTW的中文翻译项目]
+
+== 资源配置 ==
+
+http://wiki.the-art-of-community-chinese-translation.googlecode.com/hg/fig/mapOBPres.png
+
+涉及的资源::
+ * 交流: 配合各个图书，或是统一的[https://groups.google.com/group/openbookproject O.B.P列表]
+ * 工程: 配合各个图书，或是统一的[http://code.google.com/p/openbookproject/ 项目托管]:
+    * 进行 知识(Wiki)/任务/问题(Issue) 管理
+ * 版本: 配合各个图书的专用 `版本仓库`
+    * 所有[http://code.google.com/p/openbookproject/ O.B.P]发起的一般主仓库是 `https://bitbucket.org/ZoomQuiet/obp.***`
+ * 游览: 使用 http://readthedocs.org/ 服务，配合 http://bitbucket.org 的POST服务，可以完成自动同步和编译以及发布
+    * *进一步的*:
+     * 通过定制 Sphnix 模板,在输出的HTML 页面中包含了 JQuery 支持的可点击评论点;
+        * 点击后重定向到 code.google 对应工程中的提案仓库,以便收集所有建议,进行统一修订!
+     * 而且，也可以嵌入 http://disqus.com/ 的评注服务，在每一页的尾部提供在线注释的支持!
+     * http://readthedocs.org/ 已经追加了对 epub 的自动化编译支持!
+    * *还有个重要特性:*
+     * http://read-the-docs.readthedocs.org/en/latest/alternate_domains.html
+     * readthedocs.org 支持域名的多样性配置; 默认是将翻译中的图书发布在 `http://*.readthedocs.org` 或是用精简域名:  `http://*.rtfd.org`
+     * 正式版本的图书可以经过DNS配置,发布成 taoc.TEDtoChina.org 或是 TEDtoChina.org/taoc 等等自己的域名中!
+
+其中::
+ * http://code.google.com/p/openbookproject/wiki 也可通过 Hg 仓库进行操作!
+ * 克隆 `hg clone https://wiki.openbookproject.googlecode.com/hg/ openbookproject-wiki`
+
+
+== 运用 ==
+简述基于以上资源配合时,图书工程实际如何开展的,分主要角色叙述用户故事...
+
+=== 读/编 ===
+ # 游览: `http://***.readthedocs.org/` 图书实时编译发布环境
+ # 随时进行反馈:
+    # 点击页面左侧的反馈点,到跳到工程主页反馈 ^使用 code.google 的Issue服务^
+    # 在页面底部直接进行评论 ^使用http://disqus.com/服务^
+ # 进一步的,可以根据首页信息,订阅邮件列表加入团队,跟进翻译
+
+=== 作/译 ===
+ 1. 注册 https://bitbucket.org
+ 1. 将目标图书工程进行[http://confluence.atlassian.com/display/BITBUCKET/Forking+a+Bitbucket+Repository 分支克隆]
+ 1. 本地安装必要工具: [http://www.activestate.com/activepython/downloads Python]
+{{{
+#   安装 Hg
+$ pip install mercurial 
+#   安装 Sphinx
+$ pip install sphinx
+}}}
+ 1. 从bitbucket.org获得 源文本, e.g.
+{{{
+hg clone https://bitbucket.org/ZoomQuiet/obp.rwiwpyzh RWIwPyZh
+}}}
+ 1. 本地编译/改进/检入仓库
+{{{
+RWIwPyZh> make html
+}}}
+ 1. 及时推送到个人克隆仓库
+{{{
+hg ci -m "+*.*H ch** 修订日志"
+          |       |     +-- 增补版本简述
+          |       +-- 涉及章节编号
+          +-- 本次增补用时记录
+...
+hg push
+...
+}}}
+ 1. 阶段性的[http://confluence.atlassian.com/display/BITBUCKET/Accepting+a+Pull+Request+for+a+Bitbucket+Repository 提交合并申请]
+ 1. 多次提交后,图书主持创译团队,认可了你的能力, 就将直接受你成为正式成员,以后就可以直接 push 变更到主仓库,而不用每次等待团队评审,人工合并进来了...
+
+实际上,作为译者,唯二要知道的事儿就是::
+    1. rST 的基本语法,可以从 PDF 的文字翻译成 .rst 格式的纯文本
+    1. 使用 Hg 怎么记录版本,并推送成果到仓库
+
+*唯一要坚持作的事儿,就是:*
+    1. 每天坚持通过列表,向所有人吼出你的当日进度
+
+
+== 流程 ==
+http://wiki.openbookproject.googlecode.com/hg/fig/flow4sphinx-all_wsd-napkin.png
+
+简要的说::
+ # 一般是先有出版社编辑动议,明确出版意向后才开始召集团队
+ # 根据图书内部的领域分布,从相应技术社区召集译/作者后,结成团队
+ # 对应创建基于 Sphnix 的图书工程后,检入相应专用仓库
+ # 由核心主创人员,通过版本仓库远程协同推进 ~ ^允许进一步分解任务协同其它成员创作,但是,都应该通过版本仓库^
+ # 定期/自动 编译出在线图书,开放给编辑/校对等团队同步查阅
+ # 在统一的提案追踪系统中收集意见,及时修订
+ # 最终交付编辑完整的内容^注意!^不包含排版,由出版社,找专业团队进行排版
+
+=== 靠谱分析 ===
+依照: [http://www.joelonsoftware.com/articles/fog0000000043.html The Joel Test: 12 Steps to Better Code] 核查图书协同流程的靠谱度::
+
+||~||The Joel Test||~||
+||#||考察点||俺们|| 备注||
+||   1. ||Do you use source control?        || +1 || https://bitbucket.org/ZoomQuiet/obp.RWIwPyZh||
+||   2. ||Can you make a build in one step? || +1 || powered by Sphinx ||
+||   3. ||Do you make daily builds? || +1 || 部署 CronDailyBuild 发布到 https://py.kingsoft.net:8080/obp/RWIwPyZh/build/html/||
+||   4. ||Do you have a bug database?   || +1 || http://code.google.com/p/openbookproject/issues/list||
+||   5. ||Do you fix bugs before writing new code?  || +0.5 || 看成员人品,没有系统约束||
+||   6. ||Do you have an up-to-date schedule?   || +1 || http://code.google.com/p/openbookproject/wiki/RwIwPyZhLog||
+||   7. ||Do you have a spec?   || +0.5 || rST 自个儿有,图书工程的规约细节积累中||
+||   8. ||Do programmers have quiet working conditions? || +0.3 || 看成员各自情况,估计多数没有||
+||   9. ||Do you use the best tools money can buy?  || +0 || 有也不用,FLOSS 为尚||
+||  10. ||Do you have testers?  || +1 ||互阅/校阅/试阅||
+||  11. ||Do new candidates write code during their interview?  || +0 || 全靠圏内推荐,自愿退出||
+||  12. ||Do you do hallway usability testing?  || +1 || 试阅 ||
+||#||考察点||俺们|| 备注||
+|| || *总计:*||`8.7` || 相对国内开发团队,很高了 ||
+
+= 参考 =
+ * [http://code.google.com/p/kcpycamp/wiki/HgUsage 简要 Hg 使用]
+ * [http://code.google.com/p/kcpycamp/wiki/HowtoPython 如何Python?]
+ * [http://docutils.sourceforge.net/docs/user/rst/quickref.html Quick reStructuredText]
+  * [http://czug.org/plone/howto/howto-structuredtext 如何使用StructuredText - 中国Zope/Plone用户组]
+  * [http://python.cofman.dk/pycon/papers/rest_tutorial.html reStructuredText Tutorial: PyCon 2003]
+ * [http://code.google.com/p/pymotwcn/wiki/SphinxprojectHowto Sphinx快速开始 - pymotwcn]
+
+
+<wiki:toc/>
+

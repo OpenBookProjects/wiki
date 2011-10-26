@@ -1,0 +1,23 @@
+#summary web2py manual 2ed zh proj. wiki root
+#labels Phase-Support
+
+参考:[HowtoJoin 如何加入OBP]
+
+<wiki:toc/>
+
+= 每周一模块(PyMOTW)中文版 =
+ * 原案: [http://www.doughellmann.com/PyMOTW/ Python Module of the Week]
+ * 工程: http://code.google.com/p/pymotwcn/
+ * 仓库: http://pymotwcn.googlecode.com/svn/trunk/sphinx-project/src/
+ * 发布: http://readthedocs.org/docs/pymotwcn/en/latest/
+
+== 组织 ==
+ * 工程主持: ZoomQuiet
+ * 翻译团队(按加入时间排序): 
+  # [http://code.google.com/p/pymotwcn/people/detail?u=yzcaijunjie yzcaijunjie]
+  # [http://code.google.com/p/pymotwcn/people/detail?u=shengyan1985 shengyan1985]
+  # ZoomQuiet
+ * 出版支持: [http://zeuux.org 哲思社区]
+
+== 进度 ==
+
