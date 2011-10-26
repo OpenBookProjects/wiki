@@ -9,7 +9,12 @@
 = DocsPyZh 缘起 =
 ~ Pyhton官方文档汉化工程
 
- * 一个简单的心愿: *Python 文档有中文的,而且是最全的!*
+发源自一个简单的心愿: *Python 文档有中文的,而且是最全的!*
+
+ * 组织命名: *PyDoc翻译小组*
+ * 工程全称: *Python 3 文档(简体中文)*
+ * E文名称: *Python Docs Chinese v3*
+ * E文缩写: `DocsPy3zh`
 
 == 组织 ==
  * [DocsPyZhMember OBP成员]
@@ -24,7 +29,7 @@
    * http://code.google.com/p/openbookprojec
  *  bitbucket.org 进行版本管理
    * http://bitbucket.org/ZoomQuiet/obp.docs-py3-zh
- *readthedocs.org 进行自动发布
+ * readthedocs.org 进行自动发布
    * http://docspy3zh.readthedocs.org/
    * 下载: [http://media.readthedocs.org/epub/docspy3zh/latest/docspy3zh.epub docspy3zh.epub]
  * disqus.com 提供评注管理 (每一页底部都有)
@@ -44,4 +49,3 @@
  * [PyStLib Py标库]
 
 <wiki:toc/>
-
