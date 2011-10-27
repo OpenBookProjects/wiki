@@ -32,7 +32,7 @@
 
 
 === 细目 ===
-完成度: *70/442* files
+完成度: *80/442* files
 
 {{{
 http://bitbucket.org/ZoomQuiet/obp.docs-py3-zh
@@ -426,17 +426,17 @@ http://bitbucket.org/ZoomQuiet/obp.docs-py3-zh
     |   |-- zipfile.rst
     |   |-- zipimport.rst
     |   `-- zlib.rst
-    |-- reference
-    |   |-- compound_stmts.rst
-    |   |-- datamodel.rst
-    |   |-- executionmodel.rst
-    |   |-- expressions.rst
-    |   |-- grammar.rst
-    |   |-- index.rst
-    |   |-- introduction.rst
-    |   |-- lexical_analysis.rst
-    |   |-- simple_stmts.rst
-    |   `-- toplevel_components.rst
+    |-- reference               http://blog.chinaunix.net/space.php?uid=20043340&do=blog&id=154850
+    |   |-- compound_stmts.rst          Li Yu <raise.sail # gmail.com>
+    |   |-- datamodel.rst               Li Yu <raise.sail # gmail.com>
+    |   |-- executionmodel.rst          Li Yu <raise.sail # gmail.com>
+    |   |-- expressions.rst             Li Yu <raise.sail # gmail.com>
+    |   |-- grammar.rst                 Li Yu <raise.sail # gmail.com>
+    |   |-- index.rst                   
+    |   |-- introduction.rst            Li Yu <raise.sail # gmail.com>
+    |   |-- lexical_analysis.rst        Li Yu <raise.sail # gmail.com>
+    |   |-- simple_stmts.rst            Li Yu <raise.sail # gmail.com>
+    |   `-- toplevel_components.rst     Li Yu <raise.sail # gmail.com>
     |-- translation
     |   |-- contributors.rst
     |   |-- format.rst
@@ -482,8 +482,3 @@ http://bitbucket.org/ZoomQuiet/obp.docs-py3-zh
 }}}
 == 统计 ==
 
-{{{
-
-
-
-}}}
