@@ -10,15 +10,17 @@ SEE:[http://openbookproject.googlecode.com/svn/trunk/docs.py_zh/readme.txt READM
    * 你的主机软件信息:什么OS?什么Python 版本?什么编辑环境?
  * 你的主要联系信息:邮箱?IM?主页?
 
-== 主持 ==
+== O.B.P ==
  ZoomQuiet ::
   * 主机: HP 520 laptop; 硬件地址 00:1c:bf:17:91:18
   * 软件: Ubuntu 8.04.2 ; Python 2.5.2 (r252:60911, Jun 21 2008, 09:47:06); gedit
-  
 
-== 掺合 ==
  刘鑫 ::
   * 主机：Dell Optiplex 755/自组PC一台
   * 软件：Ubuntu 8.10 ; Python 2.5.2 / 2.6 / 3.0 ; GNU Emacs 23 snapshot ; Mozilla Firefox 3 + It All Text!
+
+== 网友 ==
+ Li Yu::
+  * raise.sail # gmail.com 
 
 = Discuss =
