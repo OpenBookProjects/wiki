@@ -44,31 +44,18 @@
 || ~~110527~~ || ch00 前言|| ZoomQuiet ||110527提前完成 ~p8; +6.5H 170:d325c1c1dc31 ||
 || ~ || ch01 仪器简介|| Atommann || +?H ||
 || ~ || ch02 电子精要|| Atommann || +?H ||
-|| 110619 || ~~ch03 Python语言~~|| ZoomQuiet ||~p64; ?H ||
-|| 110408 || ~~ch03-1: 安装~~ || ZoomQuiet ||~p1; .5H ||
-|| 110618 || ~~ch03-2: 语言~~ || ZoomQuiet ||~p47; +??H ||
-|| ?? || ~~ch03-3: 工具~~ || ZoomQuiet ||~p4; +3H ||
-|| ?? || ~~ch03-4: 小结~~ || ZoomQuiet ||~p1; +1H ||
-|| ~~110727~~ || ~~ch03-5: 参考~~ || ZoomQuiet ||~p1; +2H ||
+|| ~~110819~~ || ~~ch03 Python语言~~|| ZoomQuiet ||~p64; >150H ^只余插图翻译^||
 || ~ || ch04 C语言|| sagasw || +?H ||
 || ~ || ch05 Py扩展|| sagasw || +?H ||
 || ~ || ch06 硬件工具|| Atommann || +?H ||
 || ~ || ch07 物理接口|| xiaoma || +?H ||
-|| 110821 || ch08 让俺开始|| ZoomQuiet ||~p38; +1.5H ^E文rST整理^||
-|| ?? || ch08-1: 定义工程 || Grissiom ||~p3; +?H ||
-|| ?? || ch08-2: 需求 || ZoomQuiet ||~p9; +?H ||
-|| ?? || ch08-3: 设计软件 || ZoomQuiet ||~p5; +?H ||
-|| ?? || ch08-4: 功能测试 || ZoomQuiet ||~p3; +?H ||
-|| ?? || ch08-5: 实施 || ZoomQuiet ||~p15; +?H ||
-|| ?? || ch08-6: 用户文档 || ZoomQuiet ||~p1; +?H ||
-|| ?? || ch08-7: 小结 || ZoomQuiet ||~p1; +?H ||
-|| ?? || ch08-8: 参考 || ZoomQuiet ||~p1; +?H ||
+|| 111111 || ~~ch08 让俺开始~~|| ZoomQuiet ||~p38; >50H ^只余插图翻译^||
 || ~ || ch09 系统概念|| Grissiom || +?H ||
 || ~ || ch10 用模拟器|| ? || +?H ||
 || 110630 || ch11 数据I/O|| Kermit || +?H ||
 || 110730 || ch12 读写文件|| Kermit || +?H ||
 || 110531 || ch13 用户界面|| Kermit || +?H ||
-|| ~ || ch14 真实实例|| ? || +?H ||
+|| 111111 || ch14 真实实例|| sa xiao <silasvenus # gmail.com>|| ~26p; ||
 || 110730 || appa FLOSS资源|| ZoomQuiet ||~p12; +?H ||
 || 110730 || appb 仪器资源|| ZoomQuiet ||P3; +?H ||
 || ,,预期/完成,,日期 || 章节 || 作译 || ,,累计,,耗时/备注 ||
