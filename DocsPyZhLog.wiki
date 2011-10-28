@@ -201,7 +201,7 @@ http://bitbucket.org/ZoomQuiet/obp.docs-py3-zh
     |   |-- crypto.rst              中译社:Lemon, ゙ღ 
     |   |-- crypt.rst
     |   |-- csv.rst
-    |   |-- ctypes.rst
+    |   |-- ctypes.rst              GDT:hhdxlx#gmail.com
     |   |-- curses.ascii.rst
     |   |-- curses.panel.rst
     |   |-- curses.rst
@@ -481,4 +481,3 @@ http://bitbucket.org/ZoomQuiet/obp.docs-py3-zh
         `-- index.rst
 }}}
 == 统计 ==
-
