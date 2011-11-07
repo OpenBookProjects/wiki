@@ -19,6 +19,9 @@ SEE:[http://openbookproject.googlecode.com/svn/trunk/docs.py_zh/readme.txt READM
   * 主机：Dell Optiplex 755/自组PC一台
   * 软件：Ubuntu 8.10 ; Python 2.5.2 / 2.6 / 3.0 ; GNU Emacs 23 snapshot ; Mozilla Firefox 3 + It All Text!
 
+ Alex ::
+  * hhdxlx#gmail.com
+
 == 网友 ==
  Li Yu::
   * raise.sail # gmail.com 
