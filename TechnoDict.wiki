@@ -168,6 +168,7 @@
 || standard input || 标准输入 || ||
 || standard library  || 标准库  || ||
 || standard output || 标准输出 || ||
+|| statement || 语句 || 2011-11-07 添加 statement -> 语句 ||
 || structured and procedural languages  || 结构化和过程化语言 || ||
 || subgroup || 子组 ||  ||
 || subset || 子集 || ||
