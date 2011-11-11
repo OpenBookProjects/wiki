@@ -32,7 +32,7 @@
 
 
 === 细目 ===
-完成度: *80/442* files
+完成度: *80/424* files
 
 {{{
 http://bitbucket.org/ZoomQuiet/obp.docs-py3-zh
@@ -42,7 +42,6 @@ http://bitbucket.org/ZoomQuiet/obp.docs-py3-zh
     |-- contents.rst
     |-- copyright.rst
     |-- glossary.rst
-    |-- index.rst               Zoom.Quiet 首页
     |-- license.rst
     |-- README.txt              Zoom.Quiet 翻译说明
     |-- c-api
@@ -159,6 +158,8 @@ http://bitbucket.org/ZoomQuiet/obp.docs-py3-zh
     |-- install
     |   `-- index.rst
     |-- library3rd
+    |   |-- numpy.rst
+    |   |-- pil.rst
     |   `-- index.rst               Zoom.Quiet 发起
     |-- library
     |   |-- 2to3.rst                中译社:
@@ -426,7 +427,7 @@ http://bitbucket.org/ZoomQuiet/obp.docs-py3-zh
     |   |-- zipfile.rst
     |   |-- zipimport.rst
     |   `-- zlib.rst
-    |-- reference               http://blog.chinaunix.net/space.php?uid=20043340&do=blog&id=154850
+    |-- reference               from http://blog.chinaunix.net/space.php?uid=20043340&do=blog&id=154850
     |   |-- compound_stmts.rst          Li Yu <raise.sail # gmail.com>
     |   |-- datamodel.rst               Li Yu <raise.sail # gmail.com>
     |   |-- executionmodel.rst          Li Yu <raise.sail # gmail.com>
@@ -481,3 +482,5 @@ http://bitbucket.org/ZoomQuiet/obp.docs-py3-zh
         `-- index.rst
 }}}
 == 统计 ==
+
+
