@@ -45,7 +45,20 @@
  * Google Doc 翻译项目组;^负责人^ 刘潇 <hhdxlx#gmail.com>
 
 
+=== 参与 ===
+我们使用分布式版本管理系统 Mercurial(Hg) 进行协同,享受 bitbucket.org 提供的免费服务:
+
+ * 加入首先要有 bitbucket.org 帐号
+ * 对 http://bitbucket.org/ZoomQuiet/obp.docs-py3-zh 进行 *fork* ~ 创建你的分支仓库
+ * 在你的仓库中进行相应的增补
+ * 及时提交 *pull request* ,让我们知道你的贡献
+  * e.g http://confluence.atlassian.com/download/attachments/221449527/PullRequestOptions-v2.png
+ * 通过几次提交后,相互信任后,考虑直接绑定主仓库的写入权限
+
+参考: *[http://confluence.atlassian.com/display/BITBUCKET/Forking+a+Bitbucket+Repository Forking a Bitbucket Repository - Bitbucket]*
+
 = 参考 =
  * [PyStLib Py标库]
 
+----
 <wiki:toc/>
