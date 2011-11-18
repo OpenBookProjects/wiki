@@ -11,7 +11,7 @@
 
 发源自一个简单的心愿: *Python 文档有中文的,而且是最全的!*
 
- * 组织命名: *PyDoc翻译小组*
+ * 组织命名: `DocsPy 翻译小组`
  * 工程全称: *Python 3 文档(简体中文)*
  * E文名称: *Python Docs Chinese v3*
  * E文缩写: `DocsPy3zh`
