@@ -55,7 +55,12 @@
   * e.g http://confluence.atlassian.com/download/attachments/221449527/PullRequestOptions-v2.png
  * 通过几次提交后,相互信任后,考虑直接绑定主仓库的写入权限
 
-参考: *[http://confluence.atlassian.com/display/BITBUCKET/Forking+a+Bitbucket+Repository Forking a Bitbucket Repository - Bitbucket]*
+参考: 
+ * *[http://confluence.atlassian.com/display/BITBUCKET/Forking+a+Bitbucket+Repository Forking a Bitbucket Repository - Bitbucket]*
+ * [http://code.google.com/p/kcpycamp/wiki/AbtDvcs 有关分布式版本管理]
+  * [http://code.google.com/p/kcpycamp/wiki/HgUsage HgUsage]
+  * [http://code.google.com/p/kcpycamp/wiki/HgFlows Hg協同]
+  * [http://code.google.com/p/kcpycamp/wiki/HowtoScm 如何SCM?]
 
 = 参考 =
  * [PyStLib Py标库]
