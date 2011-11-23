@@ -70,7 +70,7 @@ http://bitbucket.org/ZoomQuiet/obp.docs-py3-zh
     |   |-- gen.rst
     |   |-- import.rst
     |   |-- index.rst
-    |   |-- init.rst
+    |   |-- init.rst           
     |   |-- intro.rst
     |   |-- iterator.rst
     |   |-- iter.rst
@@ -126,7 +126,7 @@ http://bitbucket.org/ZoomQuiet/obp.docs-py3-zh
     |   |-- building.rst
     |   |-- embedding.rst
     |   |-- extending.rst
-    |   |-- index.rst
+    |   |-- index.rst           Alex Liu <hhdxlx#gmail.com>
     |   |-- newtypes.rst
     |   `-- windows.rst
     |-- faq
@@ -202,7 +202,7 @@ http://bitbucket.org/ZoomQuiet/obp.docs-py3-zh
     |   |-- crypto.rst              中译社:Lemon, ゙ღ 
     |   |-- crypt.rst
     |   |-- csv.rst
-    |   |-- ctypes.rst              GDT:hhdxlx#gmail.com
+    |   |-- ctypes.rst              Alex Liu <hhdxlx#gmail.com>
     |   |-- curses.ascii.rst
     |   |-- curses.panel.rst
     |   |-- curses.rst
@@ -271,7 +271,7 @@ http://bitbucket.org/ZoomQuiet/obp.docs-py3-zh
     |   |-- imghdr.rst
     |   |-- importlib.rst
     |   |-- imp.rst
-    |   |-- index.rst               中译社:
+    |   |-- index.rst               Alex Liu <hhdxlx#gmail.com>
     |   |-- inspect.rst
     |   |-- internet.rst
     |   |-- intro.rst
@@ -433,7 +433,7 @@ http://bitbucket.org/ZoomQuiet/obp.docs-py3-zh
     |   |-- executionmodel.rst          Li Yu <raise.sail # gmail.com>
     |   |-- expressions.rst             Li Yu <raise.sail # gmail.com>
     |   |-- grammar.rst                 Li Yu <raise.sail # gmail.com>
-    |   |-- index.rst                   
+    |   |-- index.rst                   Alex Liu <hhdxlx#gmail.com>
     |   |-- introduction.rst            Li Yu <raise.sail # gmail.com>
     |   |-- lexical_analysis.rst        Li Yu <raise.sail # gmail.com>
     |   |-- simple_stmts.rst            Li Yu <raise.sail # gmail.com>
@@ -482,5 +482,3 @@ http://bitbucket.org/ZoomQuiet/obp.docs-py3-zh
         `-- index.rst
 }}}
 == 统计 ==
-
-
