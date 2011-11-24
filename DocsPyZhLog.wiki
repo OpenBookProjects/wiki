@@ -445,7 +445,7 @@ http://bitbucket.org/ZoomQuiet/obp.docs-py3-zh
     |   |-- index.rst
     |   |-- logging.rst
     |   `-- workflow.rst
-    |-- tutorial
+    |-- tutorial                        原 PDT 项目, 中译社
     |   |-- appetite.rst
     |   |-- classes.rst
     |   |-- controlflow.rst
@@ -461,7 +461,7 @@ http://bitbucket.org/ZoomQuiet/obp.docs-py3-zh
     |   |-- stdlib2.rst
     |   |-- stdlib.rst
     |   `-- whatnow.rst
-    |-- using
+    |-- using                          Alex Liu <hhdxlx#gmail.com>
     |   |-- cmdline.rst
     |   |-- index.rst
     |   |-- mac.rst
