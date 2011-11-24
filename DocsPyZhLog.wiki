@@ -114,7 +114,7 @@ http://bitbucket.org/ZoomQuiet/obp.docs-py3-zh
     |   |-- setupscript.rst
     |   |-- sourcedist.rst
     |   `-- uploading.rst
-    |-- documenting
+    |-- documenting             原 PDT 项目.LinTao51#gmail.com
     |   |-- building.rst
     |   |-- fromlatex.rst
     |   |-- index.rst
