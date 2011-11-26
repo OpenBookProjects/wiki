@@ -162,6 +162,7 @@
 || 英文 || 中文 || 备注 ||
 || searching || 查找 ||  ||
 || search || 查找 ||  ||
+|| sequence || 序列 || 2011-11-26 add 'sequence -> 序列' by Alex Liu ||
 || slice || 切片 || ||
 || space || 空格 ||  ||
 || standard error || 标准错误输出 || ||
