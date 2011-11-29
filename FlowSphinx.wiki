@@ -7,7 +7,39 @@
 
 参考: 
  * [HowToBuildBookOnline 如何组织在线图书工程]
- * [http://code.google.com/p/pymotwcn/wiki/SphinxprojectHowto SphinxprojectHowto - pymotwcn - PyMOTW的中文翻译项目]
+ * [http://code.google.com/p/pymotwcn/wiki/SphinxprojectHowto SphinxprojectHowto  * pymotwcn  * PyMOTW的中文翻译项目]
+
+
+== 为毛?! ==
+其实这方面早已发布过至少4个在线協同翻译平台, 但是都消亡了:
+ * Limodou :
+    * 使用Django 开发的平台 发布的:
+        http://limodou.51boo.com/booklist/ 
+    * 早年使用 Zope 发布的: http://pyrecord.freezope.org/translation
+        * 留影: http://floss.zoomquiet.org/data/20080528101251/index.html
+ * vcc.163 使用 http://code.google.com/p/pydoc-zh/ 发布的
+        http://fy.py3k.cn/ ; http://djangobook.py3k.cn/
+ * YoungKing? <yanckin@gmail.com> frok django-doc 的
+    * 主页: http://djangobook-cn.appspot.com/
+    * 代码: http://bitbucket.org/youngking/djangobook-cn 
+
+原因就在于:
+ * 翻译这种行为,不是标准的编程行为
+    * 是种文学式的再创作
+    * 即使有自动化翻译工具的帮助,依然无法替代人工的深度思考
+    * 而且翻译是要 信/达/雅 兼顾的整个章节通盘考虑,和调节的:
+        * 所以,基于过往句/词翻译 的自动化翻译辅助基本无用
+        * 而基于自然段或是逐句翻译的在线協同,其成果基本无法阅读
+ * 而原先的翻译辅助平台都是基于 i18N 时的 po 文件,将整个文章自动化打碎为词/句来进行翻译管理的
+    * 这直接导致翻译时没有上下文,完全是生译
+    * 而且翻译界面不论怎么对比调整也没有整篇在前,自由前后印证校译的感觉
+    * ...等等诸多不适应!
+ * 所以, Sphinx 一出现,俺就感觉这是最自然的图书協作基础格式了!
+    * 进而逐步解决管理/協同/追踪/自动化发布的环节
+    * 就形成了目前 O.B.P 工程使用的通用图书作译協作流程
+    * 基于各种免费服务,形成一个完备的顺畅的工作环境
+
+以下简述目前,综合使用在线免费资源,可以集成的 *基于Sphinx的图书协同翻译环境*
 
 == 资源配置 ==
 
@@ -66,9 +98,9 @@ RWIwPyZh> make html
  1. 及时推送到个人克隆仓库
 {{{
 hg ci -m "+*.*H ch** 修订日志"
-          |       |     +-- 增补版本简述
-          |       +-- 涉及章节编号
-          +-- 本次增补用时记录
+          |       |     +- * 增补版本简述
+          |       +- * 涉及章节编号
+          +- * 本次增补用时记录
 ...
 hg push
 ...
@@ -120,9 +152,9 @@ http://wiki.openbookproject.googlecode.com/hg/fig/flow4sphinx-all_wsd-napkin.png
  * [http://code.google.com/p/kcpycamp/wiki/HgUsage 简要 Hg 使用]
  * [http://code.google.com/p/kcpycamp/wiki/HowtoPython 如何Python?]
  * [http://docutils.sourceforge.net/docs/user/rst/quickref.html Quick reStructuredText]
-  * [http://czug.org/plone/howto/howto-structuredtext 如何使用StructuredText - 中国Zope/Plone用户组]
+  * [http://czug.org/plone/howto/howto-structuredtext 如何使用StructuredText  * 中国Zope/Plone用户组]
   * [http://python.cofman.dk/pycon/papers/rest_tutorial.html reStructuredText Tutorial: PyCon 2003]
- * [http://code.google.com/p/pymotwcn/wiki/SphinxprojectHowto Sphinx快速开始 - pymotwcn]
+ * [http://code.google.com/p/pymotwcn/wiki/SphinxprojectHowto Sphinx快速开始  * pymotwcn]
 
 
 <wiki:toc/>
