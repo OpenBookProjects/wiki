@@ -13,13 +13,12 @@
 == 为毛?! ==
 其实这方面早已发布过至少4个在线協同翻译平台, 但是都消亡了:
  * Limodou :
-    * 使用Django 开发的平台 发布的:
-        http://limodou.51boo.com/booklist/ 
+    * 使用Django 开发的平台 发布的:        http://limodou.51boo.com/booklist/ 
     * 早年使用 Zope 发布的: http://pyrecord.freezope.org/translation
         * 留影: http://floss.zoomquiet.org/data/20080528101251/index.html
  * vcc.163 使用 http://code.google.com/p/pydoc-zh/ 发布的
-        http://fy.py3k.cn/ ; http://djangobook.py3k.cn/
- * YoungKing? <yanckin@gmail.com> frok django-doc 的
+    * http://fy.py3k.cn/ ; http://djangobook.py3k.cn/
+ * Young King <yanckin@gmail.com> frok django-doc 的
     * 主页: http://djangobook-cn.appspot.com/
     * 代码: http://bitbucket.org/youngking/djangobook-cn 
 
