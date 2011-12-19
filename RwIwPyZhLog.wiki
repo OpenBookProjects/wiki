@@ -40,7 +40,7 @@ RWIwPy/source/
 +-- [done] ch02 基本电子学     Atommann ~44p;
 +-- [done] ch03 Python语言     ZoomQuiet ~p64; 110819 >150H ^只余插图翻译^
 +-- [done] ch04 C语言     sagasw ~34p;
-+-- ch05 Py扩展       sagasw ~22p;
++-- [done] ch05 Py扩展       sagasw ~22p; ^未reST 格式化^
 +-- ch06 硬件工具     Atommann ~18p;
 +-- [done] ch07 物理接口     马钧  cnxiaoma ~42p; 111113 完成
 +-- ch08 让俺开始     ZoomQuiet ~p38; 111111 >50H ^只余插图翻译^
