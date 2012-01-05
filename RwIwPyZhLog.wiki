@@ -44,10 +44,10 @@ RWIwPy/source/
 +-- ch06 硬件工具     Atommann ~18p;
 +-- [done] ch07 物理接口     马钧  cnxiaoma ~42p; 111113 完成
 +-- ch08 让俺开始     ZoomQuiet ~p38; 111111 >50H ^只余插图翻译^
-+-- ch09 系统概念     Grissiom ~36p;
-+-- ch10 用模拟器     Andy Shi <andy.shia $ gmail.com> ~46p ; 111220 可完成
-+-- ch11 数据I/O     Kermit ~42p
-+-- ch12 读写文件     Kermit ~50p
++-- [done] ch09 系统概念     Grissiom ~36p;
++-- [done] ch10 用模拟器     Andy Shi <andy.shia # gmail.com> ~46p ; 111220 可完成
++-- ch11 数据I/O     Kermit ~42p  ; 120101 完成,Amankwah 校对中,,,
++-- ch12 读写文件     Kermit ~50p ; 120120 计划完成
 +-- [done] ch13 用户界面     Kermit ~60p
 +-- [done] ch14 真实例     sa xiao <silasvenus # gmail.com>~p26;
 +-- appa FLOSS资源    ZoomQuiet ~p12;
