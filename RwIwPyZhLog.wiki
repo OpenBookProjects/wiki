@@ -33,6 +33,12 @@
  * 提前认领,量力而行
  * 及时更新,记录贡献 ^进展表中的用时,是累计变更的,不用完成时才回忆填写 ;-)^
  * 配合水银,版本记要 ^在版本日志中记载贡献细节^:
+ * 进展标签:
+    * `[done]`
+    * `[done]`
+    * `[done]`
+    * `[done]`
+
 {{{
 RWIwPy/source/
 +-- [done] ch00 前言     ZoomQuiet 110527提前完成~p8; +6.5H
@@ -46,8 +52,8 @@ RWIwPy/source/
 +-- [done] ch08 让俺开始     ZoomQuiet ~p38; 120111 >70H
 +-- [done] ch09 系统概念     Grissiom ~36p;
 +-- [done] ch10 用模拟器     Andy Shi <andy.shia # gmail.com> ~46p ; 111220 可完成
-+-- ch11 数据I/O     Kermit ~42p  ; 120101 完成,Amankwah 校对中,,,
-+-- ch12 读写文件     Kermit ~50p ; 120120 计划完成
++-- [done] ch11 数据I/O     Kermit ~42p  ; 120101 完成,Amankwah 校对中,,,
++-- [done] ch12 读写文件     Kermit ~50p ; 120120 计划完成
 +-- [done] ch13 用户界面     Kermit ~60p
 +-- [done] ch14 真实例     sa xiao <silasvenus # gmail.com>~p26;
 +-- [done] appa FLOSS资源    ZoomQuiet ~p12; >4H 120118
