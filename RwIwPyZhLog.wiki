@@ -46,29 +46,38 @@ RWIwPy/source/
 |       - 110527 [stuff]ZQ提前完成~p8; +6.5H
 |       - 120101 [prev1]ZQ完成
 +-- ch01 仪器简介     Atommann ~15p;
-+-- [prev1][stuff] ch02 基本电子学  Atommann ~44p; ZQ[prev1]中
+|       - ?
++-- [prev1][stuff] ch02 基本电子学  Atommann ~44p
 |       - 110321 [stuff]Atommann完成 
 |       - 120202 [prev1]ZQ完成
 +-- [prev1][stuff] ch03 Python语言     ZoomQuiet ~p64; 120111 >160H 
-|       - ZQ:110527 [stuff]提前完成~p8; +6.5H
-|       - ZQ:120101 [prev1]完成
+|       - 120111 [stuff]ZQ完成 >160H
+|       - 120118 [prev1]完成
 +-- [stuff] ch04 C语言     sagasw ~34p;
+|       - ?
 +-- [stuff] ch05 Py扩展       sagasw ~22p; ^未reST 格式化^
+|       - ?
 +-- ch06 硬件工具     Atommann ~18p;
-+-- [stuff] ch07 物理接口     马钧  cnxiaoma ~42p; 111113 完成
+|       - ?
++-- [stuff] ch07 物理接口     马钧  cnxiaoma ~42p;
 |       - 111113 [stuff]马钧
 |       - ?
 +-- [prev1][stuff] ch08 让俺开始     ZoomQuiet ~p38;
 |       - 120111 [stuff]ZQ提前完成 >70H
 |       - 120115 [prev1]ZQ完成
 +-- [stuff] ch09 系统概念     Grissiom ~36p;
+|       - ?
 +-- [stuff] ch10 用模拟器     Andy Shi <andy.shia # gmail.com> ~46p ; 111220 可完成
+|       - ?
 +-- [stuff] ch11 数据I/O     Kermit ~42p  ;
 |       - 120101 [stuff] Kermit完成 >4H
 |       - [prev1] Amankwah 进行中
 +-- [stuff] ch12 读写文件     Kermit ~50p ; 120120 计划完成
+|       - ?
 +-- [stuff] ch13 用户界面     Kermit ~60p
+|       - ?
 +-- [stuff] ch14 真实例     sa xiao <silasvenus # gmail.com>~p26;
+|       - ?
 +-- [prev1][stuff] appa FLOSS资源    ZoomQuiet ~p12;
 |       - 120118 [stuff]ZQ完成 >4H
 |       - 120119 [prev1]ZQ完成
