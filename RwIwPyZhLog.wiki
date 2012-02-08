@@ -53,8 +53,9 @@ RWIwPy/source/
 +-- [prev1][stuff] ch03 Python语言     ZoomQuiet ~p64; 120111 >160H 
 |       - 120111 [stuff]ZQ完成 >160H
 |       - 120118 [prev1]完成
-+-- [stuff] ch04 C语言     sagasw ~34p;
++-- [prev1][stuff] ch04 C语言     sagasw ~34p;
 |       - ?
+|       - 120208 [prev1]ZQ完成 
 +-- [stuff] ch05 Py扩展       sagasw ~22p; ^未reST 格式化^
 |       - ?
 +-- ch06 硬件工具     Atommann ~18p;
