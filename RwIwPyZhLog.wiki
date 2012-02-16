@@ -56,14 +56,14 @@ RWIwPy/source/
 +-- [prev1][stuff] ch04 C语言     sagasw ~34p;
 |       - ?
 |       - 120208 [prev1]ZQ完成 
-+-- [stuff] ch05 Py扩展       sagasw ~22p; ^未reST 格式化^
++-- [prev1][stuff] ch05 Py扩展       sagasw ~22p; ^未reST 格式化^
 |       - ?
-|       - 120209 [prev1]ZQ开始... 
+|       - 120210 [prev1]ZQ完成 
 +-- ch06 硬件工具     Atommann ~18p;
 |       - ?
 +-- [stuff] ch07 物理接口     马钧  cnxiaoma ~42p;
 |       - 111113 [stuff]马钧
-|       - ?
+|       - 120210 [prev1]ZQ开始... 
 +-- [prev1][stuff] ch08 让俺开始     ZoomQuiet ~p38;
 |       - 120111 [stuff]ZQ提前完成 >70H
 |       - 120115 [prev1]ZQ完成
