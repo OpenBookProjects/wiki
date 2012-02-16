@@ -65,6 +65,8 @@
  * Young King <yanckin@gmail.com> frok django-doc 的
     * 主页: http://djangobook-cn.appspot.com/
     * 代码: http://bitbucket.org/youngking/djangobook-cn 
+ * 又一个Pootle: Python 3 Docs Chinese Translation [简体中文]
+    * http://python-internal.net/pootle/zh_CN/python3-docs-zh_cn/
 
 原因就在于:
  * 翻译这种行为,不是标准的编程行为
