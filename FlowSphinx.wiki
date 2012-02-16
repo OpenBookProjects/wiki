@@ -9,6 +9,48 @@
  * [HowToBuildBookOnline 如何组织在线图书工程]
  * [http://code.google.com/p/pymotwcn/wiki/SphinxprojectHowto SphinxprojectHowto  * pymotwcn  * PyMOTW的中文翻译项目]
 
+== 简述 ==
+常常有人问俺:"我想搭建一个能够多人（10人以内，都是公司组内成员）协同编写，并且能够进行版本管理，而且进度能够给网上读者查阅，并能够进行评注的环境，你能给我介绍一下搭建环境的大概流程吗？"
+
+好吧,集中快速回答一下:
+
+* 其实,俺推荐的开放图书工程,协同流程是要参考社区发来的,也有专门文章: 经验分享:"如何组织在线图书工程"
+    * http://code.google.com/p/openbookproject/wiki/HowToBuildBookOnline
+    * 以及相关演讲:
+      * 幻灯: http://zoomquiet.org/res/s5/090913-lovpy/
+      * 录音: http://zoomquiet.org/res/m/r/wav4zoomq/070804-lvpy-book-creat/070804-cpugV004-obp-lovelypy.ogg
+* 从宏观上说,创立图书团队很简单:
+    * 1. 确立主持人,以便集中讨论/启动/推动
+    * 2. 建立基础环境:
+        *  创建专用列表,推荐 googlegroups 服务
+        *  github/bitbucket 创建仓库
+        *  初始化图书的 Sphinx 工程,章节目录
+        *  联接 http://readthedocs.org/ 自动化编译服务
+            * 手册: http://read-the-docs.readthedocs.org/en/latest/index.html
+    * 3. 加入成员,绑定仓库权限,开始码字
+    * 然后,根据需要,分阶段进行针对性的社区宣传,发起各种活动:
+        *  预览试阅
+        *  技术校对
+        *  挑錯,,,,
+        以便保持关注,吸收反馈,改进内容,,,
+* 几个具体问题:
+    * 版本管理?
+        * 本身图书工程就在 Hg/Git 版本仓库中
+        * 使用正当的软件工程的版本管理方式就好
+        * 而且 readthedocs.org 本身支持图书多版本发布的
+    * 进度查询?
+        *  可以插入 changlog 章节,描述重大版本的进展
+        *  也可以在章节标题中加入完成度的描述
+        *  当然,更加cool 的是使用 github/bitbucket 的 commit mail 服务,直接将修訂提交信息自动发布到邮件列表
+        * 而邮件列表也有 rss 输出的,通过 planetplanet 之类抓取系統,就可以简单的将进展发布到相关网站或是自行订阅了
+    * 在线评注?
+        *  俺是同时使用 DISQUS 进行页面评注
+        *  以及使用定制的 Sphinx 模板,进行点評
+        * e.g. 
+          *  代码: https://bitbucket.org/ZoomQuiet/the-art-of-community-zh/src/1dd5c4c7b05c/source/_static/j/comment.js
+          * 效果: http://readthedocs.org/docs/taoc-zh/en/latest/
+            *  那些左侧的气泡图标,点击后,自动跳到对应的 Issue 收集平台
+        *  当然,你也完全可以自行开发一个評論服务,通过 Ajax 注入到页面中
 
 == 为毛?! ==
 其实这方面早已发布过至少4个在线協同翻译平台, 但是都消亡了:
@@ -146,6 +188,8 @@ http://wiki.openbookproject.googlecode.com/hg/fig/flow4sphinx-all_wsd-napkin.png
 ||  12. ||Do you do hallway usability testing?  || +1 || 试阅 ||
 ||#||考察点||俺们|| 备注||
 || || *总计:*||`8.7` || 相对国内开发团队,很高了 ||
+
+
 
 = 参考 =
  * [http://code.google.com/p/kcpycamp/wiki/HgUsage 简要 Hg 使用]
