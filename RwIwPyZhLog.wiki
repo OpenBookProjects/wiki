@@ -69,8 +69,9 @@ RWIwPy/source/
 |       - 120115 [prev1]ZQ完成
 +-- [stuff] ch09 系统概念     Grissiom ~36p;
 |       - ?
-+-- [stuff] ch10 用模拟器     Andy Shi <andy.shia # gmail.com> ~46p ; 111220 可完成
-|       - ?
++-- [prev1][stuff] ch10 用模拟器     Andy Shi <andy.shia # gmail.com> ~46p ; 111220 可完成
+|       - 120113 [stuff] Andy Shi 提前完成!
+|       - 120220 [prev1]ZQ完成
 +-- [stuff] ch11 数据I/O     Kermit ~42p  ;
 |       - 120101 [stuff] Kermit完成 >4H
 |       - [prev1] Amankwah 进行中
