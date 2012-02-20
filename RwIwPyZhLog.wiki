@@ -45,10 +45,10 @@ RWIwPy/source/
 +-- [prev1][stuff] ch00 前言  ZoomQuiet 
 |       - 110527 [stuff]ZQ提前完成~p8; +6.5H
 |       - 120101 [prev1]ZQ完成
-+-- ch01 仪器简介     Atommann ~15p;
-|       - ?
++-- [stuff] ch01 仪器简介     Atommann ~15p;
+|       - 120101 [prev1]ZQ完成
 +-- [prev1][stuff] ch02 基本电子学  Atommann ~44p
-|       - 110321 [stuff]Atommann完成 
+|       - 120215 [stuff]Atommann ci 
 |       - 120202 [prev1]ZQ完成
 +-- [prev1][stuff] ch03 Python语言     ZoomQuiet ~p64; 120111 >160H 
 |       - 120111 [stuff]ZQ完成 >160H
@@ -59,8 +59,8 @@ RWIwPy/source/
 +-- [prev1][stuff] ch05 Py扩展       sagasw ~22p; ^未reST 格式化^
 |       - ?
 |       - 120210 [prev1]ZQ完成 
-+-- ch06 硬件工具     Atommann ~18p;
-|       - ?
++-- [stuff] ch06 硬件工具     Atommann ~18p;
+|       - 120216 [prev1]Atommann ci
 +-- [stuff] ch07 物理接口     马钧  cnxiaoma ~42p;
 |       - 111113 [stuff]马钧
 |       - 120210 [prev1]ZQ开始... 
