@@ -45,49 +45,103 @@ RWIwPy/source/
 +-- [prev1][stuff] ch00 前言  ZoomQuiet 
 |       - 110527 [stuff]ZQ提前完成~p8; +6.5H
 |       - 120101 [prev1]ZQ完成
-+-- [stuff] ch01 仪器简介     Atommann ~15p;
-|       - 120101 [prev1]ZQ完成
-|       - [prev1] 120222 ZQ开始...
+|       - [prev2] ???
+|       - [pread] ???
+|       - [done] ???
++-- [prev1][stuff] ch01 仪器简介     Atommann ~15p;
+|       - 120101 [stuff]Atommann
+|       - 120223 [prev1] ZQdone ... 发现缺少部分翻译,,,
+|       - [prev2] ???
+|       - [pread] ???
+|       - [done] ???
 +-- [prev1][stuff] ch02 基本电子学  Atommann ~44p
 |       - 120215 [stuff]Atommann ci 
 |       - 120202 [prev1]ZQ完成
+|       - [prev2] ???
+|       - [pread] ???
+|       - [done] ???
 +-- [prev1][stuff] ch03 Python语言     ZoomQuiet ~p64; 120111 >160H 
 |       - 120111 [stuff]ZQ完成 >160H
 |       - 120118 [prev1]完成
+|       - [prev2] ???
+|       - [pread] ???
+|       - [done] ???
 +-- [prev1][stuff] ch04 C语言     sagasw ~34p;
 |       - ?
 |       - 120208 [prev1]ZQ完成 
+|       - [prev2] ???
+|       - [pread] ???
+|       - [done] ???
 +-- [prev1][stuff] ch05 Py扩展       sagasw ~22p; ^未reST 格式化^
 |       - ?
 |       - 120210 [prev1]ZQ完成 
+|       - [prev2] ???
+|       - [pread] ???
+|       - [done] ???
 +-- [stuff] ch06 硬件工具     Atommann ~18p;
 |       - 120216 [stuff]Atommann ci
+|       - [prev2] ???
+|       - [pread] ???
+|       - [done] ???
 +-- [stuff] ch07 物理接口     马钧  cnxiaoma ~42p;
 |       - 111113 [stuff]马钧
 |       - [prev1] 120210 ZQ开始... 
+|       - [prev2] ???
+|       - [pread] ???
+|       - [done] ???
 +-- [prev1][stuff] ch08 让俺开始     ZoomQuiet ~p38;
 |       - 120111 [stuff]ZQ提前完成 >70H
 |       - 120115 [prev1]ZQ完成
+|       - [prev2] ???
+|       - [pread] ???
+|       - [done] ???
 +-- [stuff] ch09 系统概念     Grissiom ~36p;
 |       - ?
+|       - [prev2] ???
+|       - [pread] ???
+|       - [done] ???
 +-- [prev1][stuff] ch10 用模拟器     Andy Shi <andy.shia # gmail.com> ~46p ; 111220 可完成
 |       - 120113 [stuff] Andy Shi 提前完成!
 |       - 120220 [prev1]ZQ完成
+|       - [prev2] ???
+|       - [pread] ???
+|       - [done] ???
 +-- [stuff] ch11 数据I/O     Kermit ~42p  ;
 |       - 120101 [stuff] Kermit完成 >4H
 |       - [prev1] Amankwah 进行中
+|       - [prev2] ???
+|       - [pread] ???
+|       - [done] ???
 +-- [stuff] ch12 读写文件     Kermit ~50p ; 120120 计划完成
 |       - ?
+|       - [prev1] ???
+|       - [prev2] ???
+|       - [pread] ???
+|       - [done] ???
 +-- [stuff] ch13 用户界面     Kermit ~60p
 |       - ?
+|       - [prev1] ???
+|       - [prev2] ???
+|       - [pread] ???
+|       - [done] ???
 +-- [stuff] ch14 真实例     sa xiao <silasvenus # gmail.com>~p26;
 |       - ?
+|       - [prev1] ???
+|       - [prev2] ???
+|       - [pread] ???
+|       - [done] ???
 +-- [prev1][stuff] appa FLOSS资源    ZoomQuiet ~p12;
 |       - 120118 [stuff]ZQ完成 >4H
 |       - 120119 [prev1]ZQ完成
+|       - [prev2] ???
+|       - [pread] ???
+|       - [done] ???
 \-- [prev1][stuff] appb 仪器资源   ZoomQuiet ~3p;
         - 120119 [stuff]ZQ完成 >2H
         - 120120 [prev1]ZQ完成
+        - [prev2] ???
+        - [pread] ???
+        - [done] ???
 }}}
 
 
