@@ -83,9 +83,9 @@ RWIwPy/source/
 |       - [prev2] ???
 |       - [pread] ???
 |       - [done] ???
-+-- [stuff] ch07 物理接口     马钧  cnxiaoma ~42p;
++-- [prev1][stuff] ch07 物理接口     马钧  cnxiaoma ~42p;
 |       - 111113 [stuff]马钧
-|       - [prev1] 120210 ZQ开始... 
+|       - [prev1] 120210~120223 ZQ done
 |       - [prev2] ???
 |       - [pread] ???
 |       - [done] ???
