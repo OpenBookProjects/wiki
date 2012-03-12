@@ -1,7 +1,7 @@
 #summary Real World Instrumentation with Python zh proj. wiki root
 #labels index,RWIwPy
 #sidebar SideToc
-参考:[HowtoJoin 如何加入OBP]//[RwIwPyZh Py实操硬件]
+参考:[HowtoJoin 如何加入OBP]//[chaos2OpenRest Py实操硬件]
 
 <wiki:toc/>
 
@@ -18,7 +18,7 @@
  # 最后小范畴开放试阅,进行至少一个月的交叉校对
  # 付印前,至少要进行两次小样公开审订和技术内容复校!
 
-== 任务 ==
+== 任务 ==    
 || 日期 || 任务 || 掺合 || 备注 ||
 || ~~110120~~ || 尝试召集`RWIwPy`翻译团队 || ZoomQuiet || +2.5H ||
 || ~~110218~~ || 列表^sh/szlug^召集`RWIwPy`团队,创建工程维基 || ZoomQuiet || +4.5H ||
@@ -78,9 +78,9 @@ RWIwPy/source/
 |       - [prev2] ???
 |       - [pread] ???
 |       - [done] ???
-+-- [stuff] ch06 硬件工具     Atommann ~18p;
++-- [prev2][stuff] ch06 硬件工具     Atommann ~18p;
 |       - 120216 [stuff]Atommann ci
-|       - [prev2] ???
+|       - 120227 ZQ完成,发现没有翻译完全
 |       - [pread] ???
 |       - [done] ???
 +-- [prev1][stuff] ch07 物理接口     马钧  cnxiaoma ~42p;
@@ -95,8 +95,8 @@ RWIwPy/source/
 |       - [prev2] ???
 |       - [pread] ???
 |       - [done] ???
-+-- [stuff] ch09 系统概念     Grissiom ~36p;
-|       - ?
++-- [prev1][stuff] ch09 系统概念     Grissiom ~36p;
+|       - 120312 ZQ[prev1]done LaTeX 公式支持需要另外解决
 |       - [prev2] ???
 |       - [pread] ???
 |       - [done] ???
