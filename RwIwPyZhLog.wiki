@@ -106,9 +106,9 @@ RWIwPy/source/
 |       - [prev2] ???
 |       - [pread] ???
 |       - [done] ???
-+-- [stuff] ch11 数据I/O     Kermit ~42p  ;
++-- [prev1][stuff] ch11 数据I/O     Kermit ~42p  ;
 |       - 120101 [stuff] Kermit完成 >4H
-|       - [prev1] Amankwah 进行中
+|       - 120313 ZQ完成[prev1]; Amankwah 进行过
 |       - [prev2] ???
 |       - [pread] ???
 |       - [done] ???
