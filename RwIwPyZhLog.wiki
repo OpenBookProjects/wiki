@@ -112,9 +112,9 @@ RWIwPy/source/
 |       - [prev2] ???
 |       - [pread] ???
 |       - [done] ???
-+-- [stuff] ch12 读写文件     Kermit ~50p ; 120120 计划完成
++-- [prev1][stuff] ch12 读写文件     Kermit ~50p ; 120120 计划完成
 |       - ?
-|       - [prev1] ???
+|       - 120315 ZQ完成[prev1]
 |       - [prev2] ???
 |       - [pread] ???
 |       - [done] ???
