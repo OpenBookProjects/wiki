@@ -2,7 +2,9 @@
 #labels RWPyL,Featured,Index
 
 参考:[HowtoJoin 如何加入OBP]//[PyWdwWebdotPy 蟒样Web开发指南]//[PyWdwWebdotPyLog 撰写进展表]
- * [RealWorldPyLivin 大蟒本色]/[http://wiki.woodpecker.org.cn/moin/RealPython 认领]/[RealWorldPyNames 名设计]/[RwPyLWeeklyreports 周报]/[http://shellexy.info/books/obp.rwpy4learner/html/ 临时在线图书,感谢华华提供vps援助(点1)]/[http://zoomquiet.org/obp/RWPy4learner/build/html/index.html 临时在线图书,感谢zoom.quiet提供vps援助(点2)]
+ * [RealWorldPyLivin 大蟒本色]/[http://wiki.woodpecker.org.cn/moin/RealPython 认领]/[RealWorldPyNames 名设计]/[RwPyLWeeklyreports 周报]/
+
+[http://readthedocs.org/docs/rwpy4l/en/latest/index.html 图书在线正式预览版]/[http://shellexy.info/books/obp.rwpy4learner/html/ 临时在线图书预览点(1),感谢华华提供vps援助]/[http://zoomquiet.org/obp/RWPy4learner/build/html/index.html 临时在线图书预览点(2),感谢zoom.quiet提供vps援助]
 
 
 
@@ -15,12 +17,13 @@
  * E名: `Rreal World Python for Learnner`
  * 缩写:`RWPyL`
  * 倡议: http://wiki.woodpecker.org.cn/moin/RealPython
- * 仓库: 
-  # 图书内容: https://bitbucket.org/ZoomQuiet/obp.rwpy4learner
-  # 实例工具: https://bitbucket.org/ZoomQuiet/obp.rwpy4learner.myaddr
+ * 仓库:
+  # 图书内容: https://bitbucket.org/ZoomQuiet/obp.rwpy4learner.v1
+  # 图书内容(旧): https://bitbucket.org/ZoomQuiet/obp.rwpy4learner
+  # 实例工具(已废): https://bitbucket.org/ZoomQuiet/obp.rwpy4learner.myaddr
 
 == 团队 ==
- * 创意: Qidong Su <suqidong001 AT gmail.com>
+ * 创意: Qidong Su <suqidong001 AT gmail.com>  --神秘失踪
  * 成员:
   # ream D <dream.python.org AT gmail.com>
   # He Jibo <hejibo AT gmail.com>
