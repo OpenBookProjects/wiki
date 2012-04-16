@@ -1,0 +1,484 @@
+#summary DocsPyZh ~ Pyhton官方文档汉化工程进展
+#labels Phase-Support,DocsPyZh,logging
+
+参考: [HowtoJoin 如何加入OBP]/[FlowSphinx 基于Sphinx的协同]//[http://wiki.woodpecker.org.cn/moin/HowToCompliePythonDocument 如何编译docs.py 文档]
+
+<wiki:toc/>
+
+= Pyhton官方文档汉化工程~进度 =
+
+ # 111010 [http://code.google.com/p/python-doc-translation/ 中译社]^quanwenbo^主动联系,倡议联合整,俺就从了,,
+ # 2006年 ZoomQuiet 第N次发愿要启动整体翻译
+ 
+
+== 任务 ==
+|| 日期 || 任务 || 掺合 || 备注 ||
+|| ~~111013~~ || [FlowSphinx 基于Sphinx的协同]环境配置好 || ZoomQuiet || +3.5H ||
+|| 日期 || 任务 || 掺合 || 备注 ||
+
+
+== 进度 ==
+`规约`:
+ * 提前认领,量力而行
+ * 及时更新,记录贡献 ^进展表中的用时,是累计变更的,不用完成时才回忆填写 ;-)^
+ * 配合 Hg 记要进展 ^在版本日志中记载贡献细节^:
+{{{
++ 1.5H ch00 增补历史要求 ~80%
+  |     |   |           +-- 当日章节完成度
+  |     |   +-- 增进成果
+  |     +-- 修订章节
+  +-- 具体用时,最小0.5H
+}}}
+
+
+=== 细目 ===
+完成度: *80/424* files
+
+{{{
+http://bitbucket.org/ZoomQuiet/obp.docs-py3-zh
+    |-- about.rst
+    |-- ACKS.txt
+    |-- bugs.rst
+    |-- contents.rst
+    |-- copyright.rst
+    |-- glossary.rst
+    |-- license.rst
+    |-- README.txt              Zoom.Quiet 翻译说明
+    |-- c-api
+    |   |-- abstract.rst
+    |   |-- allocation.rst
+    |   |-- arg.rst
+    |   |-- bool.rst
+    |   |-- buffer.rst
+    |   |-- bytearray.rst
+    |   |-- bytes.rst
+    |   |-- capsule.rst
+    |   |-- cell.rst
+    |   |-- codec.rst
+    |   |-- code.rst
+    |   |-- complex.rst
+    |   |-- concrete.rst
+    |   |-- conversion.rst
+    |   |-- datetime.rst
+    |   |-- descriptor.rst
+    |   |-- dict.rst
+    |   |-- exceptions.rst
+    |   |-- file.rst
+    |   |-- float.rst
+    |   |-- function.rst
+    |   |-- gcsupport.rst
+    |   |-- gen.rst
+    |   |-- import.rst
+    |   |-- index.rst
+    |   |-- init.rst           
+    |   |-- intro.rst
+    |   |-- iterator.rst
+    |   |-- iter.rst
+    |   |-- list.rst
+    |   |-- long.rst
+    |   |-- mapping.rst
+    |   |-- marshal.rst
+    |   |-- memory.rst
+    |   |-- memoryview.rst
+    |   |-- method.rst
+    |   |-- module.rst
+    |   |-- none.rst
+    |   |-- number.rst
+    |   |-- objbuffer.rst
+    |   |-- object.rst
+    |   |-- objimpl.rst
+    |   |-- refcounting.rst
+    |   |-- reflection.rst
+    |   |-- sequence.rst
+    |   |-- set.rst
+    |   |-- slice.rst
+    |   |-- structures.rst
+    |   |-- sys.rst
+    |   |-- tuple.rst
+    |   |-- typeobj.rst
+    |   |-- type.rst
+    |   |-- unicode.rst
+    |   |-- utilities.rst
+    |   |-- veryhigh.rst
+    |   `-- weakref.rst
+    |-- distutils
+    |   |-- apiref.rst
+    |   |-- builtdist.rst
+    |   |-- commandref.rst
+    |   |-- configfile.rst
+    |   |-- examples.rst
+    |   |-- extending.rst
+    |   |-- index.rst
+    |   |-- introduction.rst
+    |   |-- packageindex.rst
+    |   |-- setupscript.rst
+    |   |-- sourcedist.rst
+    |   `-- uploading.rst
+    |-- documenting             原 PDT 项目.LinTao51#gmail.com
+    |   |-- building.rst
+    |   |-- fromlatex.rst
+    |   |-- index.rst
+    |   |-- intro.rst
+    |   |-- markup.rst
+    |   |-- rest.rst
+    |   `-- style.rst
+    |-- extending
+    |   |-- building.rst
+    |   |-- embedding.rst
+    |   |-- extending.rst
+    |   |-- index.rst           Alex Liu <hhdxlx#gmail.com>
+    |   |-- newtypes.rst
+    |   `-- windows.rst
+    |-- faq
+    |   |-- design.rst
+    |   |-- extending.rst
+    |   |-- general.rst
+    |   |-- gui.rst
+    |   |-- index.rst
+    |   |-- installed.rst
+    |   |-- library.rst
+    |   |-- programming.rst
+    |   `-- windows.rst
+    |-- howto
+    |   |-- advocacy.rst
+    |   |-- cporting.rst
+    |   |-- curses.rst
+    |   |-- descriptor.rst
+    |   |-- functional.rst
+    |   |-- index.rst
+    |   |-- logging-cookbook.rst
+    |   |-- logging.rst
+    |   |-- pyporting.rst
+    |   |-- regex.rst
+    |   |-- sockets.rst
+    |   |-- sorting.rst
+    |   |-- unicode.rst
+    |   |-- urllib2.rst
+    |   `-- webservers.rst
+    |-- install
+    |   `-- index.rst
+    |-- library3rd
+    |   |-- numpy.rst
+    |   |-- pil.rst
+    |   `-- index.rst               Zoom.Quiet 发起
+    |-- library
+    |   |-- 2to3.rst                中译社:
+    |   |-- abc.rst                 中译社:bobstar 
+    |   |-- aifc.rst                中译社:西域 
+    |   |-- allos.rst               中译社:
+    |   |-- archiving.rst           中译社:北漂 
+    |   |-- argparse.rst
+    |   |-- array.rst               中译社:David 
+    |   |-- ast.rst
+    |   |-- asynchat.rst
+    |   |-- asyncore.rst
+    |   |-- atexit.rst
+    |   |-- audioop.rst
+    |   |-- base64.rst
+    |   |-- bdb.rst                 中译社:bobstar
+    |   |-- binascii.rst            中译社:bobstar
+    |   |-- binhex.rst              中译社:北漂
+    |   |-- bisect.rst              中译社:TrAcymOnkEy 
+    |   |-- builtins.rst            中译社:北漂
+    |   |-- bz2.rst                 中译社:ytg 
+    |   |-- calendar.rst
+    |   |-- cgi.rst
+    |   |-- cgitb.rst
+    |   |-- chunk.rst
+    |   |-- cmath.rst
+    |   |-- cmd.rst
+    |   |-- codecs.rst
+    |   |-- codeop.rst
+    |   |-- code.rst
+    |   |-- collections.rst
+    |   |-- colorsys.rst
+    |   |-- compileall.rst
+    |   |-- concurrent.futures.rst
+    |   |-- configparser.rst
+    |   |-- constants.rst
+    |   |-- contextlib.rst
+    |   |-- copyreg.rst             中译社:北漂
+    |   |-- copy.rst                中译社:David 
+    |   |-- crypto.rst              中译社:Lemon, ゙ღ 
+    |   |-- crypt.rst
+    |   |-- csv.rst
+    |   |-- ctypes.rst              Alex Liu <hhdxlx#gmail.com>
+    |   |-- curses.ascii.rst
+    |   |-- curses.panel.rst
+    |   |-- curses.rst
+    |   |-- custominterp.rst
+    |   |-- datatypes.rst
+    |   |-- datetime.rst
+    |   |-- dbm.rst
+    |   |-- debug.rst
+    |   |-- decimal.rst
+    |   |-- development.rst         中译社:北漂
+    |   |-- difflib.rst
+    |   |-- dis.rst
+    |   |-- distutils.rst           中译社:ytg
+    |   |-- doctest.rst
+    |   |-- dummy_threading.rst     中译社:bobstar
+    |   |-- _dummy_thread.rst       中译社:ytg
+    |   |-- email.charset.rst
+    |   |-- email.encoders.rst
+    |   |-- email.errors.rst
+    |   |-- email-examples.rst
+    |   |-- email.generator.rst
+    |   |-- email.header.rst
+    |   |-- email.iterators.rst
+    |   |-- email.message.rst
+    |   |-- email.mime.rst
+    |   |-- email.parser.rst
+    |   |-- email.rst
+    |   |-- email.util.rst
+    |   |-- errno.rst               中译社:朋友叫我淼 
+    |   |-- exceptions.rst          中译社:朋友叫我淼 
+    |   |-- fcntl.rst
+    |   |-- filecmp.rst
+    |   |-- fileformats.rst         中译社:ytg
+    |   |-- fileinput.rst
+    |   |-- filesys.rst             中译社:Lemon, ゙ღ 
+    |   |-- fnmatch.rst
+    |   |-- formatter.rst           中译社:Lemon, ゙ღ 
+    |   |-- fpectl.rst
+    |   |-- fractions.rst           中译社:ytg
+    |   |-- frameworks.rst
+    |   |-- ftplib.rst
+    |   |-- functional.rst
+    |   |-- functions.rst
+    |   |-- functools.rst
+    |   |-- __future__.rst
+    |   |-- gc.rst
+    |   |-- getopt.rst
+    |   |-- getpass.rst
+    |   |-- gettext.rst
+    |   |-- glob.rst
+    |   |-- grp.rst
+    |   |-- gzip.rst                中译社:爱你FORVER 
+    |   |-- hashlib.rst
+    |   |-- heapq.rst
+    |   |-- hmac.rst
+    |   |-- html.entities.rst       中译社:ytg
+    |   |-- html.parser.rst
+    |   |-- html.rst                中译社:ytg
+    |   |-- http.client.rst
+    |   |-- http.cookiejar.rst
+    |   |-- http.cookies.rst
+    |   |-- http.server.rst
+    |   |-- i18n.rst                中译社:Lemon, ゙ღ 
+    |   |-- idle.rst
+    |   |-- imaplib.rst
+    |   |-- imghdr.rst
+    |   |-- importlib.rst
+    |   |-- imp.rst
+    |   |-- index.rst               Alex Liu <hhdxlx#gmail.com>
+    |   |-- inspect.rst
+    |   |-- internet.rst
+    |   |-- intro.rst
+    |   |-- io.rst
+    |   |-- ipc.rst
+    |   |-- itertools.rst
+    |   |-- json.rst
+    |   |-- keyword.rst             中译社:Lemon, ゙ღ 
+    |   |-- language.rst            中译社:TrAcymOnkEy
+    |   |-- linecache.rst           中译社:TrAcymOnkEy
+    |   |-- locale.rst
+    |   |-- logging.config.rst
+    |   |-- logging.handlers.rst
+    |   |-- logging.rst
+    |   |-- macpath.rst             中译社:Lemon, ゙ღ 
+    |   |-- mailbox.rst
+    |   |-- mailcap.rst             中译社:TrAcymOnkEy
+    |   |-- __main__.rst            中译社:ytg
+    |   |-- markup.rst              中译社:TrAcymOnkEy
+    |   |-- marshal.rst             中译社:TrAcymOnkEy
+    |   |-- math.rst
+    |   |-- mimetypes.rst
+    |   |-- misc.rst                中译社:Lemon, ゙ღ 
+    |   |-- mmap.rst                
+    |   |-- mm.rst                  中译社:Lemon, ゙ღ 
+    |   |-- modulefinder.rst
+    |   |-- modules.rst             中译社:Lemon, ゙ღ 
+    |   |-- msilib.rst
+    |   |-- msvcrt.rst
+    |   |-- multiprocessing.rst
+    |   |-- netdata.rst             中译社:Lemon, ゙ღ 
+    |   |-- netrc.rst
+    |   |-- nis.rst
+    |   |-- nntplib.rst
+    |   |-- numbers.rst
+    |   |-- numeric.rst
+    |   |-- operator.rst
+    |   |-- optparse.rst
+    |   |-- os.path.rst
+    |   |-- os.rst
+    |   |-- ossaudiodev.rst
+    |   |-- othergui.rst
+    |   |-- parser.rst
+    |   |-- pdb.rst
+    |   |-- persistence.rst         中译社:北漂
+    |   |-- pickle.rst
+    |   |-- pickletools.rst         中译社:北漂
+    |   |-- pipes.rst
+    |   |-- pkgutil.rst
+    |   |-- platform.rst
+    |   |-- plistlib.rst
+    |   |-- poplib.rst
+    |   |-- posix.rst
+    |   |-- pprint.rst
+    |   |-- profile.rst
+    |   |-- pty.rst
+    |   |-- pwd.rst
+    |   |-- pyclbr.rst
+    |   |-- py_compile.rst
+    |   |-- pydoc.rst
+    |   |-- pyexpat.rst
+    |   |-- python.rst              中译社:bobstar
+    |   |-- queue.rst
+    |   |-- quopri.rst              中译社:爱你FORVER
+    |   |-- random.rst
+    |   |-- readline.rst
+    |   |-- reprlib.rst
+    |   |-- re.rst
+    |   |-- resource.rst
+    |   |-- rlcompleter.rst
+    |   |-- runpy.rst
+    |   |-- sched.rst
+    |   |-- select.rst
+    |   |-- shelve.rst
+    |   |-- shlex.rst
+    |   |-- shutil.rst
+    |   |-- signal.rst
+    |   |-- site.rst
+    |   |-- smtpd.rst
+    |   |-- smtplib.rst
+    |   |-- sndhdr.rst
+    |   |-- socket.rst
+    |   |-- socketserver.rst
+    |   |-- someos.rst
+    |   |-- spwd.rst
+    |   |-- sqlite3.rst
+    |   |-- ssl.rst
+    |   |-- stat.rst
+    |   |-- stdtypes.rst
+    |   |-- stringprep.rst
+    |   |-- string.rst
+    |   |-- strings.rst
+    |   |-- struct.rst
+    |   |-- subprocess.rst
+    |   |-- sunau.rst
+    |   |-- symbol.rst
+    |   |-- symtable.rst
+    |   |-- sysconfig.rst
+    |   |-- syslog.rst
+    |   |-- sys.rst
+    |   |-- tabnanny.rst
+    |   |-- tarfile.rst
+    |   |-- telnetlib.rst
+    |   |-- tempfile.rst
+    |   |-- termios.rst
+    |   |-- test.rst
+    |   |-- textwrap.rst
+    |   |-- threading.rst
+    |   |-- _thread.rst
+    |   |-- timeit.rst
+    |   |-- time.rst
+    |   |-- tkinter.rst
+    |   |-- tkinter.scrolledtext.rst
+    |   |-- tkinter.tix.rst
+    |   |-- tkinter.ttk.rst
+    |   |-- tk.rst
+    |   |-- tokenize.rst
+    |   |-- token.rst
+    |   |-- traceback.rst
+    |   |-- trace.rst
+    |   |-- tty.rst                 中译社:ytg
+    |   |-- turtle.rst
+    |   |-- types.rst
+    |   |-- undoc.rst               中译社:ytg
+    |   |-- unicodedata.rst
+    |   |-- unittest.rst
+    |   |-- unix.rst                中译社:bobstar
+    |   |-- urllib.error.rst
+    |   |-- urllib.parse.rst
+    |   |-- urllib.request.rst
+    |   |-- urllib.robotparser.rst
+    |   |-- uuid.rst
+    |   |-- uu.rst
+    |   |-- warnings.rst
+    |   |-- wave.rst                中译社:ytg
+    |   |-- weakref.rst
+    |   |-- webbrowser.rst          中译社:Michael.cph
+    |   |-- windows.rst
+    |   |-- winreg.rst
+    |   |-- winsound.rst            中译社:北漂
+    |   |-- wsgiref.rst
+    |   |-- xdrlib.rst
+    |   |-- xml.dom.minidom.rst
+    |   |-- xml.dom.pulldom.rst
+    |   |-- xml.dom.rst
+    |   |-- xml.etree.elementtree.rst
+    |   |-- xmlrpc.client.rst
+    |   |-- xmlrpc.server.rst
+    |   |-- xml.sax.handler.rst
+    |   |-- xml.sax.reader.rst
+    |   |-- xml.sax.rst
+    |   |-- xml.sax.utils.rst
+    |   |-- zipfile.rst
+    |   |-- zipimport.rst
+    |   `-- zlib.rst
+    |-- reference               from http://blog.chinaunix.net/space.php?uid=20043340&do=blog&id=154850
+    |   |-- compound_stmts.rst          Li Yu <raise.sail # gmail.com>
+    |   |-- datamodel.rst               Li Yu <raise.sail # gmail.com>
+    |   |-- executionmodel.rst          Li Yu <raise.sail # gmail.com>
+    |   |-- expressions.rst             Li Yu <raise.sail # gmail.com>
+    |   |-- grammar.rst                 Li Yu <raise.sail # gmail.com>
+    |   |-- index.rst                   Alex Liu <hhdxlx#gmail.com>
+    |   |-- introduction.rst            Li Yu <raise.sail # gmail.com>
+    |   |-- lexical_analysis.rst        Li Yu <raise.sail # gmail.com>
+    |   |-- simple_stmts.rst            Li Yu <raise.sail # gmail.com>
+    |   `-- toplevel_components.rst     Li Yu <raise.sail # gmail.com>
+    |-- translation
+    |   |-- contributors.rst
+    |   |-- format.rst
+    |   |-- hostoric.rst
+    |   |-- index.rst
+    |   |-- logging.rst
+    |   `-- workflow.rst
+    |-- tutorial                        原 PDT 项目, 中译社
+    |   |-- appetite.rst
+    |   |-- classes.rst
+    |   |-- controlflow.rst
+    |   |-- datastructures.rst
+    |   |-- errors.rst
+    |   |-- floatingpoint.rst
+    |   |-- index.rst
+    |   |-- inputoutput.rst
+    |   |-- interactive.rst
+    |   |-- interpreter.rst
+    |   |-- introduction.rst
+    |   |-- modules.rst
+    |   |-- stdlib2.rst
+    |   |-- stdlib.rst
+    |   `-- whatnow.rst
+    |-- using                          Alex Liu <hhdxlx#gmail.com>
+    |   |-- cmdline.rst
+    |   |-- index.rst
+    |   |-- mac.rst
+    |   |-- unix.rst
+    |   `-- windows.rst
+    `-- whatsnew
+        |-- 2.0.rst
+        |-- 2.1.rst
+        |-- 2.2.rst
+        |-- 2.3.rst
+        |-- 2.4.rst
+        |-- 2.5.rst
+        |-- 2.6.rst
+        |-- 2.7.rst
+        |-- 3.0.rst
+        |-- 3.1.rst
+        |-- 3.2.rst
+        `-- index.rst
+}}}
+== 统计 ==

@@ -1,0 +1,27 @@
+#summary docs.py_zh 工程掺合好人名单
+#labels Phase-Support,DocsPyZh,member
+
+SEE:[http://openbookproject.googlecode.com/svn/trunk/docs.py_zh/readme.txt README]/[http://wiki.woodpecker.org.cn/moin/HowToCompliePythonDocument 如何编译docs.py 文档]
+
+= Introduction =
+*大家主动记要自个儿的工程信息,包含*:
+ * 本地工作环境:
+   * 你的主机软件信息:什么OS?什么Python 版本?什么编辑环境?
+ * 你的主要联系信息:邮箱?IM?主页?
+
+== O.B.P ==
+ ZoomQuiet ::
+  * 软件: Ubuntu 8.04.2 ; Python 2.5.2 (r252:60911, Jun 21 2008, 09:47:06); gedit
+  * zoomquiet+obp # gmail.com
+
+ 刘鑫 ::
+  * 软件：Ubuntu 8.10 ; Python 2.5.2 / 2.6 / 3.0 ; GNU Emacs 23 snapshot ; Mozilla Firefox 3 + It All Text!
+
+ Alex ::
+  * hhdxlx#gmail.com
+
+== 网友 ==
+ Li Yu::
+  * raise.sail # gmail.com 
+
+= Discuss =

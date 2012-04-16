@@ -1,0 +1,149 @@
+#summary Real World Instrumentation with Python zh proj. wiki root
+#labels index,RWIwPy
+#sidebar SideToc
+参考:[HowtoJoin 如何加入OBP]//[chaos2OpenRest Py实操硬件]
+
+<wiki:toc/>
+
+= Py实操硬件~进度 =
+ # 110219 迁移仓库为bitbucket.org 
+ # 110517 发觉进度过慢,开始调整,以两月为限製,先完成初译!
+ 
+== 规划 ==
+ # ^110224 done^ ~~先明确团队~~
+ # ^110301 done^ ~~再通过翻译流程的協商部署好工作平台~~
+ # 在完成60% 的翻译时,哲思社区加入启动商务洽谈
+ # 完成80% 时校对介入,统校统改
+ # 完成100% 时,封闭式统稿,同时美编加入,设计排版
+ # 最后小范畴开放试阅,进行至少一个月的交叉校对
+ # 付印前,至少要进行两次小样公开审订和技术内容复校!
+
+== 任务 ==    
+|| 日期 || 任务 || 掺合 || 备注 ||
+|| ~~110120~~ || 尝试召集`RWIwPy`翻译团队 || ZoomQuiet || +2.5H ||
+|| ~~110218~~ || 列表^sh/szlug^召集`RWIwPy`团队,创建工程维基 || ZoomQuiet || +4.5H ||
+|| ~~110124~~ || 确立协同流程,发布预览网站,整理说明维基 || ZoomQuiet || +7.5H ||
+|| ~~110301~~ || 增补[http://code.google.com/p/openbookproject/wiki/FlowSphinx 流程说明维基]图谱/自动构建脚本 || ZoomQuiet || +1.5H ||
+|| ~~110321~~ || https 内部预览网站重构发布,追加`/log` || ZoomQuiet || +1.5H ||
+|| 日期 || 任务 || 掺合 || 备注 ||
+
+
+== 进度 ==
+`规约`:
+ * 提前认领,量力而行
+ * 及时更新,记录贡献 ^进展表中的用时,是累计变更的,不用完成时才回忆填写 ;-)^
+ * 配合水银,版本记要 ^在版本日志中记载贡献细节^:
+ * 进展标签:
+    * `[stuff]` ~ 草译
+    * `[prev1]` ~ 一校
+    * `[prev2]` ~ 二校
+    * `[pread]` ~ 审校
+    * `[done]` ~ 完成,可交付
+
+{{{
+RWIwPy/source/
++-- [prev1][stuff] ch00 前言  ZoomQuiet 
+|       - 110527 [stuff]ZQ提前完成~p8; +6.5H
+|       - 120101 [prev1]ZQ完成
+|       - [prev2] ???
+|       - [pread] ???
+|       - [done] ???
++-- [prev1][stuff] ch01 仪器简介     Atommann ~15p;
+|       - 120101 [stuff]Atommann
+|       - 120223 [prev1] ZQdone ... 发现缺少部分翻译,,,
+|       - [prev2] ???
+|       - [pread] ???
+|       - [done] ???
++-- [prev1][stuff] ch02 基本电子学  Atommann ~44p
+|       - 120215 [stuff]Atommann ci 
+|       - 120202 [prev1]ZQ完成
+|       - [prev2] ???
+|       - [pread] ???
+|       - [done] ???
++-- [prev1][stuff] ch03 Python语言     ZoomQuiet ~p64; 120111 >160H 
+|       - 120111 [stuff]ZQ完成 >160H
+|       - 120118 [prev1]完成
+|       - [prev2] ???
+|       - [pread] ???
+|       - [done] ???
++-- [prev1][stuff] ch04 C语言     sagasw ~34p;
+|       - ?
+|       - 120208 [prev1]ZQ完成 
+|       - [prev2] ???
+|       - [pread] ???
+|       - [done] ???
++-- [prev1][stuff] ch05 Py扩展       sagasw ~22p; ^未reST 格式化^
+|       - ?
+|       - 120210 [prev1]ZQ完成 
+|       - [prev2] ???
+|       - [pread] ???
+|       - [done] ???
++-- [prev2][stuff] ch06 硬件工具     Atommann ~18p;
+|       - 120216 [stuff]Atommann ci
+|       - 120227 ZQ完成,发现没有翻译完全
+|       - [pread] ???
+|       - [done] ???
++-- [prev1][stuff] ch07 物理接口     马钧  cnxiaoma ~42p;
+|       - 111113 [stuff]马钧
+|       - [prev1] 120210~120223 ZQ done
+|       - [prev2] ???
+|       - [pread] ???
+|       - [done] ???
++-- [prev1][stuff] ch08 让俺开始     ZoomQuiet ~p38;
+|       - 120111 [stuff]ZQ提前完成 >70H
+|       - 120115 [prev1]ZQ完成
+|       - [prev2] ???
+|       - [pread] ???
+|       - [done] ???
++-- [prev1][stuff] ch09 系统概念     Grissiom ~36p;
+|       - 120312 ZQ[prev1]done LaTeX 公式支持需要另外解决
+|       - [prev2] ???
+|       - [pread] ???
+|       - [done] ???
++-- [prev1][stuff] ch10 用模拟器     Andy Shi <andy.shia # gmail.com> ~46p ; 111220 可完成
+|       - 120113 [stuff] Andy Shi 提前完成!
+|       - 120220 [prev1]ZQ完成
+|       - [prev2] ???
+|       - [pread] ???
+|       - [done] ???
++-- [prev1][stuff] ch11 数据I/O     Kermit ~42p  ;
+|       - 120101 [stuff] Kermit完成 >4H
+|       - 120313 ZQ完成[prev1]; Amankwah 进行过
+|       - [prev2] ???
+|       - [pread] ???
+|       - [done] ???
++-- [stuff] ch12 读写文件     Kermit ~50p ; 120120 计划完成
+|       - ?
+|       - [prev1] ???
+|       - [prev2] ???
+|       - [pread] ???
+|       - [done] ???
++-- [stuff] ch13 用户界面     Kermit ~60p
+|       - ?
+|       - [prev1] ???
+|       - [prev2] ???
+|       - [pread] ???
+|       - [done] ???
++-- [stuff] ch14 真实例     sa xiao <silasvenus # gmail.com>~p26;
+|       - ?
+|       - [prev1] ???
+|       - [prev2] ???
+|       - [pread] ???
+|       - [done] ???
++-- [prev1][stuff] appa FLOSS资源    ZoomQuiet ~p12;
+|       - 120118 [stuff]ZQ完成 >4H
+|       - 120119 [prev1]ZQ完成
+|       - [prev2] ???
+|       - [pread] ???
+|       - [done] ???
+\-- [prev1][stuff] appb 仪器资源   ZoomQuiet ~3p;
+        - 120119 [stuff]ZQ完成 >2H
+        - 120120 [prev1]ZQ完成
+        - [prev2] ???
+        - [pread] ???
+        - [done] ???
+}}}
+
+
+== 统计 ==
+`未来进行客观统计,作为分成依据,,,`
