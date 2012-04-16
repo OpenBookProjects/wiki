@@ -4,7 +4,7 @@
 参考:[HowtoJoin 如何加入OBP]//[PyWdwWebdotPy 蟒样Web开发指南]//[PyWdwWebdotPyLog 撰写进展表]
  * [RealWorldPyLivin 大蟒本色]/[http://wiki.woodpecker.org.cn/moin/RealPython 认领]/[RealWorldPyNames 名设计]/[RwPyLWeeklyreports 周报]/
 
-[http://readthedocs.org/docs/rwpy4l/en/latest/index.html 图书在线正式预览版]/[http://shellexy.info/books/obp.rwpy4learner/html/ 临时在线图书预览点(1),感谢华华提供vps援助]/[http://zoomquiet.org/obp/RWPy4learner/build/html/index.html 临时在线图书预览点(2),感谢zoom.quiet提供vps援助]
+[http://readthedocs.org/docs/rwpy4l/en/latest/index.html 图书在线正式预览版]/[http://shellexy.info/books/obp.rwpy4learner/html/ 图书临时在线预览点(1),感谢华华提供vps援助]/[http://zoomquiet.org/obp/RWPy4learner/build/html/index.html 图书临时在线预览点(2),感谢zoom.quiet提供vps援助]
 
 
 
