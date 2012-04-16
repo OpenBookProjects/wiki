@@ -22,7 +22,7 @@
 *成果*
  * *原创*
   # [LovelyPython 可愛的Python]/[LovPyRush 日志]
-  # [RealWorldPyLivin 大蟒本色] ^撰写ing^
+  # [RealWorldPyLivin 大蟒本色] ^发布冲刺TODO^
  * *翻译*
   # ~~[CorePyZh Py核心编程ed2]~~ ^宋吉广 窃取ed^
   # [Web2pyManualZh web2py手册] ^停滞ing^
