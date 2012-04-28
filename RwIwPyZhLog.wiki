@@ -112,21 +112,21 @@ RWIwPy/source/
 |       - [prev2] ???
 |       - [pread] ???
 |       - [done] ???
-+-- [stuff] ch12 读写文件     Kermit ~50p ; 120120 计划完成
++-- [prev1][stuff] ch12 读写文件     Kermit ~50p ; 120120 计划完成
 |       - ?
-|       - [prev1] ???
+|       - 120315 ZQ完成[prev1]
 |       - [prev2] ???
 |       - [pread] ???
 |       - [done] ???
-+-- [stuff] ch13 用户界面     Kermit ~60p
++-- [prev1][stuff] ch13 用户界面     Kermit ~60p
 |       - ?
-|       - [prev1] ???
+|       - 120316 ZQ完成[prev1] 
 |       - [prev2] ???
 |       - [pread] ???
 |       - [done] ???
-+-- [stuff] ch14 真实例     sa xiao <silasvenus # gmail.com>~p26;
++-- [prev1][stuff] ch14 真实例     sa xiao <silasvenus # gmail.com>~p26;
 |       - ?
-|       - [prev1] ???
+|       - 120319 ZQ完成[prev1] 
 |       - [prev2] ???
 |       - [pread] ???
 |       - [done] ???
