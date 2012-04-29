@@ -57,14 +57,14 @@ http://blogs.oreilly.com/headfirst/assets_c/2009/07/story-subtopics-narrative-sc
  * 参考 O'REILLY 的 HF 图书策划方式,给出宏观剧本,以便从知识点/代码/叙述上确立一个干线
 {{{
         / 知识: 什么是Python,为什么选择Python,怎么安装,运行.py,如何查错,什么是变量
-ch0 动机 ~ 场景: 将毕业->电子化通信录->舅舅->Py->CPyUG
+ch0 动机 ~ 场景: 将毕业->电子化通信录->舅舅的引导下：->知道Py->加入CPyUG
   \     
-   \         / 知识: 基本语法,简单list,文件对象,什么是对象,模块导入,函式化,模块化,python中文问题
-    + ch1 原型 ~ 场景: 1.搜索->安装->HelloWorld->CMD环境;
-    |     2. print->中文问题->变量
-    |     3. ActivePython->if/while->缩进
-    |     4. list+for
-    |     5. 数据结构->dict
+   \         / 知识: 基本语法，while,if,for 基本语句，list，dict
+    + ch1 原型 ~ 场景: 1.搜索Py官网->安装->通过简明学得HelloWorld->自己解决CMD环境问题;
+    |     2. print->通过print发现中文问题->发现print语句太多，学变量、在舅舅引导下接触Py官方文档，使用之，并完成通信录
+    |     3. 舅舅推介ActivePython->小白安装、使用->为实现联系人查询功能，学习if->发现缩进问题->学习缩进->发现重复打开程序使用不方便->学习while
+    |     4. 发现变量太多难处理->学习list->为了更好的简化通信录而学习for
+    |     5. 发现list在拥有多数据的时候程序没有可读性->学习dict->进一步简化通信录
      \
       \         / 知识: 1.类 2.模块（Pickle/os/re）3.rst
        + ch2 可用 ~ 场景: 同学BS->判断树->cmd->创建模块4搜索
