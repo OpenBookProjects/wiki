@@ -4,7 +4,7 @@
 参考:[HowtoJoin 如何加入OBP]//[PyWdwWebdotPy 蟒样Web开发指南]//[PyWdwWebdotPyLog 撰写进展表]
  * [RealWorldPyLivin 大蟒本色]/[http://wiki.woodpecker.org.cn/moin/RealPython 认领]/[RealWorldPyNames 名设计]/[RwPyLWeeklyreports 周报]/
 
-[http://readthedocs.org/docs/rwpy4l/en/latest/index.html 图书在线正式预览版]/[http://shellexy.info/books/obp.rwpy4learner/html/ 图书临时在线预览点(1),感谢华华提供vps援助]/[http://zoomquiet.org/obp/RWPy4learner/build/html/index.html 图书临时在线预览点(2),感谢zoom.quiet提供vps援助]
+[http://readthedocs.org/docs/rwpy4l/en/latest/index.html 图书在线正式预览版]/[http://shellexy.info/books/obp.rwpy4learner/html/ 图书临时在线预览点(1),感谢华华提供vps援助]/[http://zoomquiet.org/obp/RWPy4learner/build/html/index.html 图书临时在线预览点(2),感谢zoom.quiet提供vps援助](已失效)
 
 
 
@@ -56,7 +56,7 @@ http://blogs.oreilly.com/headfirst/assets_c/2009/07/story-subtopics-narrative-sc
 `为协助各个领域作者可以并行开发和记述学习心得,形成统一的图书`
  * 参考 O'REILLY 的 HF 图书策划方式,给出宏观剧本,以便从知识点/代码/叙述上确立一个干线
 {{{
-        / 知识: 什么是Python,为什么选择Python,怎么安装,运行.py,如何查错,什么是变量
+        / 知识: 什么是Python,为什么选择Python,加入 CPUG
 ch0 动机 ~ 场景: 将毕业->电子化通信录->舅舅的引导下：->知道Py->加入CPyUG
   \     
    \         / 知识: 基本语法，while,if,for 基本语句，list，dict
