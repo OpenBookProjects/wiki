@@ -50,7 +50,7 @@ RWIwPy/source/
 |       - [done] ???
 +-- [prev1][stuff] ch01 仪器简介     Atommann ~15p;
 |       - 120101 [stuff]Atommann
-|       - 120223 [prev1] ZQdone ... 发现缺少部分翻译,,,
+|       - !!!   120223 [prev1] ZQdone ... ^发现缺少部分翻译,,,^
 |       - [prev2] ???
 |       - [pread] ???
 |       - [done] ???
@@ -67,20 +67,20 @@ RWIwPy/source/
 |       - [pread] ???
 |       - [done] ???
 +-- [prev1][stuff] ch04 C语言     sagasw ~34p;
-|       - ?
+|       - ?? [stuff]sagasw 完成
 |       - 120208 [prev1]ZQ完成 
 |       - [prev2] ???
 |       - [pread] ???
 |       - [done] ???
-+-- [prev1][stuff] ch05 Py扩展       sagasw ~22p; ^未reST 格式化^
-|       - ?
-|       - 120210 [prev1]ZQ完成 
++-- [prev1][stuff] ch05 Py扩展       sagasw ~22p;
+|       - ?? [stuff]sagasw 完成
+|       - !!!   120210 [prev1]ZQ完成 ^发现缺少部分翻译,,,^
 |       - [prev2] ???
 |       - [pread] ???
 |       - [done] ???
 +-- [prev2][stuff] ch06 硬件工具     Atommann ~18p;
 |       - 120216 [stuff]Atommann ci
-|       - 120227 ZQ完成,发现没有翻译完全
+|       - !!!   120227 ZQ完成,发现没有翻译完全
 |       - [pread] ???
 |       - [done] ???
 +-- [prev1][stuff] ch07 物理接口     马钧  cnxiaoma ~42p;
@@ -96,13 +96,14 @@ RWIwPy/source/
 |       - [pread] ???
 |       - [done] ???
 +-- [prev1][stuff] ch09 系统概念     Grissiom ~36p;
-|       - 120312 ZQ[prev1]done LaTeX 公式支持需要另外解决
+|       - ??? [stuff]Grissiom完成 
+|       - 120312 ZQ[prev1]done LaTeX 公式支持使用 JS 解决
 |       - [prev2] ???
 |       - [pread] ???
 |       - [done] ???
 +-- [prev1][stuff] ch10 用模拟器     Andy Shi <andy.shia # gmail.com> ~46p ; 111220 可完成
 |       - 120113 [stuff] Andy Shi 提前完成!
-|       - 120220 [prev1]ZQ完成
+|       - !!!   120220 [prev1]ZQ完成 ^C. A. Chung 格言未翻譯!^
 |       - [prev2] ???
 |       - [pread] ???
 |       - [done] ???
@@ -113,19 +114,19 @@ RWIwPy/source/
 |       - [pread] ???
 |       - [done] ???
 +-- [prev1][stuff] ch12 读写文件     Kermit ~50p ; 120120 计划完成
-|       - ?
+|       - ??? [stuff] Kermit完成
 |       - 120315 ZQ完成[prev1]
 |       - [prev2] ???
 |       - [pread] ???
 |       - [done] ???
 +-- [prev1][stuff] ch13 用户界面     Kermit ~60p
-|       - ?
+|       - ??? [stuff] Kermit完成
 |       - 120316 ZQ完成[prev1] 
 |       - [prev2] ???
 |       - [pread] ???
 |       - [done] ???
 +-- [prev1][stuff] ch14 真实例     sa xiao <silasvenus # gmail.com>~p26;
-|       - ?
+|       - ??? [stuff] silasvenus 完成
 |       - 120319 ZQ完成[prev1] 
 |       - [prev2] ???
 |       - [pread] ???
