@@ -75,12 +75,13 @@ RWIwPy/source/
 +-- [prev1][stuff] ch05 Py扩展       sagasw ~22p;
 |       - ?? [stuff]sagasw 完成
 |       - !!!   120210 [prev1]ZQ完成 ^发现缺少部分翻译,,,^
-|       - [prev2] ???
+|       - [prev2] 120628 ZQ 强行翻译缺失的部分了
 |       - [pread] ???
 |       - [done] ???
 +-- [prev2][stuff] ch06 硬件工具     Atommann ~18p;
 |       - 120216 [stuff]Atommann ci
-|       - !!!   120227 ZQ完成,发现没有翻译完全
+|       - !!![prev1]   120227 ZQ完成,发现没有翻译完全
+|       - [prev2] 120624 Atommann 完成,再次提交
 |       - [pread] ???
 |       - [done] ???
 +-- [prev1][stuff] ch07 物理接口     马钧  cnxiaoma ~42p;
@@ -104,7 +105,7 @@ RWIwPy/source/
 +-- [prev1][stuff] ch10 用模拟器     Andy Shi <andy.shia # gmail.com> ~46p ; 111220 可完成
 |       - 120113 [stuff] Andy Shi 提前完成!
 |       - !!!   120220 [prev1]ZQ完成 ^C. A. Chung 格言未翻譯!^
-|       - [prev2] ???
+|       - [prev2] 120628 ZQ完成
 |       - [pread] ???
 |       - [done] ???
 +-- [prev1][stuff] ch11 数据I/O     Kermit ~42p  ;
