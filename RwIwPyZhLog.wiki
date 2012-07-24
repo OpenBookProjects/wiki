@@ -51,6 +51,7 @@ RWIwPy/source/
 +-- [prev1][stuff] ch01 仪器简介     Atommann ~15p;
 |       - 120101 [stuff]Atommann
 |       - !!!   120223 [prev1] ZQdone ... ^发现缺少部分翻译,,,^
+            120723 Atommann 自行增补完毕
 |       - [prev2] ???
 |       - [pread] ???
 |       - [done] ???
