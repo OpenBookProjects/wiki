@@ -34,44 +34,44 @@
 
 {{{
 the-art-of-community-zh/source/
-+-- FOREWORD    序 Zoom.Quiet~ p6
-|       - [stuff]
++-- FOREWORD    序 ~ p6
+|       - [stuff] Zoom.Quiet
 |       - [prev1]
 |       - [prev2]
 |       - [pread]
 |       - [done] 
-+-- ch00 PREFACE  前言 Zoom.Quiet~ p12
-|       - [stuff]
++-- ch00 PREFACE  前言 ~ p12
+|       - [stuff] Zoom.Quiet
 |       - [prev1]
 |       - [prev2]
 |       - [pread]
 |       - [done] 
-+-- ch01 The Art of Community  Zoom.Quiet~ p21
-|       - [stuff]
++-- ch01 The Art of Community  ~ p21
+|       - [stuff] Zoom.Quiet
 |       - [prev1]
 |       - [prev2]
 |       - [pread]
 |       - [done] 
-+-- ch02 Planning Your Community  ~ p50
-|       - [stuff]
++-- ch02 Planning Your Community   ~ p50
+|       - [stuff] Ben
 |       - [prev1]
 |       - [prev2]
 |       - [pread]
 |       - [done] 
-+-- ch03 Communicating Clearly ~ p26
-|       - [stuff]
++-- ch03 Communicating Clearly  ~ p26
+|       - [stuff] Ben
 |       - [prev1]
 |       - [prev2]
 |       - [pread]
 |       - [done] 
 +-- ch04 Processes: Simple Is Sustainable  ~ p36
-|       - [stuff]
+|       - [stuff] Ben
 |       - [prev1]
 |       - [prev2]
 |       - [pread]
 |       - [done] 
 +-- ch05 Supporting Workflow with Tools and Data  ~ p26
-|       - [stuff]
+|       - [stuff] Ben
 |       - [prev1]
 |       - [prev2]
 |       - [pread]
