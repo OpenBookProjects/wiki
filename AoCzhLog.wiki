@@ -82,20 +82,20 @@ the-art-of-community-zh/source/
 |       - [prev2]
 |       - [pread]
 |       - [done] 
-+-- ch07 构建 buzz  Zoom.Quiet ~ p50
-|       - [stuff] 
++-- ch07 构建 buzz   ~ p50
+|       - [stuff] Zoom.Quiet
 |       - [prev1]
 |       - [prev2]
 |       - [pread]
 |       - [done] 
-+-- ch08 度量社区 Zoom.Quiet~ p24
-|       - [stuff]
++-- ch08 度量社区 ~ p24
+|       - [stuff] Zoom.Quiet
 |       - [prev1]
 |       - [prev2]
 |       - [pread]
 |       - [done] 
-+-- ch09 管理并追踪任务 Zoom.Quiet ~ p42
-|       - [stuff]
++-- ch09 管理并追踪任务  ~ p42
+|       - [stuff] Zoom.Quiet
 |       - [prev1]
 |       - [prev2]
 |       - [pread]
@@ -112,8 +112,8 @@ the-art-of-community-zh/source/
 |       - [prev2]
 |       - [pread]
 |       - [done] 
-+-- ch12 启动并运营活动  Zoom.Quiet ~ p50
-|       - [stuff]
++-- ch12 启动并运营活动   ~ p50
+|       - [stuff] Zoom.Quiet
 |       - [prev1]
 |       - [prev2]
 |       - [pread]
@@ -124,8 +124,8 @@ the-art-of-community-zh/source/
 |       - [prev2]
 |       - [pread]
 |       - [done]
-+-- ch14 社区案例 Zoom.Quiet ~ p38
-|       - [stuff]
++-- ch14 社区案例  ~ p38
+|       - [stuff] Zoom.Quiet
 |       - [prev1]
 |       - [prev2]
 |       - [pread]
