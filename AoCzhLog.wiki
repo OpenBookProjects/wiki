@@ -1,0 +1,149 @@
+#summary The Art of Community zh proj. wiki root
+#labels index,AoCzh
+#sidebar SideToc
+参考:[HowtoJoin 如何加入OBP]
+
+<wiki:toc/>
+
+= AoC 中文版 ~进度 =
+
+ # 120918 博文出版社介入,正式进入出版序列
+ # 111014 Zoom.Quiet 部署工程环境,初始化Sphinx 图书目录;
+ # 111013 Tony 在 weibo 发起号召,并初始化 code.google 项目
+ 
+== 规划 ==
+
+ # 完成80% 时校对介入,统校统改
+ # 完成100% 时,封闭式统稿,同时美编加入,设计排版
+ # 最后小范畴开放试阅,进行至少一个月的交叉校对
+ # 付印前,至少要进行两次小样公开审订和技术内容复校!
+
+
+
+== 进度 ==
+`规约`:
+ * 提前认领,量力而行
+ * 及时更新,记录贡献 ^进展表中的用时,是累计变更的,不用完成时才回忆填写 ;-)^
+ * 配合水银,版本记要 ^在版本日志中记载贡献细节^:
+ * 进展标签:
+    * `[stuff]` ~ 草译
+    * `[prev1]` ~ 一校
+    * `[prev2]` ~ 二校
+    * `[pread]` ~ 审校
+    * `[done]` ~ 完成,可交付
+
+{{{
+the-art-of-community-zh/source/
++-- FOREWORD    序 Zoom.Quiet~ p6
+|       - [stuff]
+|       - [prev1]
+|       - [prev2]
+|       - [pread]
+|       - [done] 
++-- ch00 PREFACE  前言 Zoom.Quiet~ p12
+|       - [stuff]
+|       - [prev1]
+|       - [prev2]
+|       - [pread]
+|       - [done] 
++-- ch01 The Art of Community  Zoom.Quiet~ p21
+|       - [stuff]
+|       - [prev1]
+|       - [prev2]
+|       - [pread]
+|       - [done] 
++-- ch02 Planning Your Community  ~ p50
+|       - [stuff]
+|       - [prev1]
+|       - [prev2]
+|       - [pread]
+|       - [done] 
++-- ch03 Communicating Clearly ~ p26
+|       - [stuff]
+|       - [prev1]
+|       - [prev2]
+|       - [pread]
+|       - [done] 
++-- ch04 Processes: Simple Is Sustainable  ~ p36
+|       - [stuff]
+|       - [prev1]
+|       - [prev2]
+|       - [pread]
+|       - [done] 
++-- ch05 Supporting Workflow with Tools and Data  ~ p26
+|       - [stuff]
+|       - [prev1]
+|       - [prev2]
+|       - [pread]
+|       - [done] 
++-- ch06 Social Media  ~ p36
+|       - [stuff]
+|       - [prev1]
+|       - [prev2]
+|       - [pread]
+|       - [done] 
++-- ch07 构建 buzz  Zoom.Quiet ~ p50
+|       - [stuff] 
+|       - [prev1]
+|       - [prev2]
+|       - [pread]
+|       - [done] 
++-- ch08 度量社区 Zoom.Quiet~ p24
+|       - [stuff]
+|       - [prev1]
+|       - [prev2]
+|       - [pread]
+|       - [done] 
++-- ch09 管理并追踪任务 Zoom.Quiet ~ p42
+|       - [stuff]
+|       - [prev1]
+|       - [prev2]
+|       - [pread]
+|       - [done] 
++-- ch10 Governance ~ p56
+|       - [stuff]
+|       - [prev1]
+|       - [prev2]
+|       - [pread]
+|       - [done] 
++-- ch11 Handling Conflict and Relationships ~ p38
+|       - [stuff]
+|       - [prev1]
+|       - [prev2]
+|       - [pread]
+|       - [done] 
++-- ch12 启动并运营活动  Zoom.Quiet ~ p50
+|       - [stuff]
+|       - [prev1]
+|       - [prev2]
+|       - [pread]
+|       - [done] 
++-- ch13 Hiring a Community Manager ~ p18
+|       - [stuff]
+|       - [prev1]
+|       - [prev2]
+|       - [pread]
+|       - [done]
++-- ch14 社区案例 Zoom.Quiet ~ p38
+|       - [stuff]
+|       - [prev1]
+|       - [prev2]
+|       - [pread]
+|       - [done]
+`-- ch15 Onward and Upward ~ p6
+        - [stuff]
+        - [prev1]
+        - [prev2]
+        - [pread]
+        - [done]
+}}}
+
+
+== 统计 ==
+`未来进行客观统计,作为分成依据,,,`
+
+
+|| 比例 || 译者 || 页数 || 章节 || 备注 ||
+|| 比例 || 译者 || 页数 || 章节 || 备注 ||
+
+
