@@ -77,7 +77,7 @@ the-art-of-community-zh/source/
 |       - [pread]
 |       - [done] 
 +-- ch06 Social Media  ~ p36
-|       - [stuff]
+|       - [stuff] Ada
 |       - [prev1]
 |       - [prev2]
 |       - [pread]
