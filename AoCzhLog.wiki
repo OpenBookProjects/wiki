@@ -107,7 +107,7 @@ the-art-of-community-zh/source/
 |       - [pread]
 |       - [done] 
 +-- ch11 Handling Conflict and Relationships ~ p38
-|       - [stuff] Ada Li
+|       - [stuff] Adela Xiang
 |       - [prev1]
 |       - [prev2]
 |       - [pread]
