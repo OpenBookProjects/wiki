@@ -102,7 +102,7 @@
 # 工程理解 ===
 一切基于以下对图书工程的理解::
 
-![](http://zoomq.qiniudn.com/ZQCollection/map/obp-livcycle.png)
+![](http://q.zoomquiet.top/ZQCollection/map/obp-livcycle.png)
 
 * 主创和校对是内容和工程的主要推动和参与者
 * 读者只是推广和消费者
@@ -119,7 +119,7 @@
 
 ## Workflow ===
 基于以上分析和经验,特别推荐以下工作流程::
-![](http://zoomq.qiniudn.com/ZQCollection/map/obp-workflow.png)
+![](http://q.zoomquiet.top/ZQCollection/map/obp-workflow.png)
 
 * 主创,通过 code.google 等有版本管理系统的平台进行协同,透过SVN 等进行内容提交:
  + 这就是主要也是唯一的撰写活动,不用额外的登录什么系统,熟悉什么流程
